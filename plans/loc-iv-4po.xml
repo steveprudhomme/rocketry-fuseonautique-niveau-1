@@ -1,0 +1,568 @@
+<?xml version='1.0' encoding='utf-8'?>
+<openrocket version="1.10" creator="OpenRocket 24.12">
+  <rocket>
+    <name>LOC-IV 4 po — BROUILLON de simulation</name>
+    <id>9bbd674f-6dc2-4c6e-9b95-496fd4fd7113</id>
+    <axialoffset method="absolute">0.0</axialoffset>
+    <position type="absolute">0.0</position>
+    <comment>2026-09-12. Source principale: notes/loc-iv-configuration-budget-niveau-1.md; geometrie: plans/loc-iv-4po.scad (ba2483d). [L,I,C,R] references de plans/README.md. [A] hypothese NON mesuree. Voir loc-iv-openrocket.md pour les masses, materiaux, transformations et conditions fictives. Ni masse ni CG reels disponibles. Aucune validation de vol. ProDAT au sol exclu. Les simulations apogee sont ideales; les essais ejection 13/15 s ne choisissent pas un delai de vol.</comment>
+    <designtype>original</designtype>
+    <motorconfiguration configid="20e6bb83-1e6d-3d40-a6f0-2faabab0ddec" default="true">
+      <name>H143 — apogee IDEALE [A]</name>
+      <stage number="0" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="f19fcda1-6eda-3649-8b31-d399a58c08e5">
+      <name>H143 — ejection 13 s ESSAI [A]</name>
+      <stage number="0" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="3eb3aa0c-78ce-385b-ba79-162b1d020c9f">
+      <name>H152 — apogee IDEALE [A]</name>
+      <stage number="0" active="true"/>
+    </motorconfiguration>
+    <motorconfiguration configid="3e7ae6f6-cb3e-3d36-855a-83cbd411c2bd">
+      <name>H152 — ejection 15 s ESSAI [A]</name>
+      <stage number="0" active="true"/>
+    </motorconfiguration>
+    <referencetype>maximum</referencetype>
+
+    <subcomponents>
+      <stage>
+        <name>LOC-IV — un etage</name>
+        <id>35a3c7de-2c7e-4b1f-bb3d-6a8b103311ab</id>
+        <comment>Payload solidaire du modele aerodynamique; recuperation simplifiee par une seule voile. Pas de double deploiement.</comment>
+
+        <subcomponents>
+          <nosecone>
+            <name>Ogive ellipsoidale [A]</name>
+            <id>17a1cc4e-69f6-409c-894b-b8e3680e2fc8</id>
+            <comment>Longueur exposee 330.2 mm derivee de 47-23-11 po. Profil et paroi 2 mm [A], coque ellipsoidale OpenRocket approchee; epaulement ouvert 70 mm. Densite estimee, peser.</comment>
+            <finish>normal</finish>
+            <material type="bulk" density="900.0" group="Custom">[A] Polypropylene estime 900 kg/m3</material>
+            <length>0.3302</length>
+            <thickness>0.002</thickness>
+            <shape>ellipsoid</shape>
+            <shapeclipped>false</shapeclipped>
+            <aftradius>0.0508</aftradius>
+            <aftshoulderradius>0.04905</aftshoulderradius>
+            <aftshoulderlength>0.07</aftshoulderlength>
+            <aftshoulderthickness>0.002</aftshoulderthickness>
+            <aftshouldercapped>false</aftshouldercapped>
+            <isflipped>false</isflipped>
+          </nosecone>
+
+          <bodytube>
+            <name>Section payload 11 po</name>
+            <id>fe44a573-a8ef-4edc-a5c5-4a8a8fead568</id>
+            <comment>[L,I] Longueur nominale; [A] rayon exterieur 4 po nominal / 2, paroi 1.6 mm, densite 680 kg/m3 et finition regular a valider.</comment>
+            <finish>normal</finish>
+            <material type="bulk" density="680.0" group="Custom">[A] Carton estime 680 kg/m3</material>
+            <length>0.2794</length>
+            <thickness>0.0016</thickness>
+            <radius>0.0508</radius>
+
+            <subcomponents>
+              <tubecoupler>
+                <name>Coupleur 140 mm [A]</name>
+                <id>3c221cd9-bfb7-4487-859e-8d7a12a52ff2</id>
+                <axialoffset method="top">0.2094</axialoffset>
+                <position type="top">0.2094</position>
+                <comment>Reprise SCAD; chevauche chaque section de 70 mm. Paroi 1.6 mm [A].</comment>
+                <material type="bulk" density="680.0" group="Custom">[A] Carton estime 680 kg/m3</material>
+                <length>0.14</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.04905</outerradius>
+                <thickness>0.0016</thickness>
+
+                <subcomponents>
+                  <bulkhead>
+                    <name>Cloison payload [A]</name>
+                    <id>208a5d2d-1e30-4bdd-a63a-4bf4cea1f845</id>
+                    <instancecount>1</instancecount>
+                    <instanceseparation>0.0</instanceseparation>
+                    <axialoffset method="top">0.13365</axialoffset>
+                    <position type="top">0.13365</position>
+                    <comment>Disque 94.9 mm x 6.35 mm a l&#39;extremite arriere du coupleur; reprise SCAD.</comment>
+                    <material type="bulk" density="600.0" group="Custom">[A] Contreplaque estime 600 kg/m3</material>
+                    <length>0.00635</length>
+                    <radialposition>0.0</radialposition>
+                    <radialdirection>0.0</radialdirection>
+                    <outerradius>0.04745</outerradius>
+                  </bulkhead>
+                </subcomponents>
+              </tubecoupler>
+
+              <masscomponent>
+                <name>Attache payload [A]</name>
+                <id>14587362-b250-4357-a095-90a83df19384</id>
+                <axialoffset method="top">0.344</axialoffset>
+                <position type="top">0.344</position>
+                <comment>[A] Masse et position estimees, a peser. Pas de detail aerodynamique externe.</comment>
+                <packedlength>0.012</packedlength>
+                <packedradius>0.015</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.01</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+            </subcomponents>
+          </bodytube>
+
+          <bodytube>
+            <name>Booster 23 po</name>
+            <id>7d0c74ad-5035-43d4-8012-c91547fe7bd8</id>
+            <comment>[L,I] Longueur nominale; [A] rayon exterieur 4 po nominal / 2, paroi 1.6 mm, densite 680 kg/m3 et finition regular a valider.</comment>
+            <finish>normal</finish>
+            <material type="bulk" density="680.0" group="Custom">[A] Carton estime 680 kg/m3</material>
+            <length>0.5842</length>
+            <thickness>0.0016</thickness>
+            <radius>0.0508</radius>
+
+            <subcomponents>
+              <innertube>
+                <name>Support moteur 38 mm — longueur 300 mm [A]</name>
+                <id>59e6924f-a507-4ec0-ac56-5cf75b56a0c5</id>
+                <axialoffset method="top">0.281375</axialoffset>
+                <position type="top">0.281375</position>
+                <comment>Alésage 38.5 mm, paroi 1.45 mm [A]. SCAD z=2.825 a 302.825 mm; moteur z=-5 a 181 mm. Depassement moteur relatif au support=7.825 mm.</comment>
+                <material type="bulk" density="680.0" group="Custom">[A] Carton estime 680 kg/m3</material>
+                <length>0.3</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0207</outerradius>
+                <thickness>0.00145</thickness>
+                <clusterconfiguration>single</clusterconfiguration>
+                <clusterscale>1.0</clusterscale>
+                <clusterrotation>0.0</clusterrotation>
+                <motormount>
+                  <ignitionevent>automatic</ignitionevent>
+                  <ignitiondelay>0.0</ignitiondelay>
+                  <overhang>0.007825</overhang>
+                  <motor configid="20e6bb83-1e6d-3d40-a6f0-2faabab0ddec">
+                    <type>reload</type>
+                    <manufacturer>Cesaroni Technology</manufacturer>
+                    <digest>f27036309584bed36c3a39481f356b5f</digest>
+                    <designation>247H143-13A</designation>
+                    <diameter>0.038</diameter>
+                    <length>0.185</length>
+                    <delay>13.0</delay>
+                  </motor>
+                  <ignitionconfiguration configid="20e6bb83-1e6d-3d40-a6f0-2faabab0ddec">
+                    <ignitionevent>automatic</ignitionevent>
+                    <ignitiondelay>0.0</ignitiondelay>
+                  </ignitionconfiguration>
+                  <motor configid="f19fcda1-6eda-3649-8b31-d399a58c08e5">
+                    <type>reload</type>
+                    <manufacturer>Cesaroni Technology</manufacturer>
+                    <digest>f27036309584bed36c3a39481f356b5f</digest>
+                    <designation>247H143-13A</designation>
+                    <diameter>0.038</diameter>
+                    <length>0.185</length>
+                    <delay>13.0</delay>
+                  </motor>
+                  <ignitionconfiguration configid="f19fcda1-6eda-3649-8b31-d399a58c08e5">
+                    <ignitionevent>automatic</ignitionevent>
+                    <ignitiondelay>0.0</ignitiondelay>
+                  </ignitionconfiguration>
+                  <motor configid="3eb3aa0c-78ce-385b-ba79-162b1d020c9f">
+                    <type>reload</type>
+                    <manufacturer>Cesaroni Technology</manufacturer>
+                    <digest>ace3745f12a3b82a68514e71b1faedc0</digest>
+                    <designation>276H152-15A</designation>
+                    <diameter>0.038</diameter>
+                    <length>0.185</length>
+                    <delay>15.0</delay>
+                  </motor>
+                  <ignitionconfiguration configid="3eb3aa0c-78ce-385b-ba79-162b1d020c9f">
+                    <ignitionevent>automatic</ignitionevent>
+                    <ignitiondelay>0.0</ignitiondelay>
+                  </ignitionconfiguration>
+                  <motor configid="3e7ae6f6-cb3e-3d36-855a-83cbd411c2bd">
+                    <type>reload</type>
+                    <manufacturer>Cesaroni Technology</manufacturer>
+                    <digest>ace3745f12a3b82a68514e71b1faedc0</digest>
+                    <designation>276H152-15A</designation>
+                    <diameter>0.038</diameter>
+                    <length>0.185</length>
+                    <delay>15.0</delay>
+                  </motor>
+                  <ignitionconfiguration configid="3e7ae6f6-cb3e-3d36-855a-83cbd411c2bd">
+                    <ignitionevent>automatic</ignitionevent>
+                    <ignitiondelay>0.0</ignitiondelay>
+                  </ignitionconfiguration>
+                </motormount>
+              </innertube>
+
+              <centeringring>
+                <name>Anneau 1 — 1/4 po</name>
+                <id>632752ca-e71a-489e-a8fa-72fc8494a90a</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="top">0.5718500000000001</axialoffset>
+                <position type="top">0.5718500000000001</position>
+                <comment>[L] Epaisseur; [A] rayons et position repris du SCAD.</comment>
+                <material type="bulk" density="600.0" group="Custom">[A] Contreplaque estime 600 kg/m3</material>
+                <length>0.00635</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0492</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <centeringring>
+                <name>Anneau 2 — 1/4 po</name>
+                <id>1cb69239-e888-468c-9276-c8553283f6d6</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="top">0.32585000000000003</axialoffset>
+                <position type="top">0.32585000000000003</position>
+                <comment>[L] Epaisseur; [A] rayons et position repris du SCAD.</comment>
+                <material type="bulk" density="600.0" group="Custom">[A] Contreplaque estime 600 kg/m3</material>
+                <length>0.00635</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0492</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <centeringring>
+                <name>Anneau 3 — 1/4 po</name>
+                <id>9243c3e9-726a-4108-8825-4875e2ba23b4</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0</instanceseparation>
+                <axialoffset method="top">0.287725</axialoffset>
+                <position type="top">0.287725</position>
+                <comment>[L] Epaisseur; [A] rayons et position repris du SCAD.</comment>
+                <material type="bulk" density="600.0" group="Custom">[A] Contreplaque estime 600 kg/m3</material>
+                <length>0.00635</length>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <outerradius>0.0492</outerradius>
+                <innerradius>auto</innerradius>
+              </centeringring>
+
+              <trapezoidfinset>
+                <name>3 ailerons traversants [A]</name>
+                <id>f4c96af8-c502-4b4c-aa04-ff6f42220dcf</id>
+                <instancecount>3</instancecount>
+                <fincount>3</fincount>
+                <radiusoffset method="surface">0.0</radiusoffset>
+                <angleoffset method="relative">0.0</angleoffset>
+                <rotation>0.0</rotation>
+                <axialoffset method="top">0.3342</axialoffset>
+                <position type="top">0.3342</position>
+                <comment>Epaisseur 1/8 po [L,I]. Profil SCAD inverse vers axe OpenRocket: corde racine 230 mm, corde bout 110 mm, hauteur 125 mm, fleche AVANT=230-30-110=90 mm (pas 30 mm). Languette 230 x 30.1 mm, toutes cotes de profil [A].</comment>
+                <finish>normal</finish>
+                <material type="bulk" density="600.0" group="Custom">[A] Contreplaque estime 600 kg/m3</material>
+                <thickness>0.003175</thickness>
+                <crosssection>square</crosssection>
+                <cant>0.0</cant>
+                <tabheight>0.0301</tabheight>
+                <tablength>0.23</tablength>
+                <tabposition relativeto="front">0.0</tabposition>
+                <tabposition relativeto="top">0.0</tabposition>
+                <filletradius>0.0</filletradius>
+                <filletmaterial type="bulk" density="680.0" group="PaperProducts">Cardboard</filletmaterial>
+                <rootchord>0.23</rootchord>
+                <tipchord>0.11</tipchord>
+                <sweeplength>0.09</sweeplength>
+                <height>0.125</height>
+              </trapezoidfinset>
+
+              <railbutton>
+                <name>Bouton 1010 [A] x=0.1542</name>
+                <id>a838b476-ef32-44e4-85d2-f04e298af1c8</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0582</instanceseparation>
+                <angleoffset method="relative">59.99999999999999</angleoffset>
+                <axialoffset method="top">0.1542</axialoffset>
+                <position type="top">0.1542</position>
+                <overridemass>0.003</overridemass>
+                <overridesubcomponentsmass>false</overridesubcomponentsmass>
+                <comment>SCAD z=430 et 70 mm -&gt; x booster=154.2 et 514.2 mm. Dimensions [A], masse imposee 3 g par bouton, visserie comprise. Materiau indicatif sans effet sur la masse imposee.</comment>
+                <finish>normal</finish>
+                <material type="bulk" density="1420.0" group="Custom">[A] Plastique bouton non identifie</material>
+                <outerdiameter>0.012</outerdiameter>
+                <innerdiameter>0.007</innerdiameter>
+                <height>0.009</height>
+                <baseheight>0.003</baseheight>
+                <flangeheight>0.003</flangeheight>
+                <screwheight>0.0</screwheight>
+              </railbutton>
+
+              <railbutton>
+                <name>Bouton 1010 [A] x=0.5142</name>
+                <id>d9858b8e-15d4-4614-b0a1-8b1f4a2790d7</id>
+                <instancecount>1</instancecount>
+                <instanceseparation>0.0582</instanceseparation>
+                <angleoffset method="relative">59.99999999999999</angleoffset>
+                <axialoffset method="top">0.5142</axialoffset>
+                <position type="top">0.5142</position>
+                <overridemass>0.003</overridemass>
+                <overridesubcomponentsmass>false</overridesubcomponentsmass>
+                <comment>SCAD z=430 et 70 mm -&gt; x booster=154.2 et 514.2 mm. Dimensions [A], masse imposee 3 g par bouton, visserie comprise. Materiau indicatif sans effet sur la masse imposee.</comment>
+                <finish>normal</finish>
+                <material type="bulk" density="1420.0" group="Custom">[A] Plastique bouton non identifie</material>
+                <outerdiameter>0.012</outerdiameter>
+                <innerdiameter>0.007</innerdiameter>
+                <height>0.009</height>
+                <baseheight>0.003</baseheight>
+                <flangeheight>0.003</flangeheight>
+                <screwheight>0.0</screwheight>
+              </railbutton>
+
+              <parachute>
+                <name>Parachute 36 po — masse/Cd [A]</name>
+                <id>d3422783-8eee-4db6-940f-66b8bdc6b548</id>
+                <axialoffset method="top">0.136375</axialoffset>
+                <position type="top">0.136375</position>
+                <overridemass>0.08</overridemass>
+                <overridesubcomponentsmass>false</overridesubcomponentsmass>
+                <comment>[N,L] diametre nominal 914.4 mm. [A] masse totale voile+suspentes imposee 80 g, Cd=0.8 constant, 8 suspentes de 457.2 mm, paquet 65 x 100 mm. Evenement par configuration: APOGEE ideal ou EJECTION moteur pour essais uniquement.</comment>
+                <packedlength>0.1</packedlength>
+                <packedradius>0.0325</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cd>0.8</cd>
+                <material type="surface" density="0.067" group="Custom">[A] Nylon voile 67 g/m2, masse totale imposee</material>
+                <deployevent>ejection</deployevent>
+                <deployaltitude>200.0</deployaltitude>
+                <deploydelay>0.0</deploydelay>
+                <deploymentconfiguration configid="20e6bb83-1e6d-3d40-a6f0-2faabab0ddec">
+                  <deployevent>apogee</deployevent>
+                  <deployaltitude>200.0</deployaltitude>
+                  <deploydelay>0.0</deploydelay>
+                </deploymentconfiguration>
+                <deploymentconfiguration configid="f19fcda1-6eda-3649-8b31-d399a58c08e5">
+                  <deployevent>ejection</deployevent>
+                  <deployaltitude>200.0</deployaltitude>
+                  <deploydelay>0.0</deploydelay>
+                </deploymentconfiguration>
+                <deploymentconfiguration configid="3eb3aa0c-78ce-385b-ba79-162b1d020c9f">
+                  <deployevent>apogee</deployevent>
+                  <deployaltitude>200.0</deployaltitude>
+                  <deploydelay>0.0</deploydelay>
+                </deploymentconfiguration>
+                <deploymentconfiguration configid="3e7ae6f6-cb3e-3d36-855a-83cbd411c2bd">
+                  <deployevent>ejection</deployevent>
+                  <deployaltitude>200.0</deployaltitude>
+                  <deploydelay>0.0</deploydelay>
+                </deploymentconfiguration>
+                <diameter>0.9144</diameter>
+                <linecount>8</linecount>
+                <linelength>0.4572</linelength>
+                <linematerial type="line" density="0.0018" group="Custom">[A] Suspentes 1.8 g/m, incluses dans masse imposee</linematerial>
+              </parachute>
+
+              <shockcord>
+                <name>Sangle nylon 15 pi [N] — masse [A]</name>
+                <id>f801cbcf-2f0e-4cd6-bd0b-9c6632faa218</id>
+                <axialoffset method="top">0.140375</axialoffset>
+                <position type="top">0.140375</position>
+                <overridemass>0.05</overridemass>
+                <overridesubcomponentsmass>false</overridesubcomponentsmass>
+                <comment>Longueur 4572 mm [N,L], largeur 9.525 mm [L]. Masse totale 50 g estimee et imposee; paquet/position [A].</comment>
+                <packedlength>0.096</packedlength>
+                <packedradius>0.016</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <cordlength>4.572</cordlength>
+                <material type="line" density="0.010936132983377079" group="Custom">[A] Sangle nylon non elastique, masse imposee</material>
+              </shockcord>
+
+              <masscomponent>
+                <name>Protecteur 12 po propose [A]</name>
+                <id>f8b4b637-794d-4f12-a36f-a2f9a73b022d</id>
+                <axialoffset method="top">0.136375</axialoffset>
+                <position type="top">0.136375</position>
+                <comment>[A] Masse et position estimees, a peser. Pas de detail aerodynamique externe.</comment>
+                <packedlength>0.1</packedlength>
+                <packedradius>0.015</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.03</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+
+              <masscomponent>
+                <name>MR-1 clips et visserie [A]</name>
+                <id>cc4ef87a-8aa4-4b37-bf81-cebd5a65ce2b</id>
+                <axialoffset method="top">0.576</axialoffset>
+                <position type="top">0.576</position>
+                <comment>[A] Masse et position estimees, a peser. Pas de detail aerodynamique externe.</comment>
+                <packedlength>0.006</packedlength>
+                <packedradius>0.015</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.02</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+
+              <masscomponent>
+                <name>SCM-3 avant [A]</name>
+                <id>04da0eee-f276-4c5c-b38c-3b2a22402a96</id>
+                <axialoffset method="top">0.267</axialoffset>
+                <position type="top">0.267</position>
+                <comment>[A] Masse et position estimees, a peser. Pas de detail aerodynamique externe.</comment>
+                <packedlength>0.02</packedlength>
+                <packedradius>0.015</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.015</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+
+              <masscomponent>
+                <name>Epoxy et finition repartis [A]</name>
+                <id>beb2ff3d-9d73-4827-b8af-31fff1c83836</id>
+                <axialoffset method="top">0.02</axialoffset>
+                <position type="top">0.02</position>
+                <comment>[A] Masse et position estimees, a peser. Pas de detail aerodynamique externe.</comment>
+                <packedlength>0.54</packedlength>
+                <packedradius>0.015</packedradius>
+                <radialposition>0.0</radialposition>
+                <radialdirection>0.0</radialdirection>
+                <mass>0.06</mass>
+                <masscomponenttype>masscomponent</masscomponenttype>
+              </masscomponent>
+            </subcomponents>
+          </bodytube>
+        </subcomponents>
+      </stage>
+    </subcomponents>
+  </rocket>
+
+  <simulations>
+    <simulation status="notsimulated">
+      <name>H143 — apogee IDEALE [A]</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>20e6bb83-1e6d-3d40-a6f0-2faabab0ddec</configid>
+        <launchrodlength>2.4</launchrodlength>
+        <launchintowind>false</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>0.0</launchroddirection>
+        <windaverage>0.0</windaverage>
+        <windturbulence>0.0</windturbulence>
+        <winddirection>0.0</winddirection>
+        <wind model="average">
+          <speed>0.0</speed>
+          <direction>0.0</direction>
+          <standarddeviation>0.0</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>45.0</launchlatitude>
+        <launchlongitude>0.0</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.02</timestep>
+        <maxtime>300.0</maxtime>
+      </conditions>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>H143 — ejection 13 s ESSAI [A]</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>f19fcda1-6eda-3649-8b31-d399a58c08e5</configid>
+        <launchrodlength>2.4</launchrodlength>
+        <launchintowind>false</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>0.0</launchroddirection>
+        <windaverage>0.0</windaverage>
+        <windturbulence>0.0</windturbulence>
+        <winddirection>0.0</winddirection>
+        <wind model="average">
+          <speed>0.0</speed>
+          <direction>0.0</direction>
+          <standarddeviation>0.0</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>45.0</launchlatitude>
+        <launchlongitude>0.0</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.02</timestep>
+        <maxtime>300.0</maxtime>
+      </conditions>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>H152 — apogee IDEALE [A]</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>3eb3aa0c-78ce-385b-ba79-162b1d020c9f</configid>
+        <launchrodlength>2.4</launchrodlength>
+        <launchintowind>false</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>0.0</launchroddirection>
+        <windaverage>0.0</windaverage>
+        <windturbulence>0.0</windturbulence>
+        <winddirection>0.0</winddirection>
+        <wind model="average">
+          <speed>0.0</speed>
+          <direction>0.0</direction>
+          <standarddeviation>0.0</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>45.0</launchlatitude>
+        <launchlongitude>0.0</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.02</timestep>
+        <maxtime>300.0</maxtime>
+      </conditions>
+    </simulation>
+
+    <simulation status="notsimulated">
+      <name>H152 — ejection 15 s ESSAI [A]</name>
+      <simulator>RK4Simulator</simulator>
+      <calculator>BarrowmanCalculator</calculator>
+      <conditions>
+        <configid>3e7ae6f6-cb3e-3d36-855a-83cbd411c2bd</configid>
+        <launchrodlength>2.4</launchrodlength>
+        <launchintowind>false</launchintowind>
+        <launchrodangle>0.0</launchrodangle>
+        <launchroddirection>0.0</launchroddirection>
+        <windaverage>0.0</windaverage>
+        <windturbulence>0.0</windturbulence>
+        <winddirection>0.0</winddirection>
+        <wind model="average">
+          <speed>0.0</speed>
+          <direction>0.0</direction>
+          <standarddeviation>0.0</standarddeviation>
+        </wind>
+        <wind model="multilevel" altituderef="msl">
+          <windlevel altitude="0.0" speed="2.0" direction="1.5707963267948966" standarddeviation="0.2"/>
+        </wind>
+        <windmodeltype>Average</windmodeltype>
+        <launchaltitude>0.0</launchaltitude>
+        <launchlatitude>45.0</launchlatitude>
+        <launchlongitude>0.0</launchlongitude>
+        <geodeticmethod>spherical</geodeticmethod>
+        <atmosphere model="isa"/>
+        <timestep>0.02</timestep>
+        <maxtime>300.0</maxtime>
+      </conditions>
+    </simulation>
+  </simulations>
+  <photostudio>
+  </photostudio>
+  <docprefs>
+  </docprefs>
+</openrocket>

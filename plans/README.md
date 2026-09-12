@@ -2,6 +2,10 @@
 
 Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hypothèses et sources. Utiliser le [gabarit de plan](../modeles/plan.md).
 
+## Modèle de simulation OpenRocket
+
+La [version OpenRocket de la LOC-IV](loc-iv-openrocket.md) propose un [fichier natif .ork](loc-iv-4po.ork), son [XML lisible](loc-iv-4po.xml) et quatre scénarios H143/H152. Les masses et conditions non mesurées restent des hypothèses; les essais d'éjection signalent un déploiement à grande vitesse. Voir le [rapport de vérification](loc-iv-openrocket-verification.md).
+
 ## LOC-IV 4 po — plan paramétrique v1.0
 
 - **Date :** 2026-09-12

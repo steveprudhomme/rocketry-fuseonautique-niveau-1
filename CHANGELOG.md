@@ -1,5 +1,10 @@
 # Historique des changements
 
+## 2026-09-12 — Modèle OpenRocket LOC-IV
+- Ajout du modèle natif `.ork` et de son XML lisible, dérivés de la géométrie OpenSCAD.
+- Ajout de quatre scénarios H143/H152 avec récupération idéale ou éjection moteur; masses, matériaux et conditions estimés documentés.
+- Chargement et simulations vérifiés avec OpenRocket 24.12; avertissements d'éjection à grande vitesse conservés dans le rapport.
+
 ## 2026-09-12 — Plan OpenSCAD LOC-IV
 - Ajout du plan paramétrique LOC-IV 4 po : Pro38 2G, MR-1, récupération et accessoires.
 - Documentation des cotes nominales, sources et approximations à mesurer; vues assemblée, en coupe, éclatée et exports individuels.

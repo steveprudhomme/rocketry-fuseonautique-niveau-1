@@ -25,6 +25,8 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 ## Commencer
 Le [plan paramétrique OpenSCAD de la LOC-IV 4 po](plans/README.md) représente la [configuration niveau 1](notes/loc-iv-configuration-budget-niveau-1.md), avec sources, variantes et cotes restant à valider.
 
+Une [version OpenRocket simulable (.ork et XML)](plans/loc-iv-openrocket.md) complète ce plan, avec quatre scénarios H143/H152 et les hypothèses de masse et de lancement explicites.
+
 1. Consulter la [feuille de route](ROADMAP.md) et le [suivi](certification/progression.md).
 2. Inscrire les sources officielles au [registre](references/sources.md).
 3. Copier un [gabarit](modeles/README.md) dans le dossier approprié.
