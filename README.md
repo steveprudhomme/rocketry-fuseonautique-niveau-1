@@ -24,6 +24,8 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 
 ## Commencer
 
+Pour construire et simuler toute la fusée, suivre l'[aide à la tâche OpenRocket pour débutants](aides-a-la-tache/debuter-openrocket-loc-iv.md), de l'arborescence complète aux résultats du vol.
+
 Pour apprendre à dessiner la fusée sans expérience préalable, suivre l'[aide à la tâche OpenSCAD pour débutants](aides-a-la-tache/debuter-openscad-loc-iv.md).
 
 Le [plan d’ensemble avec vue écorchée](plans/ensemble/README.md) est disponible en PDF A3 : trois vues orthogonales cotées, perspective et nomenclature.

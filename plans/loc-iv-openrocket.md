@@ -8,6 +8,8 @@
 
 ## Fichiers et utilisation
 
+**Pour débuter :** suivre l'[aide à la tâche OpenRocket pour la LOC-IV complète](../aides-a-la-tache/debuter-openrocket-loc-iv.md). Elle couvre la reconstruction de tous les composants, les configurations moteur/récupération et l'analyse du vol entier.
+
 - [loc-iv-4po.ork](loc-iv-4po.ork) : fichier natif à ouvrir directement dans **OpenRocket 24.12 ou ultérieur**.
 - [loc-iv-4po.xml](loc-iv-4po.xml) : contenu XML lisible, identique à l'entrée `rocket.ork` de l'archive `.ork` lors de la livraison. Format OpenRocket **1.10**, longueurs en mètres, masses en kilogrammes.
 - [Vérification](loc-iv-openrocket-verification.md) : chargement et essais réalisés avec le moteur officiel OpenRocket 24.12.

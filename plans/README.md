@@ -10,6 +10,8 @@ La [galerie des composants](images/README.md) présente **18 images** dans [`pla
 
 ## Modèle de simulation OpenRocket
 
+L'[aide OpenRocket pour débutants](../aides-a-la-tache/debuter-openrocket-loc-iv.md) accompagne la construction et la simulation de la fusée complète, accessoires et récupération compris.
+
 La [version OpenRocket de la LOC-IV](loc-iv-openrocket.md) propose un [fichier natif .ork](loc-iv-4po.ork), son [XML lisible](loc-iv-4po.xml) et quatre scénarios H143/H152. Les masses et conditions non mesurées restent des hypothèses; les essais d'éjection signalent un déploiement à grande vitesse. Voir le [rapport de vérification](loc-iv-openrocket-verification.md).
 
 ## LOC-IV 4 po — plan paramétrique v1.1

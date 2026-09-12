@@ -1,5 +1,10 @@
 # Historique des changements
 
+## 2026-09-12 — Aide OpenRocket pour la LOC-IV complète
+- Ajout d'un parcours débutant pour ouvrir ou reconstruire l'ensemble des 19 composants du modèle, configurer moteurs et récupération, examiner masse/CG et simuler tout le vol.
+- Ajout des cotes, positions, masses estimées, quatre configurations, conditions, contrôles, dépannage et synchronisation XML/ORK; référencement dans les index.
+- Vérification documentaire contre le XML et de son identité avec l'archive après normalisation des fins de ligne; aucune modification du modèle ni nouvelle campagne de simulation.
+
 ## 2026-09-12 — Initiation OpenSCAD LOC-IV
 - Ajout d'une aide à la tâche pour amateurs sans expérience d'OpenSCAD : installation, premiers réglages, lecture du code, composants, assemblage, export et dépannage.
 - Vérification de trois exercices autonomes et de la variante à trois ailerons; liens ajoutés dans les index des aides, des plans et de l'accueil.
