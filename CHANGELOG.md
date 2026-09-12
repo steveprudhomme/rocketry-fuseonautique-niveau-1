@@ -1,5 +1,9 @@
 # Historique des changements
 
+## 2026-09-12 — Initiation OpenSCAD LOC-IV
+- Ajout d'une aide à la tâche pour amateurs sans expérience d'OpenSCAD : installation, premiers réglages, lecture du code, composants, assemblage, export et dépannage.
+- Vérification de trois exercices autonomes et de la variante à trois ailerons; liens ajoutés dans les index des aides, des plans et de l'accueil.
+
 ## 2026-09-12 — Plan d’ensemble avec vue écorchée
 - Ajout du PDF A3 révision A : trois vues orthogonales à 1:5 et une perspective écorchée avec nomenclature.
 - Ajout des SVG, des aperçus et du générateur Python utilisant la géométrie OpenSCAD existante.

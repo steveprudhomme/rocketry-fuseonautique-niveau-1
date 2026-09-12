@@ -23,6 +23,9 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 | [modeles](modeles/README.md) | Gabarits à copier |
 
 ## Commencer
+
+Pour apprendre à dessiner la fusée sans expérience préalable, suivre l'[aide à la tâche OpenSCAD pour débutants](aides-a-la-tache/debuter-openscad-loc-iv.md).
+
 Le [plan d’ensemble avec vue écorchée](plans/ensemble/README.md) est disponible en PDF A3 : trois vues orthogonales cotées, perspective et nomenclature.
 
 Le [plan paramétrique OpenSCAD de la LOC-IV 4 po](plans/README.md) représente la [configuration niveau 1](notes/loc-iv-configuration-budget-niveau-1.md), avec sources, variantes et cotes restant à valider.
