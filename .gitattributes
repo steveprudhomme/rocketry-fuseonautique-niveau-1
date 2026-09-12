@@ -1,0 +1,11 @@
+* text=auto
+*.md text eol=lf
+*.yml text eol=lf
+*.csv text eol=lf
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.docx binary
+*.xlsx binary
+*.ork binary

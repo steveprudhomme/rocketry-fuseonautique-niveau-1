@@ -1,0 +1,27 @@
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*~
+*.tmp
+~$*
+
+# Données personnelles et secrets
+prive/
+.env
+.env.*
+!.env.example
+
+# Travail temporaire
+work/
+temp/
+build/
+*.log
+*.aux
+*.toc
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.fls
