@@ -108,3 +108,7 @@ Consultées le 2026-09-12; elles complètent les notes sans modifier leur statut
 - **[F]** [Archive du fichier LOC PK-48 Loc-IV.rkt](https://cdn.shopify.com/s/files/1/0568/7489/3503/files/PK-48-Loc-IV-3.zip?v=1623759843), liée depuis [L]; empreinte et limites dans les notes de comparaison.
 
 [Retour à l’accueil](../README.md)
+
+## Plan d’ensemble avec vue écorchée
+
+Le [dossier ensemble](ensemble/README.md) contient le PDF A3 de deux feuilles, les aperçus et les projections SVG. La source de mise en page est `outils/generer-plan-ensemble.py`. Les cotes estimées restent identifiées; le kit réel reste à mesurer.

@@ -98,6 +98,10 @@ La conversation annonçait **environ 350–465 $ CAD**. L’addition des postes 
 - **[CTI-01]** [Cesaroni — catalogue Pro38](https://pro38.com/wp-content/uploads/2024/11/Pro38Catalog.pdf), tableau Pro38-2G, consulté le 2026-09-12.
 - Fiches fournisseurs liées ci-dessus : estimations historiques de la conversation, avec vérification partielle des pages le 2026-09-12.
 
+## Plan technique complémentaire
+
+Le [plan d’ensemble avec vue écorchée](../plans/ensemble/README.md), révision A du 2026-09-12, rassemble trois vues orthogonales cotées et une perspective avec nomenclature dans un PDF A3 de deux pages. Il reprend le modèle 1.1 et distingue valeurs nominales, profil LOC, calculs et approximations. Le kit, sa masse et son CG restent à mesurer; ce document pédagogique ne constitue pas un dessin de fabrication.
+
 ## Prochaines actions
 
 Un [plan d'ensemble paramétrique OpenSCAD](../plans/README.md) représente cette configuration. Les dimensions complémentaires sont sourcées ou signalées comme approximatives; ce plan ne remplace pas la simulation requise ci-dessous.

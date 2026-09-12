@@ -1,5 +1,10 @@
 # Historique des changements
 
+## 2026-09-12 — Plan d’ensemble avec vue écorchée
+- Ajout du PDF A3 révision A : trois vues orthogonales à 1:5 et une perspective écorchée avec nomenclature.
+- Ajout des SVG, des aperçus et du générateur Python utilisant la géométrie OpenSCAD existante.
+- Cotes nominales, calculées et approximatives distinguées; documentation et feuille de route actualisées.
+
 ## 2026-09-12 — Galerie des composants LOC-IV
 - Ajout de 18 rendus PNG dans `plans/images`, couvrant les 16 composants exportables et les variantes des textiles.
 - Ajout d'une galerie avec légendes, limites et script de régénération OpenSCAD.

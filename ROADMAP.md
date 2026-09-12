@@ -50,14 +50,15 @@ Mise à jour : 2026-09-12. Organisation du projet personnel; cette liste ne cons
 
 ## Livrable complémentaire — Plan d'ensemble avec vue écorchée
 
-En complément du plan paramétrique, Steve souhaite un **plan technique d'ensemble avec vue écorchée** (*cutaway drawing*). Une version destinée à expliquer la construction et le fonctionnement pourra être présentée comme un **schéma technique écorché**. Ce livrable reste à produire; les rendus 3D actuels n'en constituent pas encore la mise en plan.
+En complément du plan paramétrique, Steve souhaite un **plan technique d'ensemble avec vue écorchée** (*cutaway drawing*). Une version destinée à expliquer la construction et le fonctionnement pourra être présentée comme un **schéma technique écorché**. Une [première édition pédagogique A3, révision A](plans/ensemble/README.md), est produite depuis le modèle 1.1 non mesuré.
 
-- [ ] Préparer les trois **vues orthogonales : face, profil et dessus**, alignées, avec orientation et convention de projection clairement indiquées.
-- [ ] Ajouter une **perspective écorchée** ou une **coupe partielle** du corps pour montrer les composants internes réellement présents : support et enveloppe moteur, anneaux, languettes, coupleur, cloison, attaches et récupération.
-- [ ] Ajouter repères et nomenclature des composants, légendes, échelle, unités, cotes d'ensemble, cartouche, date et indice de révision; identifier les cotes encore approximatives.
-- [ ] Définir le niveau attendu : document pédagogique ou document technique soumis à des normes de dessin industriel. Dans le second cas, identifier les normes applicables et vérifier leur respect avant toute mention de conformité. Prévoir des **dessins de définition des pièces** séparés si des détails de fabrication sont nécessaires.
+- [x] Préparer les trois **vues orthogonales : face, profil et dessus**, alignées, avec orientation et convention de projection clairement indiquées.
+- [x] Ajouter une **perspective écorchée** ou une **coupe partielle** du corps pour montrer les composants internes réellement présents : support et enveloppe moteur, anneaux, languettes, coupleur, cloison, attaches et récupération.
+- [x] Ajouter repères et nomenclature des composants, légendes, échelle, unités, cotes d'ensemble, cartouche, date et indice de révision; identifier les cotes encore approximatives.
+- [x] Définir le niveau attendu : document pédagogique ou document technique soumis à des normes de dessin industriel. Choix révision A : document pédagogique, sans conformité industrielle déclarée. Dans le second cas, identifier les normes applicables et vérifier leur respect avant toute mention de conformité. Prévoir des **dessins de définition des pièces** séparés si des détails de fabrication sont nécessaires.
 - [ ] Clarifier la mention d'une **forme octogonale** et d'éléments de capsule (réservoirs, sièges, panneaux solaires, bouclier thermique) : ces exemples ne décrivent pas la LOC-IV actuelle. Confirmer s'ils concernent un autre projet ou une variante avant de les intégrer à un dessin.
-- [ ] Produire une version lisible à l'écran et imprimable en PDF, conserver la source modifiable dans `plans`, puis vérifier l'alignement des vues, la lisibilité des cotes et la cohérence avec la révision mesurée du modèle.
+- [x] Produire une version lisible à l'écran et imprimable en PDF, conserver la source modifiable dans `plans`, puis vérifier l'alignement des vues, la lisibilité des cotes et la cohérence avec la révision 1.1 actuelle du modèle.
+- [ ] Réviser le PDF et ses annotations après intégration des mesures physiques du kit.
 
 **Critère de fin :** plan d'ensemble réunissant les trois vues et la vue écorchée, avec repérage des pièces et statut des cotes explicites. Aucune conformité industrielle ni aptitude à la fabrication déclarée sans vérification correspondante.
 

@@ -23,6 +23,8 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 | [modeles](modeles/README.md) | Gabarits à copier |
 
 ## Commencer
+Le [plan d’ensemble avec vue écorchée](plans/ensemble/README.md) est disponible en PDF A3 : trois vues orthogonales cotées, perspective et nomenclature.
+
 Le [plan paramétrique OpenSCAD de la LOC-IV 4 po](plans/README.md) représente la [configuration niveau 1](notes/loc-iv-configuration-budget-niveau-1.md), avec sources, variantes et cotes restant à valider.
 
 Une [version OpenRocket simulable (.ork et XML)](plans/loc-iv-openrocket.md) complète ce plan, avec quatre scénarios H143/H152 et les hypothèses de masse et de lancement explicites.
