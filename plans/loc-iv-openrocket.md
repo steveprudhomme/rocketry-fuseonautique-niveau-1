@@ -4,7 +4,7 @@
 - **Statut :** brouillon de simulation — dimensions, masses et conditions à valider.
 - **Auteur :** Steve Prud’Homme, avec assistance Codex.
 - **Source principale :** [configuration et budget niveau 1](../notes/loc-iv-configuration-budget-niveau-1.md).
-- **Géométrie :** [plan OpenSCAD](loc-iv-4po.scad), version du commit `ba2483d`; les hypothèses `[A]` sont conservées.
+- **Géométrie :** [plan OpenSCAD](loc-iv-4po.scad), révision 1.1; ailerons corrigés depuis le fichier LOC `[F]`, autres hypothèses `[A]` conservées. [Historique de comparaison](../notes/loc-iv-comparaison-modeles.md).
 
 ## Fichiers et utilisation
 
@@ -27,16 +27,18 @@ OpenSCAD place l'origine à l'arrière et pointe vers l'ogive; OpenRocket mesure
 | Élément | Conversion ou différence explicite |
 | --- | --- |
 | Corps et ogive | Longueurs 330,2 + 279,4 + 584,2 = 1193,8 mm; diamètre nominal 101,6 mm |
-| Ailerons | Racine 230 mm, bout 110 mm, envergure 125 mm; flèche avant OpenRocket **90 mm = 230 − 30 − 110**, car les 30 mm du SCAD sont mesurés depuis le bord arrière |
-| Languettes | 230 × 30,1 mm, épaisseur 3,175 mm; profil et dimensions `[A]` |
+| Ailerons | Profil libre LOC à cinq sommets; racine 171,45 mm, envergure 107,95 mm, début à 412,75 mm depuis l'avant du booster; sommets détaillés dans les notes |
+| Languettes | 117,475 × 29,972 mm, retrait avant 38,1 mm [F]; épaisseur 3,175 mm [L,I] conservée, à comparer aux 3 mm de [F] |
 | Support moteur | Début à 281,375 mm depuis l'avant du booster, longueur 300 mm; alésage 38,5 mm et diamètre extérieur 41,4 mm `[A]` |
 | Moteur | Dépassement de 7,825 mm derrière le support, soit 5 mm derrière le corps; les dimensions de la base moteur sont conservées |
-| Anneaux | Débuts à 571,850 / 325,850 / 287,725 mm depuis l'avant du booster; épaisseur 6,35 mm; alésage automatique sur le support |
+| Anneaux | Débuts à 571,850 / 442,500 / 287,725 mm depuis l'avant du booster; épaisseur 6,35 mm; anneau milieu dérivé de la nouvelle languette, encore à mesurer; alésage automatique sur le support |
 | Coupleur et cloison | Coupleur de 140 mm dépassant de 70 mm derrière le payload; cloison à son extrémité arrière |
 | Boutons | Deux composants, à 154,2 et 514,2 mm depuis l'avant du booster; dimensions `[A]` du SCAD |
 | Textiles | Diamètre parachute 914,4 mm et longueur sangle 4572 mm; masse, rangement, suspentes et coefficient de traînée estimés |
 
 Le profil extérieur de l'ogive reste ellipsoïdal approché. Le calcul de coque et de masse d'OpenRocket n'est pas une intégration du solide OpenSCAD. Les fentes du tube ne sont pas soustraites de sa masse; les congés ne sont pas dessinés, leur masse est incluse dans l'estimation des consommables. Les positions des masses d'attaches sont simplifiées. La descente considère un ensemble solidaire sous un parachute : pas une simulation détaillée des éléments séparés et de leur sangle.
+
+Longueur pointe/arrière du corps : 1193,8 mm; avec les ailerons dépassants : 1228,725 mm. Le recouvrement graphique de 0,05 mm de l'assemblage OpenSCAD n'est pas appliqué au modèle aérodynamique. Le jeu languette/support nominal de 0,128 mm reste non validé.
 
 ## Hypothèses supplémentaires pour la simulation
 

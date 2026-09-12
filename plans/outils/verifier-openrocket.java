@@ -24,6 +24,21 @@ class VerifierOpenRocket {
                 throw new IllegalStateException("Longueur exposee attendue: 1.1938 m; obtenue: " + length);
             if (doc.getSimulations().size() != 4)
                 throw new IllegalStateException("Quatre simulations attendues");
+            // Régression v1.1 : profil LOC à cinq sommets, pas un trapèze.
+            info.openrocket.core.rocketcomponent.FinSet fin = null;
+            for (var c : stage.getChild(2).getChildren())
+                if (c instanceof info.openrocket.core.rocketcomponent.FinSet f) fin = f;
+            if (!(fin instanceof info.openrocket.core.rocketcomponent.FreeformFinSet))
+                throw new IllegalStateException("Profil libre LOC attendu");
+            double[][] expected = {{0,0},{.142875,.10795},{.206375,.10795},{.206375,.03175},{.17145,0}};
+            var points = fin.getFinPoints();
+            if (points.length != expected.length) throw new IllegalStateException("Cinq sommets attendus");
+            for (int i=0; i<points.length; i++)
+                if (Math.abs(points[i].x-expected[i][0])>1e-8 || Math.abs(points[i].y-expected[i][1])>1e-8)
+                    throw new IllegalStateException("Sommet LOC incorrect: " + i);
+            if (Math.abs(fin.getAxialOffset()-.41275)>1e-8 || Math.abs(fin.getTabLength()-.117475)>1e-8
+                || Math.abs(fin.getTabHeight()-.029972)>1e-8 || Math.abs(fin.getTabOffset()-.0381)>1e-8)
+                throw new IllegalStateException("Position ou languette LOC incorrecte");
             var dry = MassCalculator.calculateStructure(doc.getRocket().getSelectedConfiguration());
             System.out.println("OK import " + path + "; masse estimee sans moteur (kg)="
                 + dry.getMass() + "; CG depuis pointe (m)=" + dry.getCM().x);

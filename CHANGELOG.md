@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-09-12 — Révision 1.1 des ailerons LOC-IV et mesures à confirmer
+- Ajout aux notes de la comparaison externe complète et de son contexte historique.
+- Mise à jour de ROADMAP.md et création d'une fiche de mesures réelles (cotes, masse, CG), encore non renseignée.
+- Remplacement des ailerons approximatifs par le profil libre LOC dans OpenSCAD et OpenRocket; correction des languettes, fentes et position dérivée de l'anneau milieu.
+- Recalcul des essais et marges statiques; conservation explicite des écarts de version et des hypothèses restantes.
+
 ## 2026-09-12 — Modèle OpenRocket LOC-IV
 - Ajout du modèle natif `.ork` et de son XML lisible, dérivés de la géométrie OpenSCAD.
 - Ajout de quatre scénarios H143/H152 avec récupération idéale ou éjection moteur; masses, matériaux et conditions estimés documentés.

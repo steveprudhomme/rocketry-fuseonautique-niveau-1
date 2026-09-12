@@ -104,6 +104,8 @@ Un [plan d'ensemble paramétrique OpenSCAD](../plans/README.md) représente cett
 
 Une [version OpenRocket et ses essais exploratoires](../plans/loc-iv-openrocket.md) sont maintenant disponibles. Ils reposent sur des masses et conditions estimées et ne valident pas le choix du moteur ou du délai pour le vol réel.
 
+La [comparaison externe](loc-iv-comparaison-modeles.md) a conduit à corriger les ailerons en révision 1.1. Les cotes, la masse et le CG du kit réel restent à consigner dans la [fiche de mesures](loc-iv-mesures-kit.md); les actions sont ordonnées dans [ROADMAP.md](../ROADMAP.md).
+
 1. Faire l’inventaire du kit et consigner la masse finale.
 2. Comparer H143 et H152 par simulation et faire valider la configuration.
 3. Obtenir les prix complets et confirmer les frais d’adhésion et de lancement.

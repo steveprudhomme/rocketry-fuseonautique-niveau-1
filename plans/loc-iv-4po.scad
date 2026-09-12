@@ -1,4 +1,4 @@
-// LOC-IV 4 po — v1.0, 2026-09-12 — BROUILLON, cotes à valider sur le kit.
+// LOC-IV 4 po — v1.1, 2026-09-12 — BROUILLON, cotes à valider sur le kit.
 // Unités : mm. Origine : arrière du corps; +Z vers la pointe.
 // Source principale [N] : ../notes/loc-iv-configuration-budget-niveau-1.md
 // [L] https://locprecision.com/products/loc-iv (consulté 2026-09-12)
@@ -6,6 +6,9 @@
 // [C] https://pro38.com/wp-content/uploads/2024/11/Pro38Catalog.pdf
 //     catalogue 2010 v1.0, pages PDF 15-16 (H152/H143), consulté 2026-09-12.
 // [R] https://locprecision.com/products/z-clip-style-motor-retainer-set/
+// [F] PK-48 Loc-IV.rkt, archive liée par [L], consultée 2026-09-12.
+// SHA256 : 202acb4295f957f51e70792fe9122a7cd76edd1068706454d303ccd6a7526d8d
+// Profil/position des ailerons repris de [F]; voir notes de comparaison.
 // [A] = APPROXIMATION de visualisation, à mesurer avant usage dimensionnel.
 // Plan d'ensemble uniquement : ni pièces de vol imprimables, ni simulation.
 // Le fichier LOC_IV_4in_v0.2.scad n'a pas pu être récupéré; code reconstruit.
@@ -28,7 +31,7 @@ explosion_gap = 180; // Décalage graphique seulement.
 body_d = 101.6; // [L] 4 po NOMINAL : diamètre extérieur exact à mesurer.
 booster_l = 584.2; // [L,I] 23 po.
 payload_l = 279.4; // [L,I] 11 po.
-total_l = 1193.8; // [L] 47 po, hors dépassement du moteur/retenue.
+total_l = 1193.8; // [L] 47 po pointe/arrière du CORPS; exclut ailerons et moteur.
 motor_d = 38; // [N,C] enveloppe nominale du moteur assemblé.
 motor_l = 186; // [C] enveloppe moteur H143/H152; pas la cote du boîtier nu.
 fin_count = 3; // [I]
@@ -48,11 +51,17 @@ mount_wall = 1.45; // [A]
 mount_l = 300; // [A]
 aft_ring_z = 6; // [A] position depuis arrière du corps.
 motor_z = -5; // [A] dépassement; bague de poussée non modélisée.
-fin_root = 230; // [A] corde, profil trapézoïdal et languette simplifiés.
-fin_tip = 110; // [A]
-fin_span = 125; // [A] envergure hors corps.
-fin_sweep = 30; // [A] décalage du bord arrière de la pointe vers +Z.
-fin_z = 20; // [A]
+// [F] Cotes du fichier de référence, PAS mesures du kit reçu.
+fin_root = 171.45;
+fin_span = 107.95;
+fin_leading_sweep = 142.875; // Depuis bord AVANT de l'emplanture.
+fin_aft_extent = 206.375; // Extrémité arrière depuis bord avant.
+fin_aft_kink = 31.75; // Hauteur du sommet intermédiaire arrière.
+fin_z = 0; // Racine arrière affleurant le corps : avant à 412.75 du booster.
+fin_tab_length = 117.475;
+fin_tab_depth = 29.972;
+fin_tab_offset = 38.1; // Depuis bord AVANT de l'emplanture.
+// Épaisseur fin_t : 3.175 mm [L,I] conservée; [F] indique 3 mm.
 slot_clearance = 0.3; // [A] jeu purement graphique.
 coupler_l = 140; // [A]
 coupler_wall = 1.6; // [A]
@@ -79,11 +88,14 @@ prodat_l = 55; // [A]
 /* [Hidden] */
 $fn = quality;
 eps = 0.02; // Tolérance booléenne uniquement.
+fin_embed = 0.05; // Recouvrement VISUEL d'assemblage pour éviter un contact tangent
+// non-manifold à la peau. La pièce fin isolée conserve le profil LOC exact.
 body_id = body_d - 2*body_wall;
 mount_od = mount_id + 2*mount_wall;
 mount_z = aft_ring_z - mount_aft_extension;
 front_ring_z = mount_z + mount_l - mount_front_extension - ring_t;
-mid_ring_z = fin_z + fin_root + 2; // [A] juste devant languette.
+fin_tab_z = fin_z + fin_root - fin_tab_offset - fin_tab_length;
+mid_ring_z = fin_tab_z + fin_tab_length + 2; // [A] juste devant languette.
 coupler_d = body_id - fit_gap;
 coupler_id = coupler_d - 2*coupler_wall;
 nose_l = total_l - booster_l - payload_l; // DÉRIVÉ [L], 330.2 mm exposés.
@@ -96,8 +108,12 @@ deploy_z = nose_z + nose_l + 350; // [A] disposition explicative, pas trajectoir
 assert(quality >= 12 && body_id > mount_od && mount_id > motor_d);
 assert(nose_l > 0 && body_wall > 0 && mount_wall > 0);
 assert(coupler_id > 0 && nose_wall > 0 && nose_wall < body_d/2);
-assert(fin_count >= 3 && fin_t > 0 && fin_tip > 0 && fin_span > 0);
-assert(aft_ring_z + ring_t < fin_z && mid_ring_z + ring_t < front_ring_z,
+assert(fin_count >= 3 && fin_t > 0 && fin_span > 0);
+assert(fin_leading_sweep > 0 && fin_aft_extent > fin_root && fin_aft_extent > fin_leading_sweep);
+assert(fin_aft_kink > 0 && fin_aft_kink < fin_span);
+assert(fin_tab_offset >= 0 && fin_tab_length > 0 && fin_tab_depth > 0);
+assert(fin_tab_offset + fin_tab_length <= fin_root);
+assert(aft_ring_z + ring_t < fin_tab_z && mid_ring_z + ring_t < front_ring_z,
        "Anneaux/languettes incompatibles : revoir les cotes approximatives.");
 assert(front_ring_z + ring_t < booster_l - coupler_l/2);
 assert(motor_z + motor_l <= mount_z + mount_l && motor_l > 0);
@@ -133,8 +149,8 @@ module booster() {
     difference() {
         tube(body_d,body_id,booster_l);
         for(a=[0:360/fin_count:359]) rotate([0,0,a])
-            translate([mount_od/2,-(fin_t+slot_clearance)/2,fin_z-eps])
-                cube([body_d,fin_t+slot_clearance,fin_root+2*eps]);
+            translate([mount_od/2,-(fin_t+slot_clearance)/2,fin_tab_z-eps])
+                cube([body_d,fin_t+slot_clearance,fin_tab_length+2*eps]);
     }
 }
 module payload() { tube(body_d,body_id,payload_l); }
@@ -153,11 +169,22 @@ module nose() {
     }
 }
 module fin() {
-    // Plan local X/Z : X=0 à la peau, languette jusqu'au support moteur.
+    // Plan local X/Z : X=0 à la peau, Z=0 à la racine arrière.
+    // [F] (x avant->arrière, y radial) devient (y, fin_root-x).
+    // Sommets externes : (0,0), (142.875,107.95), (206.375,107.95),
+    // (206.375,31.75), (171.45,0), en coordonnées de référence LOC.
+    // Languette [F] conservée : jeu radial de 0.128 mm avec le support [A].
+    // Ne pas interpréter ce jeu comme une tolérance d'assemblage validée.
     rotate([90,0,0]) linear_extrude(height=fin_t,center=true)
-        polygon([[mount_od/2-body_d/2,0],[0,0],[fin_span,fin_sweep],
-                 [fin_span,fin_sweep+fin_tip],[0,fin_root],
-                 [mount_od/2-body_d/2,fin_root]]);
+        polygon([[0,fin_root],
+                 [fin_span,fin_root-fin_leading_sweep],
+                 [fin_span,fin_root-fin_aft_extent],
+                 [fin_aft_kink,fin_root-fin_aft_extent],
+                 [0,0],
+                 [0,fin_root-fin_tab_offset-fin_tab_length],
+                 [-fin_tab_depth,fin_root-fin_tab_offset-fin_tab_length],
+                 [-fin_tab_depth,fin_root-fin_tab_offset],
+                 [0,fin_root-fin_tab_offset]]);
 }
 module ring() { tube(body_id,mount_od,ring_t); }
 module eye() {
@@ -230,7 +257,7 @@ module prodat() { cylinder(d=prodat_d,h=prodat_l); }
 module assembly() {
     color("Ivory") shell_cut() booster();
     color("OrangeRed") for(a=[0:360/fin_count:359]) rotate([0,0,a])
-        translate([body_d/2,0,fin_z]) fin();
+        translate([body_d/2-fin_embed,0,fin_z]) fin();
     color("BurlyWood") {
         translate([0,0,mount_z]) shell_cut() tube(mount_od,mount_id,mount_l);
         for(z=[aft_ring_z,mid_ring_z,front_ring_z]) translate([0,0,z]) ring();

@@ -6,7 +6,7 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 La [version OpenRocket de la LOC-IV](loc-iv-openrocket.md) propose un [fichier natif .ork](loc-iv-4po.ork), son [XML lisible](loc-iv-4po.xml) et quatre scénarios H143/H152. Les masses et conditions non mesurées restent des hypothèses; les essais d'éjection signalent un déploiement à grande vitesse. Voir le [rapport de vérification](loc-iv-openrocket-verification.md).
 
-## LOC-IV 4 po — plan paramétrique v1.0
+## LOC-IV 4 po — plan paramétrique v1.1
 
 - **Date :** 2026-09-12
 - **Statut :** brouillon — représentation d'ensemble, dimensions à valider sur le kit reçu.
@@ -17,6 +17,8 @@ La [version OpenRocket de la LOC-IV](loc-iv-openrocket.md) propose un [fichier n
 ![Aperçu en coupe du modèle LOC-IV](loc-iv-apercu.png)
 
 Aperçu généré avec OpenSCAD à partir des paramètres par défaut; géométries approchées selon les limites ci-dessous.
+
+La révision 1.1 remplace les ailerons trapézoïdaux approximatifs par le profil libre et la languette du fichier LOC. Voir les [notes de comparaison et de correction](../notes/loc-iv-comparaison-modeles.md), la [fiche de mesures du kit](../notes/loc-iv-mesures-kit.md) et la [feuille de route](../ROADMAP.md). Les cotes de référence ne sont pas encore confirmées sur le kit réel.
 
 Le modèle représente la configuration des notes : LOC-IV récente à support moteur 38 mm, Cesaroni Pro38 2G, H143 ou H152, MR-1, récupération et boutons 1010. Il comporte le booster à fentes, la section payload, un coupleur et sa cloison, une ogive creuse à épaulement, trois ailerons à languette, trois anneaux de centrage et les points d'attache schématiques. Le moteur est une enveloppe externe assemblée, pas un dessin du boîtier nu ni de ses composants internes. Le ProDAT-38 optionnel est un symbole séparé d'accessoire au sol.
 
@@ -31,15 +33,18 @@ Toutes les longueurs sont en **millimètres**, à l'échelle 1:1. L'origine est 
 | Corps 4 po, longueur totale 47 po; sections 23 et 11 po | Fiche LOC [L], nominal; diamètre extérieur réel à mesurer |
 | Ogive exposée 330,2 mm | Différence des longueurs [L], pas une mesure directe; profil ellipsoïdal approché |
 | Trois ailerons de 1/8 po, trois anneaux | Notice [I]; épaisseur des anneaux de 1/4 po : [L] |
+| Profil, position et languette des ailerons | Fichier LOC [F], cinq sommets; coordonnées détaillées dans les notes; épaisseur 3,175 mm conservée malgré les 3 mm du fichier |
 | Moteur 38 × 186 mm | Enveloppe assemblée H152/H143 [C], pages PDF 15 et 16 |
 | Parachute 36 po, sangle 15 pi | Notes [N], confirmées par LOC; largeur de sangle 3/8 po : [L] |
 | MR-1 à deux clips en Z | [I,R]; largeur 3/4 po [R]; forme, visserie et implantation approchées |
 | Dépassement du support derrière/devant les anneaux | 1/8 po pour MR-1 et 1/4 po à l'avant, notice [I], page 2 |
-| Autres cotes | `[A]` : parois/alésages, longueur du support, profil des ailerons, coupleur, cloison, épaulement, fixations, positions, boutons, volumes textiles et ProDAT |
+| Autres cotes | `[A]` : parois/alésages, longueur du support, coupleur, cloison, épaulement, fixations, positions des anneaux et boutons, volumes textiles et ProDAT |
 
 Le protecteur de **12 po est une proposition modifiable**, absente des notes. Le diamètre du bouton n'est pas déduit de « 1010 ». Les paramètres de jeux servent à la visualisation : ils ne constituent pas des tolérances de fabrication. La bague de poussée du moteur, les filetages, les congés d'époxy et les détails de couture sont omis. Aucune géométrie d'une rétention alternative n'est inventée : les options sont `MR-1` et `none`.
 
 Ce modèle ne valide ni la résistance, ni l'ajustement réel, ni le centre de gravité, ni la stabilité, ni le volume de rangement. Les exports sont des maquettes de référence, pas des pièces de vol prêtes à fabriquer. Le choix de moteur et du délai reste à simuler avec la masse réelle, comme indiqué dans les notes.
+
+Les ailerons dépassent maintenant de 34,925 mm derrière le corps : longueur avec ailerons 1228,725 mm, contre 1193,8 mm pour pointe/arrière du corps. Dans l'assemblage OpenSCAD uniquement, un recouvrement radial de 0,05 mm évite les contacts tangents non-manifold avec le tube. L'export `part="fin"` conserve les cotes exactes du profil; ce recouvrement n'est pas une cote de fabrication. La languette de référence et le support encore estimé présentent un jeu radial nominal de 0,128 mm, à résoudre par mesure.
 
 ### Paramètres et variantes
 
@@ -77,7 +82,7 @@ Sous Windows PowerShell, remplacer `openscad` par `& 'C:/Program Files/OpenSCAD/
 
 ### Vérification effectuée
 
-Le 2026-09-12, avec **OpenSCAD 2021.01 sous Windows** : 21 rendus STL terminés sans erreur ni avertissement — assemblage en coupe par défaut, les 15 pièces isolées, assemblages complet et éclaté avec H152/récupération déployée/ProDAT, assemblage sans moteur/récupération/boutons/retenue, et les deux textiles déployés isolés. Les vues en coupe et éclatée ont aussi été inspectées visuellement. Les liens locaux et `git diff --check` passent. Ces contrôles vérifient le modèle numérique, pas ses cotes physiques.
+Historique v1.0 : 21 rendus STL avaient été testés avec OpenSCAD 2021.01 sous Windows. La révision 1.1 est vérifiée à nouveau sur les pièces affectées (aileron et booster à fentes), l'assemblage en coupe et l'aperçu actualisé. Les contrôles numériques ne confirment pas les cotes du kit réel. Les variantes non modifiées ne constituent pas une nouvelle campagne de 21 rendus.
 
 ### Points à vérifier sur le kit
 
@@ -96,5 +101,6 @@ Consultées le 2026-09-12; elles complètent les notes sans modifier leur statut
 - **[I]** [Notice LOC-IV PK-48](https://cdn.shopify.com/s/files/1/0568/7489/3503/files/Loc_IV_Instructions-final.pdf?v=1747083020), nomenclature page 1, support et MR-1 page 2.
 - **[C]** [Catalogue Cesaroni Pro38](https://pro38.com/wp-content/uploads/2024/11/Pro38Catalog.pdf), document interne « 2010 Catalog v1.0 » malgré le chemin daté 2024; pages PDF 15–16 pour les enveloppes H152/H143.
 - **[R]** [LOC Precision — MR-1 Z Clip](https://locprecision.com/products/z-clip-style-motor-retainer-set/).
+- **[F]** [Archive du fichier LOC PK-48 Loc-IV.rkt](https://cdn.shopify.com/s/files/1/0568/7489/3503/files/PK-48-Loc-IV-3.zip?v=1623759843), liée depuis [L]; empreinte et limites dans les notes de comparaison.
 
 [Retour à l’accueil](../README.md)
