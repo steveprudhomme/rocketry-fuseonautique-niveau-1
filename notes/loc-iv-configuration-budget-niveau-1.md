@@ -100,6 +100,8 @@ La conversation annonçait **environ 350–465 $ CAD**. L’addition des postes 
 
 ## Prochaines actions
 
+Un [plan d'ensemble paramétrique OpenSCAD](../plans/README.md) représente cette configuration. Les dimensions complémentaires sont sourcées ou signalées comme approximatives; ce plan ne remplace pas la simulation requise ci-dessous.
+
 1. Faire l’inventaire du kit et consigner la masse finale.
 2. Comparer H143 et H152 par simulation et faire valider la configuration.
 3. Obtenir les prix complets et confirmer les frais d’adhésion et de lancement.

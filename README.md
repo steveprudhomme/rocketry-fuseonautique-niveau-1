@@ -2,7 +2,7 @@
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
 
-**État :** coquille initiale • **Langue :** français
+**État :** carnet en cours — notes et premier plan LOC-IV en brouillon • **Langue :** français
 
 ## Objectif
 Rassembler les notes, plans, exercices, aides à la tâche, références et traces de progression dans un seul dépôt versionné.
@@ -23,6 +23,8 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 | [modeles](modeles/README.md) | Gabarits à copier |
 
 ## Commencer
+Le [plan paramétrique OpenSCAD de la LOC-IV 4 po](plans/README.md) représente la [configuration niveau 1](notes/loc-iv-configuration-budget-niveau-1.md), avec sources, variantes et cotes restant à valider.
+
 1. Consulter la [feuille de route](ROADMAP.md) et le [suivi](certification/progression.md).
 2. Inscrire les sources officielles au [registre](references/sources.md).
 3. Copier un [gabarit](modeles/README.md) dans le dossier approprié.
