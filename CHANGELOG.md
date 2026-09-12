@@ -1,5 +1,10 @@
 # Historique des changements
 
+## 2026-09-12 — Galerie des composants LOC-IV
+- Ajout de 18 rendus PNG dans `plans/images`, couvrant les 16 composants exportables et les variantes des textiles.
+- Ajout d'une galerie avec légendes, limites et script de régénération OpenSCAD.
+- Référencement depuis les plans et l'accueil.
+
 ## 2026-09-12 — Révision 1.1 des ailerons LOC-IV et mesures à confirmer
 - Ajout aux notes de la comparaison externe complète et de son contexte historique.
 - Mise à jour de ROADMAP.md et création d'une fiche de mesures réelles (cotes, masse, CG), encore non renseignée.

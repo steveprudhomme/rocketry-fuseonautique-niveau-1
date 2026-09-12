@@ -14,7 +14,7 @@
 // Le fichier LOC_IV_4in_v0.2.scad n'a pas pu être récupéré; code reconstruit.
 
 /* [Affichage] */
-part = "assembly"; // [assembly,booster,payload,nose,coupler,bulkhead,fin,motor_mount,ring,motor,retainer,parachute,protector,cord,rail_button,prodat]
+part = "assembly"; // [assembly,booster,payload,nose,coupler,bulkhead,fin,motor_mount,ring,motor,retainer,parachute,protector,cord,rail_button,prodat,eye]
 view = "cutaway"; // [assembled,cutaway,exploded]
 recovery = "packed"; // [packed,deployed]
 motor_preset = "H143"; // [H143,H152,generic_2G]
@@ -126,7 +126,7 @@ assert(motor_preset == "H143" || motor_preset == "H152" || motor_preset == "gene
 assert(retention == "MR-1" || retention == "none");
 parts = ["assembly","booster","payload","nose","coupler","bulkhead","fin",
          "motor_mount","ring","motor","retainer","parachute","protector",
-         "cord","rail_button","prodat"];
+         "cord","rail_button","prodat","eye"];
 assert(len([for(p=parts) if(p == part) p]) == 1, "Nom de pièce inconnu.");
 echo("BROUILLON : géométries [A] à valider; voir plans/README.md.");
 echo(moteur=motor_preset, enveloppe_mm=[motor_d,motor_l], sangle_mm=cord_l);
@@ -306,3 +306,4 @@ else if(part == "protector") protector();
 else if(part == "cord") cord();
 else if(part == "rail_button") rail_button();
 else if(part == "prodat") prodat();
+else if(part == "eye") eye();

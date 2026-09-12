@@ -2,6 +2,10 @@
 
 Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hypothèses et sources. Utiliser le [gabarit de plan](../modeles/plan.md).
 
+## Images des pièces
+
+La [galerie des composants](images/README.md) présente **18 images** dans [`plans/images`](images), avec les pièces isolées et les variantes de récupération. Chaque vue est cadrée séparément et accompagnée des limites du modèle. Les images se régénèrent avec le [script fourni](outils/generer-images.ps1).
+
 ## Modèle de simulation OpenRocket
 
 La [version OpenRocket de la LOC-IV](loc-iv-openrocket.md) propose un [fichier natif .ork](loc-iv-4po.ork), son [XML lisible](loc-iv-4po.xml) et quatre scénarios H143/H152. Les masses et conditions non mesurées restent des hypothèses; les essais d'éjection signalent un déploiement à grande vitesse. Voir le [rapport de vérification](loc-iv-openrocket-verification.md).
@@ -60,7 +64,7 @@ Les ailerons dépassent maintenant de 34,925 mm derrière le corps : longueur av
 | `show_prodat` | Affiche l'accessoire séparé; désactivé par défaut |
 | `quality` | Résolution circulaire, 64 par défaut; minimum 12 |
 
-Exports individuels avec `part` : `booster`, `payload`, `nose`, `coupler`, `bulkhead`, `fin`, `motor_mount`, `ring`, `motor`, `retainer`, `parachute`, `protector`, `cord`, `rail_button`, `prodat`. Les pièces isolées sont dans leur repère local et complètes, indépendamment de `view`; `recovery` commande la forme des textiles. `retainer` avec `retention="none"` est volontairement vide. Les boutons de visibilité ne masquent pas les exports individuels.
+Exports individuels avec `part` : `booster`, `payload`, `nose`, `coupler`, `bulkhead`, `fin`, `motor_mount`, `ring`, `motor`, `retainer`, `parachute`, `protector`, `cord`, `rail_button`, `prodat`, `eye` (point d'attache). Les pièces isolées sont dans leur repère local et complètes, indépendamment de `view`; `recovery` commande la forme des textiles. `retainer` avec `retention="none"` est volontairement vide. Les boutons de visibilité ne masquent pas les exports individuels.
 
 La sangle rangée est un ruban schématique : le tracé ne développe pas les 4572 mm conservés dans `cord_l`. En mode déployé, les segments montrent les relations entre corps, payload et parachute; leurs longueurs ne sont pas celles de la sangle. La voile est un disque au diamètre nominal, avec des suspentes approximatives. Le protecteur rangé est une enveloppe indicative sans conservation de surface. Le modèle ne représente pas le double déploiement optionnel.
 

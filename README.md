@@ -29,6 +29,8 @@ Une [version OpenRocket simulable (.ork et XML)](plans/loc-iv-openrocket.md) com
 
 La révision 1.1 reprend les ailerons du fichier LOC après [comparaison externe](notes/loc-iv-comparaison-modeles.md). Les prochaines étapes sont dans [ROADMAP.md](ROADMAP.md); les [mesures du kit, de masse et de CG](notes/loc-iv-mesures-kit.md) restent à fournir.
 
+Les [images de chaque composant](plans/images/README.md) sont regroupées dans `plans/images` pour consulter les pièces sans ouvrir OpenSCAD.
+
 1. Consulter la [feuille de route](ROADMAP.md) et le [suivi](certification/progression.md).
 2. Inscrire les sources officielles au [registre](references/sources.md).
 3. Copier un [gabarit](modeles/README.md) dans le dossier approprié.
