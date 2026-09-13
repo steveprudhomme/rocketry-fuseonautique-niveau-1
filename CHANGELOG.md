@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-09-13 — Feuille de route : décoration et coût complet
+
+- Ajout des tâches de design et fabrication du décalque Chasse Galerie 1, inspiré de la chasse-galerie et du drapeau du Québec.
+- Planification des essais de textures dans OpenSCAD, un autre logiciel 3D et OpenRocket, ainsi que des guides pour débutants.
+- Ajout d'une comparaison systématique avec les trois vidéos, du chiffrage du petit matériel et de la décoration, et de petits drapeaux du Québec dans les documents principaux.
+- Ces livrables restent à réaliser; les inventaires et notes déjà produits servent de point de départ.
+
 ## 2026-09-13 — Série vidéo, aide au montage et achats
 - Ajout de notes séparées pour les parties 2 et 3, avec repères temporels et écarts de version à vérifier.
 - Création d’une aide au montage complet avec six vues SCAD existantes et contrôles aux étapes de fermeture.

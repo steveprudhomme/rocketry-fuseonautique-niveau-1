@@ -1,6 +1,6 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-12. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-09-13. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
 ## Réalisé
 
@@ -64,13 +64,56 @@ En complément du plan paramétrique, Steve souhaite un **plan technique d'ensem
 
 **Critère de fin :** plan d'ensemble réunissant les trois vues et la vue écorchée, avec repérage des pièces et statut des cotes explicites. Aucune conformité industrielle ni aptitude à la fabrication déclarée sans vérification correspondante.
 
+## Décoration — Design et fabrication du décalque
+
+- [ ] Concevoir un décalque original pour **Chasse Galerie 1**, associant le thème de la chasse-galerie et celui du **drapeau du Québec**; préparer des propositions montrant le nom, les motifs et leur disposition sur la fusée.
+- [ ] Mesurer les surfaces à décorer sur le kit et définir dimensions, emplacement, raccords et dégagements autour des ailerons, boutons de rail et jonctions démontables.
+- [ ] Comparer les moyens de fabrication et de pose (par exemple vinyle adhésif découpé ou imprimé, décalcomanie à l'eau, fournisseur spécialisé) : équipement, compatibilité avec la peinture et le vernis, tenue, coût et disponibilité.
+- [ ] Produire les sources modifiables, un fichier d'impression à l'échelle avec repère de contrôle et un aperçu sur la fusée; conserver les fichiers et leur notice dans `plans`.
+- [ ] Rédiger un pas à pas de fabrication et de pose du décalque physique, puis tester un échantillon sur une surface représentative avant la pose finale.
+
+**Critère de fin :** design retenu, dimensions vérifiées, méthode essayée et coût ajouté au budget.
+
+## Décoration numérique — Textures et aides à la tâche
+
+- [ ] Vérifier séparément la possibilité d'appliquer une texture de décalque dans **OpenSCAD**, dans un **autre logiciel 3D à choisir**, et dans **OpenRocket**. Consigner versions testées, formats acceptés, limites et solutions de remplacement dans une note comparative; ne pas supposer que les trois logiciels offrent les mêmes fonctions.
+- [ ] Produire une texture issue du design retenu et les fichiers nécessaires à chaque logiciel compatible, en documentant résolution, transparence, échelle, orientation et raccord autour du tube.
+- [ ] Créer une aide à la tâche pour débutant : **produire une texture de décalque**, depuis le dessin source jusqu'à l'export et au contrôle de ses dimensions.
+- [ ] Créer un pas à pas illustré pour **appliquer la texture sur la fusée**, avec un parcours pour OpenSCAD, le logiciel 3D retenu et OpenRocket selon les possibilités vérifiées. Pour une fonction non disponible, expliquer la limite et donner un parcours de remplacement testé.
+- [ ] Vérifier le résultat sur la fusée complète, les jonctions et les rendus/exportations; distinguer l'apparence visuelle des propriétés utilisées en simulation et reporter la masse réelle de la finition si nécessaire.
+
+**Critère de fin :** fichiers de démonstration et guides reproductibles, avec capacités et limites vérifiées pour chaque logiciel.
+
+## Comparaison complémentaire — Modèles SCAD et série de montage
+
+Les [comparaisons existantes](notes/loc-iv-comparaison-modeles.md) et les notes des [parties 1](notes/2026-09-13-video-montage-loc-iv-partie-1.md), [2](notes/2026-09-13-video-montage-loc-iv-partie-2.md) et [3](notes/2026-09-13-video-montage-loc-iv-partie-3.md) constituent le point de départ; la comparaison systématique reste à faire.
+
+- [ ] Identifier précisément le kit assemblé et les éventuels fichiers de modèle cités dans les trois vidéos, puis comparer l'ensemble aux versions SCAD du projet.
+- [ ] Ajouter aux notes un tableau des ressemblances et différences : géométrie, ailerons, support moteur, anneaux, coupleur, retenue MR-1, boutons de rail, attaches, récupération et méthode de montage.
+- [ ] Pour chaque différence, relever la version du fichier SCAD, la source vidéo et son repère temporel, la valeur documentée ou l'observation, l'incertitude et la mesure à effectuer sur le kit. Ne pas déduire une cote exacte d'une simple image.
+- [ ] Illustrer les différences utiles avec des vues SCAD et relier les corrections proposées aux tâches de validation des modèles; conserver les différences de version sans les transformer automatiquement en corrections.
+
+## Budget complet — Petit matériel et décoration
+
+La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-montage-videos.md) existe déjà. Il reste à la compléter, à vérifier les quantités et à chiffrer les scénarios avec le [budget principal](notes/loc-iv-configuration-budget-niveau-1.md).
+
+- [ ] Inventorier l'atelier et compléter les listes de petit matériel, outils et consommables pour toutes les étapes du montage et de la finition; distinguer ce qui est fourni dans le kit, déjà possédé et à acheter.
+- [ ] Ajouter les fournitures et prestations nécessaires au décalque selon la méthode retenue, y compris les essais, l'impression et la pose.
+- [ ] Chiffrer les quantités et les conditionnements des scénarios S1/S2/S3 avec prix datés et sources, taxes et livraison; distinguer outils réutilisables et consommables.
+- [ ] Réconcilier les lignes détaillées avec les enveloppes déjà prévues pour éviter les doubles comptes, puis présenter le **coût total de la fusée, kit compris**, le **reste à acheter** et les frais de vol/certification séparément.
+
+## Identité documentaire — Petits drapeaux du Québec
+
+- [ ] Recenser les principaux documents officiels du projet à décorer : accueil du dépôt, plans et cartouches, aides à la tâche et notes de référence.
+- [ ] Préparer un petit visuel fidèle du drapeau du Québec, avec source et conditions de réutilisation documentées, puis définir une taille et un emplacement cohérents.
+- [ ] Intégrer le drapeau aux documents retenus et à leurs sources de génération; vérifier sa lisibilité sur GitHub et dans les PDF, à l'écran et à l'impression.
+
 ## Dépôt et suivi
 
 - [ ] Faire examiner la séquence de montage retenue et les interfaces de retenue/récupération sur le kit réel.
-- [ ] Inventorier l’atelier et chiffrer les compléments S1/S2/S3 avant commande; arbitrer les fournitures déjà incluses.
 
 - [x] Publier les modèles OpenRocket, la révision 1.1 et la galerie des composants, puis les intégrer à `main` (commit `9aba35d`).
-- [ ] Actualiser le budget à partir des achats réels, taxes et frais compris.
+- [ ] Maintenir le budget à jour avec les achats réels après le chiffrage détaillé prévu dans « Budget complet ».
 - [ ] Définir les objectifs personnels et un calendrier indicatif.
 - [ ] Confirmer et dater les exigences officielles applicables.
 - [ ] Alimenter les notes, exercices et glossaire.
