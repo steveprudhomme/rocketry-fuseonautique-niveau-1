@@ -1,7 +1,7 @@
 # Chasse Galerie 1 — Habillage imprimé du tube
 
 - **Date :** 2026-09-13
-- **Statut :** orientation retenue avec Steve; design final, produit, dimensions, devis et pose à valider.
+- **Statut :** **Le sillage fleurdelisé (proposition 02) choisi par Steve le 2026-09-13**; dessin de fabrication, produit, dimensions, devis et pose à valider.
 - **Périmètre :** extérieur des sections cylindriques du corps. Ogive et ailerons : finition assortie à définir séparément.
 
 ## Approche retenue
@@ -12,15 +12,16 @@ La gamme Avery Dennison MPI 1105 constitue un **exemple à soumettre à l'imprim
 
 Le satiné est une préférence esthétique pour l'illustration nocturne. Confirmer sa disponibilité dans le système de films proposé et examiner un échantillon avant la commande. Aucun vernis supplémentaire n'est prévu par défaut.
 
-## Direction artistique proposée
+## Direction artistique retenue — Le sillage fleurdelisé
 
-- Ciel bleu profond, étoiles et brume pour le fond continu.
-- Canot volant de la chasse-galerie en diagonale pour suggérer le mouvement.
+- Fond bleu profond et bleu Québec, avec étoiles.
+- Canot volant de la chasse-galerie en silhouette dans la partie haute.
+- Sillage blanc sinueux autour du tube pour suggérer le mouvement.
 - Forêt québécoise en silhouette vers le bas du tube.
 - Fleurs de lys blanches et petit drapeau du Québec représenté fidèlement.
-- Nom **Chasse Galerie 1** lisible dans le sens de la longueur.
+- Nom **Chasse Galerie 1** lisible au centre, sous le drapeau, selon la composition de la proposition 02.
 
-Trois [propositions illustrées](../plans/decalques/README.md) sont maintenant disponibles : La traversée nocturne, Le sillage fleurdelisé et La légende gravée. Elles montrent le développé et des mises en situation artistiques; le choix et le dessin final restent à valider. Les prompts de génération sont conservés avec les images.
+Trois [propositions illustrées](../plans/decalques/README.md) sont maintenant disponibles : La traversée nocturne, Le sillage fleurdelisé et La légende gravée. **Le sillage fleurdelisé est retenu**; les deux autres pistes sont conservées pour mémoire. Les planches montrent le développé et des mises en situation artistiques; le dessin final aux dimensions mesurées reste à produire. Les prompts de génération sont conservés avec les images.
 
 ## Gabarit et raccords
 

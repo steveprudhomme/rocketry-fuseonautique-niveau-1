@@ -1,5 +1,10 @@
 # Historique des changements
 
+## 2026-09-13 — Choix du Sillage fleurdelisé
+
+- Steve retient la proposition 02 pour le décalque de Chasse Galerie 1; les deux autres pistes restent archivées dans la galerie.
+- Notes, index et feuille de route actualisés; adaptation aux mesures réelles et fichier prêt à imprimer restent à produire.
+
 ## 2026-09-13 — Trois propositions visuelles de décalque
 
 - Création des planches La traversée nocturne, Le sillage fleurdelisé et La légende gravée, avec développé illustratif et mises en situation sur la fusée.

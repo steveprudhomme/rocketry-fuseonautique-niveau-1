@@ -8,7 +8,7 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 ## Décoration du tube
 
-Consulter le [cahier d’intention du décalque](../notes/chasse-galerie-1-decalque.md) : vinyle imprimé satiné, gabarits par section et essais prévus. Les [trois propositions visuelles](decalques/README.md) sont disponibles. Les fichiers d’impression et textures restent à produire.
+Consulter le [cahier d’intention du décalque](../notes/chasse-galerie-1-decalque.md) : vinyle imprimé satiné, gabarits par section et essais prévus. Les [trois propositions visuelles](decalques/README.md) sont disponibles; **Le sillage fleurdelisé (02)** est retenu. Les fichiers d’impression et textures restent à produire.
 
 ## Images des pièces
 
