@@ -10,6 +10,10 @@
 
 Consigner la configuration proposée dans la conversation « Suggestion moteur niveau 1 » pour un premier vol de certification avec la **LOC-IV déjà achetée**. Le budget ci-dessous exclut donc le prix du kit.
 
+## Décoration à chiffrer
+
+L’[habillage imprimé du tube](chasse-galerie-1-decalque.md) est retenu comme orientation. Ses essais, impression, laminage, découpe et pose sont à chiffrer dans le [complément d’achats](loc-iv-achats-complement-montage-videos.md). Les fourchettes historiques ci-dessous ne constituent pas un devis incluant cette décoration.
+
 ## Notes
 
 ### Certification au Canada

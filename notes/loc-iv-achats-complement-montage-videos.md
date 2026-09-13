@@ -70,6 +70,21 @@ Les fourchettes sont **historiques, hors kit, taxes, livraison et frais exclus d
 
 Écrous, rondelles, œillets, clips et boutons présents dans le kit sont à inventorier avant de créer des lignes d’achat supplémentaires. **Boîtier 3G de démonstration : aucun achat à ajouter**; notre configuration demeure Pro38 2G.
 
+## D — Habillage imprimé du tube, option de finition S2
+
+Source : [orientation de décoration retenue avec Steve](chasse-galerie-1-decalque.md), le 2026-09-13; ces postes ne sont pas tirés des vidéos. Tous les prix et quantités restent à confirmer après mesure et devis.
+
+| Poste | Traitement avant achat |
+| --- | --- |
+| Gabarit papier à l'échelle et échantillon imprimé | Prévoir essai des raccords, couleurs et adhérence; vérifier si inclus dans le devis. |
+| Préparation du fichier / prestation graphique éventuelle | Chiffrer seulement si confiée au fournisseur; sources du projet à conserver. |
+| Vinyle blanc opaque imprimé et laminage satiné compatible | Demander un prix pour les sections mesurées; vérifier si le laminage est inclus. |
+| Découpe et pose professionnelle | Faire détailler le devis et les dégagements autour des obstacles. |
+| Raclette adaptée, protection feutrée, ruban de positionnement et nettoyage compatible | Seulement pour une pose personnelle selon la méthode retenue; déduire le stock déjà possédé et les fournitures communes. |
+| Taxes, livraison et éventuelle reprise d'un morceau | Distinguer coûts confirmés et provision éventuelle. |
+
+Le total S2 reste à recalculer. Conserver la préparation de surface nécessaire, puis ajuster les postes de peinture décorative remplacés par le vinyle. Ne pas ajouter deux fois impression, laminage ou pose si le fournisseur les regroupe; ne pas cumuler pose professionnelle et équipement personnel sans besoin réel.
+
 ## Fiche à remplir avant commande
 
 | Article retenu / scénario | Besoin total | Déjà possédé ou fourni | À acheter | Référence et compatibilité | Prix CAD / taxes / port | Masse ajoutée au vol |

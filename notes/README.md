@@ -4,6 +4,8 @@ Notes de lecture, de rencontres et d’apprentissage. Utiliser le [gabarit de no
 
 ## Index
 
+- [Chasse Galerie 1 : habillage imprimé du tube](chasse-galerie-1-decalque.md) — orientation retenue, intention artistique, gabarit, essais et devis à préparer.
+
 - [Vidéo : montage LOC-IV, partie 2](2026-09-13-video-montage-loc-iv-partie-2.md) — support, ailerons et fermeture arrière.
 - [Vidéo : montage LOC-IV, partie 3](2026-09-13-video-montage-loc-iv-partie-3.md) — payload, guidage et récupération.
 - [Achats complémentaires issus des vidéos](loc-iv-achats-complement-montage-videos.md) — inventaire atelier, finition et variantes; prix à chiffrer.

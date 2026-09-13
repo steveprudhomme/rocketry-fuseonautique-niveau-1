@@ -6,6 +6,10 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 **Première utilisation d'OpenSCAD ?** Suivre l'[aide à la tâche pour débuter et coder la LOC-IV](../aides-a-la-tache/debuter-openscad-loc-iv.md), avec des exercices expliqués pas à pas.
 
+## Décoration du tube
+
+Consulter le [cahier d’intention du décalque](../notes/chasse-galerie-1-decalque.md) : vinyle imprimé satiné, gabarits par section et essais prévus. Les fichiers d’impression et textures restent à produire.
+
 ## Images des pièces
 
 La [galerie des composants](images/README.md) présente **18 images** dans [`plans/images`](images), avec les pièces isolées et les variantes de récupération. Chaque vue est cadrée séparément et accompagnée des limites du modèle. Les images se régénèrent avec le [script fourni](outils/generer-images.ps1).

@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-09-13 — Orientation pour le décalque intégral du tube
+
+- Ajout du cahier d’intention : vinyle imprimé avec laminage satiné, thème chasse-galerie et Québec, gabarits par section, échantillon et pose à valider.
+- Référencement dans les index, les plans et la feuille de route; ajout des postes de décoration au budget à chiffrer et de la source fabricant au registre.
+- Aucun fichier d’impression produit, aucune commande ni modification des modèles.
+
 ## 2026-09-13 — Feuille de route : décoration et coût complet
 
 - Ajout des tâches de design et fabrication du décalque Chasse Galerie 1, inspiré de la chasse-galerie et du drapeau du Québec.
