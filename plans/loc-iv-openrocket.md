@@ -1,5 +1,7 @@
 # LOC-IV 4 po — modèle OpenRocket simulable
 
+**Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
+
 - **Date :** 2026-09-12
 - **Statut :** brouillon de simulation — dimensions, masses et conditions à valider.
 - **Auteur :** Steve Prud’Homme, avec assistance Codex.

@@ -1,5 +1,7 @@
 # Aide à la tâche — Construire et simuler la LOC-IV complète dans OpenRocket
 
+**Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
+
 - **Date :** 2026-09-12
 - **Statut :** brouillon pédagogique; inventaire et réglages contrôlés contre le modèle du dépôt. Parcours dans l’interface à faire essayer par une personne débutante.
 - **Auteur :** Steve Prud’Homme, avec assistance Codex.

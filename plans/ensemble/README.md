@@ -1,6 +1,8 @@
 # Plan d'ensemble LOC-IV avec vue écorchée
 
-[Ouvrir le PDF A3, révision A](loc-iv-plan-ensemble.pdf).
+**Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
+
+[Ouvrir le PDF A3, révision B](loc-iv-plan-ensemble.pdf).
 
 Ce document pédagogique complète le [modèle paramétrique](../README.md). Il décrit sa révision 1.1, avec les ailerons issus du fichier LOC, et conserve les approximations signalées dans le code. Ce n'est pas un dessin de définition pour fabrication et aucune conformité à une norme industrielle n'est déclarée.
 
@@ -36,3 +38,5 @@ Sans `--render`, le script refait seulement le PDF depuis les SVG/PNG existants.
 ## Vérification du 2026-09-12
 
 Trois exports SVG OpenSCAD réussis; modèle écorché également compilé par CGAL (`Simple: yes`). PDF de deux pages A3 rendu par Poppler et contrôlé visuellement. Aucun changement de géométrie du modèle paramétrique. Validation dimensionnelle sur le kit et conformité industrielle non effectuées.
+
+Révision B : ajout du nom **Chasse Galerie 1** dans le cartouche et les métadonnées; géométrie et cotes inchangées.

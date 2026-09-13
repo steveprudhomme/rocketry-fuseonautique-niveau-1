@@ -1,5 +1,7 @@
 # Plans
 
+**Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
+
 Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hypothèses et sources. Utiliser le [gabarit de plan](../modeles/plan.md).
 
 **Première utilisation d'OpenSCAD ?** Suivre l'[aide à la tâche pour débuter et coder la LOC-IV](../aides-a-la-tache/debuter-openscad-loc-iv.md), avec des exercices expliqués pas à pas.

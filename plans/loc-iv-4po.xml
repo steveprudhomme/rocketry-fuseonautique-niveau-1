@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <openrocket version="1.10" creator="OpenRocket 24.12">
   <rocket>
-    <name>LOC-IV 4 po — BROUILLON de simulation</name>
+    <name>Chasse Galerie 1 — LOC-IV 4 po — BROUILLON de simulation</name>
     <id>9bbd674f-6dc2-4c6e-9b95-496fd4fd7113</id>
     <axialoffset method="absolute">0.0</axialoffset>
     <position type="absolute">0.0</position>
@@ -27,7 +27,7 @@
 
     <subcomponents>
       <stage>
-        <name>LOC-IV — un etage</name>
+        <name>Chasse Galerie 1 — un etage</name>
         <id>35a3c7de-2c7e-4b1f-bb3d-6a8b103311ab</id>
         <comment>Payload solidaire du modele aerodynamique; recuperation simplifiee par une seule voile. Pas de double deploiement.</comment>
 

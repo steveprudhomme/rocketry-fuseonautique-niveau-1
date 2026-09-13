@@ -1,3 +1,4 @@
+// Chasse Galerie 1 — projet et fusée; base technique : kit LOC-IV 4 po.
 // LOC-IV 4 po — v1.1, 2026-09-12 — BROUILLON, cotes à valider sur le kit.
 // Unités : mm. Origine : arrière du corps; +Z vers la pointe.
 // Source principale [N] : ../notes/loc-iv-configuration-budget-niveau-1.md

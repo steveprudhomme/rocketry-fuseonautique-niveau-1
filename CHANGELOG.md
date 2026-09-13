@@ -1,5 +1,10 @@
 # Historique des changements
 
+## 2026-09-12 — Nom du projet : Chasse Galerie 1
+- Attribution du nom Chasse Galerie 1 au projet et à la fusée; LOC-IV reste la référence du kit.
+- Mise à jour des index, aides, notes, noms OpenRocket, en-tête OpenSCAD et cartouche du plan d’ensemble (révision B).
+- Conservation des chemins existants; aucune modification de géométrie ni de paramètres de simulation.
+
 ## 2026-09-12 — Aide OpenRocket pour la LOC-IV complète
 - Ajout d'un parcours débutant pour ouvrir ou reconstruire l'ensemble des 19 composants du modèle, configurer moteurs et récupération, examiner masse/CG et simuler tout le vol.
 - Ajout des cotes, positions, masses estimées, quatre configurations, conditions, contrôles, dépannage et synchronisation XML/ORK; référencement dans les index.

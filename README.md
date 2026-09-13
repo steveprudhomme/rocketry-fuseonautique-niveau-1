@@ -1,4 +1,6 @@
-# Fuséonautique — Certification niveau 1
+# Chasse Galerie 1 — Certification niveau 1
+
+**Chasse Galerie 1** est le nom du projet et de la fusée, construite à partir du kit **LOC-IV 4 po de LOC Precision**.
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
 

@@ -1,4 +1,4 @@
-# Feuille de route — LOC-IV et certification niveau 1
+# Feuille de route — Chasse Galerie 1 et certification niveau 1
 
 Mise à jour : 2026-09-12. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 

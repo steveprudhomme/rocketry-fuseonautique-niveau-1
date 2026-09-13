@@ -40,7 +40,7 @@ nose = total-booster-payload
 aft = val('fin_aft_extent')-val('fin_root')
 stamp = hashlib.sha256(SOURCE.read_bytes()).hexdigest()[:12]
 c = canvas.Canvas(str(OUT/'loc-iv-plan-ensemble.pdf'), pagesize=(297*mm,420*mm))
-c.setTitle("LOC-IV 4 po - Plan d'ensemble avec vue écorchée")
+c.setTitle("Chasse Galerie 1 - LOC-IV 4 po - Plan d'ensemble avec vue écorchée")
 c.setAuthor("Projet de Steve Prud'Homme")
 
 def text(x,y,s,size=9,bold=False):
@@ -50,8 +50,8 @@ def line(x,y,a,b): c.line(x*mm,y*mm,a*mm,b*mm)
 def header(page,title,scale):
     c.setStrokeColorRGB(.17,.23,.28); c.setFillColorRGB(.12,.18,.23); c.setLineWidth(.25*mm)
     c.rect(10*mm,10*mm,277*mm,400*mm)
-    text(16,400,'LOC-IV / 4 po',20,True); text(170,401,title,12,True)
-    text(170,395,'PLAN TECHNIQUE PÉDAGOGIQUE - RÉVISION A',8)
+    text(16,401,'Chasse Galerie 1',19,True); text(16,395,'Base : LOC-IV / 4 po',9); text(170,401,title,12,True)
+    text(170,395,'PLAN TECHNIQUE PÉDAGOGIQUE - RÉVISION B',8)
     line(10,390,287,390)
     line(10,36,287,36)
     text(15,28,'LOC-IV-ENS-001  |  2026-09-12  |  Feuille '+str(page)+'/2',10,True)

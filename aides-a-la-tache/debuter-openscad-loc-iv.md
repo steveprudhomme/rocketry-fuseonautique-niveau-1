@@ -1,5 +1,7 @@
 # Aide à la tâche — Débuter avec OpenSCAD et coder le plan LOC-IV
 
+**Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
+
 - **Date :** 2026-09-12
 - **Statut :** brouillon pédagogique; exemples vérifiés avec OpenSCAD 2021.01. Essai par une personne débutante à réaliser.
 - **Auteur :** Steve Prud’Homme, avec assistance Codex.

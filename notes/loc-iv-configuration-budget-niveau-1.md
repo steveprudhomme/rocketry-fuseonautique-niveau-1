@@ -1,5 +1,7 @@
 # Note — LOC-IV : configuration et budget niveau 1
 
+**Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
+
 - **Date :** 2026-09-12
 - **Statut :** brouillon — configuration à valider par simulation; prix et disponibilité à reconfirmer
 - **Auteur :** Steve Prud’Homme, synthèse de conversation assistée par ChatGPT/Codex
