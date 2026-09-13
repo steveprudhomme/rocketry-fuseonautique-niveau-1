@@ -4,6 +4,8 @@ Mise à jour : 2026-09-12. Organisation du projet personnel; cette liste ne cons
 
 ## Réalisé
 
+- [x] Rédiger les notes des trois vidéos, une [aide au montage illustrée](aides-a-la-tache/montage-chasse-galerie-1.md) et les [compléments aux achats](notes/loc-iv-achats-complement-montage-videos.md), sans valider physiquement le kit.
+
 - [x] Créer la structure du carnet et les gabarits.
 - [x] Documenter la [configuration et le budget](notes/loc-iv-configuration-budget-niveau-1.md).
 - [x] Créer les modèles OpenSCAD et OpenRocket, avec hypothèses explicites.
@@ -63,6 +65,9 @@ En complément du plan paramétrique, Steve souhaite un **plan technique d'ensem
 **Critère de fin :** plan d'ensemble réunissant les trois vues et la vue écorchée, avec repérage des pièces et statut des cotes explicites. Aucune conformité industrielle ni aptitude à la fabrication déclarée sans vérification correspondante.
 
 ## Dépôt et suivi
+
+- [ ] Faire examiner la séquence de montage retenue et les interfaces de retenue/récupération sur le kit réel.
+- [ ] Inventorier l’atelier et chiffrer les compléments S1/S2/S3 avant commande; arbitrer les fournitures déjà incluses.
 
 - [x] Publier les modèles OpenRocket, la révision 1.1 et la galerie des composants, puis les intégrer à `main` (commit `9aba35d`).
 - [ ] Actualiser le budget à partir des achats réels, taxes et frais compris.

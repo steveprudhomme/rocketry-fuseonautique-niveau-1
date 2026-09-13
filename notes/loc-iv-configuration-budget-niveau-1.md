@@ -54,6 +54,12 @@ La fiche LOC ([LOC-01]) et le catalogue CTI ([CTI-01]) servent de références t
 - Apprêt et peinture pour la finition esthétique.
 - Autre système de rétention : aucun besoin identifié si le MR-1 fourni convient à la configuration validée; non budgété.
 
+### Complément du 2026-09-13 — achats issus des vidéos
+
+Les [scénarios détaillés S1/S2/S3](loc-iv-achats-complement-montage-videos.md) complètent les listes ci-dessus : montage de base, finition, puis variantes démontables et de récupération. Ils explicitent outils, colles, nettoyage, connecteurs et protections manquants ou regroupés auparavant. Vérifier notamment le maillon rapide : la notice actuelle en mentionne un fourni, contrairement au kit du présentateur.
+
+**Les totaux historiques ci-dessous ne constituent pas un budget complet pour un atelier non équipé.** Les ajouts restent à chiffrer; remplacer les enveloppes globales par les lignes détaillées retenues pour éviter de compter deux fois consommables et apprêt. Aucun nouveau prix ni achat n’est confirmé.
+
 ### Budget détaillé en CAD
 
 Estimations reprises de la conversation, consignées le 2026-09-12. Ce ne sont pas des devis ni des prix garantis au jour de l’achat. Les montants sont traités comme une base **avant taxes, livraison et éventuels frais de transport des moteurs**. Les déplacements et l’hébergement ne sont pas inclus.

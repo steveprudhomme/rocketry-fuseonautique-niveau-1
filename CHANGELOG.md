@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-09-13 — Série vidéo, aide au montage et achats
+- Ajout de notes séparées pour les parties 2 et 3, avec repères temporels et écarts de version à vérifier.
+- Création d’une aide au montage complet avec six vues SCAD existantes et contrôles aux étapes de fermeture.
+- Ajout de scénarios d’achats détaillés, sans prix inventés; distinction entre fournitures du kit, consommables déjà budgétés et variantes.
+- Aucun changement de géométrie ou de simulation; mesures et validation du montage restent ouvertes.
+
 ## 2026-09-13 — Note sur la vidéo de montage LOC-IV, partie 1
 - Ajout d'une synthèse française basée sur les sous-titres automatiques de la vidéo de Dave Thomas (R.E.A.R.), avec repères temporels et limites de lecture.
 - Distinction entre la démonstration et Chasse Galerie 1; aucune modification des modèles à partir de la vidéo.

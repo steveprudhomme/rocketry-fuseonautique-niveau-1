@@ -2,6 +2,10 @@
 
 Fiches et listes de vérification. Indiquer leur statut et les faire vérifier avant utilisation. Utiliser le [gabarit de fiche](../modeles/aide-a-la-tache.md).
 
+## Monter Chasse Galerie 1
+
+- [Aide au montage illustrée](montage-chasse-galerie-1.md) — dix étapes, contrôles avant fermeture, récupération et relevés finaux; sources vidéo et notice distinguées.
+
 ## Dessiner la LOC-IV
 
 - [Construire et simuler la LOC-IV complète dans OpenRocket](debuter-openrocket-loc-iv.md) — parcours débutant couvrant les 19 composants du modèle, la reconstruction depuis un document vide, les masses et le CG, les quatre configurations, toute la trajectoire et les exports.

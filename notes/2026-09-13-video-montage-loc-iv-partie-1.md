@@ -61,3 +61,7 @@ La page de la vidéo renvoie à un [fichier RockSim sur RocketReviews](https://w
 Les [partie 2](https://www.youtube.com/watch?v=sW7qLH_qEjw) et [partie 3](https://www.youtube.com/watch?v=Nr1CmfLnaEQ) ont été repérées sur YouTube; elles ne sont pas analysées dans cette note.
 
 [Retour aux notes](README.md) · [Plans du projet](../plans/README.md)
+
+## Compléments du 2026-09-13
+
+Les parties [2](2026-09-13-video-montage-loc-iv-partie-2.md) et [3](2026-09-13-video-montage-loc-iv-partie-3.md) font désormais l’objet de notes distinctes. Voir aussi l’[aide au montage](../aides-a-la-tache/montage-chasse-galerie-1.md) et les [achats complémentaires](loc-iv-achats-complement-montage-videos.md).

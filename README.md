@@ -26,6 +26,8 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 
 ## Commencer
 
+Pour préparer l’assemblage, consulter l’[aide au montage illustrée](aides-a-la-tache/montage-chasse-galerie-1.md) et les [achats complémentaires par scénario](notes/loc-iv-achats-complement-montage-videos.md), issus des trois vidéos de montage.
+
 Pour construire et simuler toute la fusée, suivre l'[aide à la tâche OpenRocket pour débutants](aides-a-la-tache/debuter-openrocket-loc-iv.md), de l'arborescence complète aux résultats du vol.
 
 Pour apprendre à dessiner la fusée sans expérience préalable, suivre l'[aide à la tâche OpenSCAD pour débutants](aides-a-la-tache/debuter-openscad-loc-iv.md).
