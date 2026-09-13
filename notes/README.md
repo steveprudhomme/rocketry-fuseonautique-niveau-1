@@ -4,6 +4,8 @@ Notes de lecture, de rencontres et d’apprentissage. Utiliser le [gabarit de no
 
 ## Index
 
+- [Vidéo : montage LOC-IV, partie 1](2026-09-13-video-montage-loc-iv-partie-1.md) — 2026-09-13; synthèse française des sous-titres automatiques, repères temporels et vérifications pour Chasse Galerie 1. Pas une transcription intégrale.
+
 - [LOC-IV : comparaison des modèles externes](loc-iv-comparaison-modeles.md) — 2026-09-12; diagnostic historique et correction des ailerons en révision 1.1.
 - [LOC-IV : mesures du kit, masse et centre de gravité](loc-iv-mesures-kit.md) — fiche à remplir; aucune mesure physique confirmée.
 

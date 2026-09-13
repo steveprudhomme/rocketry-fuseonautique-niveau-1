@@ -1,5 +1,9 @@
 # Historique des changements
 
+## 2026-09-13 — Note sur la vidéo de montage LOC-IV, partie 1
+- Ajout d'une synthèse française basée sur les sous-titres automatiques de la vidéo de Dave Thomas (R.E.A.R.), avec repères temporels et limites de lecture.
+- Distinction entre la démonstration et Chasse Galerie 1; aucune modification des modèles à partir de la vidéo.
+
 ## 2026-09-12 — Nom du projet : Chasse Galerie 1
 - Attribution du nom Chasse Galerie 1 au projet et à la fusée; LOC-IV reste la référence du kit.
 - Mise à jour des index, aides, notes, noms OpenRocket, en-tête OpenSCAD et cartouche du plan d’ensemble (révision B).
