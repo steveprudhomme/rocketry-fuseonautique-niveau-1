@@ -68,7 +68,8 @@ En complément du plan paramétrique, Steve souhaite un **plan technique d'ensem
 
 - [x] Consigner l'[orientation retenue pour l'habillage](notes/chasse-galerie-1-decalque.md) : vinyle blanc opaque imprimé, laminage satiné compatible, fabrication chez un spécialiste et un morceau par section démontable. Produit et pose restent à valider sur échantillon.
 
-- [ ] Concevoir un décalque original pour **Chasse Galerie 1**, associant le thème de la chasse-galerie et celui du **drapeau du Québec**; préparer des propositions montrant le nom, les motifs et leur disposition sur la fusée.
+- [x] Concevoir trois [propositions originales de décalque](plans/decalques/README.md) pour **Chasse Galerie 1**, associant chasse-galerie et drapeau du Québec, avec nom, motifs et mises en situation sur la fusée.
+- [ ] Choisir avec Steve la proposition à développer, puis finaliser le dessin et les raccords sur les gabarits mesurés.
 - [ ] Mesurer les surfaces à décorer sur le kit et définir dimensions, emplacement, raccords et dégagements autour des ailerons, boutons de rail et jonctions démontables.
 - [ ] Comparer les moyens de fabrication et de pose (par exemple vinyle adhésif découpé ou imprimé, décalcomanie à l'eau, fournisseur spécialisé) : équipement, compatibilité avec la peinture et le vernis, tenue, coût et disponibilité.
 - [ ] Produire les sources modifiables, un fichier d'impression à l'échelle avec repère de contrôle et un aperçu sur la fusée; conserver les fichiers et leur notice dans `plans`.

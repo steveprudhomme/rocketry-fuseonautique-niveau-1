@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-09-13 — Trois propositions visuelles de décalque
+
+- Création des planches La traversée nocturne, Le sillage fleurdelisé et La légende gravée, avec développé illustratif et mises en situation sur la fusée.
+- Conservation des PNG et prompts dans `plans/decalques`; galerie et limites de fabrication documentées.
+- Tâche de conception des propositions terminée dans la feuille de route; choix du design et préparation à l’impression restent ouverts.
+
 ## 2026-09-13 — Orientation pour le décalque intégral du tube
 
 - Ajout du cahier d’intention : vinyle imprimé avec laminage satiné, thème chasse-galerie et Québec, gabarits par section, échantillon et pose à valider.

@@ -20,7 +20,7 @@ Le satiné est une préférence esthétique pour l'illustration nocturne. Confir
 - Fleurs de lys blanches et petit drapeau du Québec représenté fidèlement.
 - Nom **Chasse Galerie 1** lisible dans le sens de la longueur.
 
-Ces éléments forment le cahier d'intention; aucune illustration finale n'a encore été produite. Préparer une composition originale et conserver les sources et crédits des éléments utilisés.
+Trois [propositions illustrées](../plans/decalques/README.md) sont maintenant disponibles : La traversée nocturne, Le sillage fleurdelisé et La légende gravée. Elles montrent le développé et des mises en situation artistiques; le choix et le dessin final restent à valider. Les prompts de génération sont conservés avec les images.
 
 ## Gabarit et raccords
 
@@ -52,7 +52,7 @@ Cette séquence prépare le travail; le tutoriel illustré de fabrication et de 
 
 ## Fichiers et budget à préparer
 
-Conserver ultérieurement dans `plans/decalques/` la source graphique modifiable, le gabarit coté, le fichier accepté par l'imprimeur à l'échelle 1:1 et les aperçus. Ce dossier et ces fichiers restent à produire. Les textures numériques seront des exports distincts; leur utilisation dans SCAD, un autre logiciel 3D ou OpenRocket reste à tester.
+Conserver ultérieurement dans `plans/decalques/` la source graphique modifiable, le gabarit coté, le fichier accepté par l'imprimeur à l'échelle 1:1 et les aperçus. Le dossier contient actuellement les trois planches de concepts et leurs prompts; les sources de fabrication, le gabarit coté et le fichier prêt à imprimer restent à produire. Les textures numériques seront des exports distincts; leur utilisation dans SCAD, un autre logiciel 3D ou OpenRocket reste à tester.
 
 Ajouter au scénario S2 les postes détaillés du [complément d'achats, section D](loc-iv-achats-complement-montage-videos.md#d--habillage-imprimé-du-tube-option-de-finition-s2). Aucun prix ni total révisé n'est établi. Comparer le coût du lot fabriqué et posé à celui d'une pose personnelle, sans additionner ces deux options.
 
