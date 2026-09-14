@@ -1,0 +1,16 @@
+{
+  "statut": "PROVISOIRE - cotes du plan, tube non fini; accord Steve 2026-09-14",
+  "circonference_mesuree_mm": null,
+  "longueur_payload_mesuree_mm": null,
+  "longueur_booster_mesuree_mm": null,
+  "chevauchement_mm": 5.0,
+  "fond_perdu_mm": 3.0,
+  "retrait_extremites_mm": 0.5,
+  "bande_raccord_unie_mm": 8.0,
+  "fondu_raccord_mm": 4.0,
+  "angle_raccord_scad_deg": 60.0,
+  "texture_pixels_par_mm": 3.0,
+  "scad_colonnes": 128,
+  "scad_lignes": 346,
+  "commentaire": "Chevauchement, fonds perdus et retraits sont des choix de maquette à confirmer avec le poseur. Les positions des obstacles proviennent du SCAD et ne sont pas des cotes de découpe validées."
+}

@@ -1,7 +1,7 @@
 # Décalque Chasse Galerie 1 — Trois propositions
 
 - **Date :** 2026-09-13
-- **Statut :** **proposition 02 — Le sillage fleurdelisé retenue par Steve le 2026-09-13**; adaptation technique et fichier final pour impression à produire.
+- **Statut :** **proposition 02 — Le sillage fleurdelisé retenue par Steve le 2026-09-13**; [adaptation provisoire aux cotes du plan, épreuve et habillage SCAD/OpenRocket](sillage/README.md) disponibles le 2026-09-14. Fichier final pour fabrication à valider après mesures et amélioration de la résolution.
 - **Méthode :** images originales générées avec l'outil intégré `image_gen`; [prompts complets](prompts-generation.md) conservés. Aucun visuel tiers fourni comme référence.
 - **Intention :** [habillage en vinyle imprimé satiné](../../notes/chasse-galerie-1-decalque.md), thème chasse-galerie et drapeau du Québec.
 
@@ -41,6 +41,6 @@ Suite au choix de Steve :
 4. Produire le fichier à l'échelle demandé par l'imprimeur, puis une épreuve et un échantillon d'adhérence.
 5. Préparer séparément les textures et leur application aux modèles, selon la faisabilité logicielle vérifiée.
 
-Les PNG de cette galerie sont les livrables de conception actuels. Aucun prix, choix de fournisseur, essai de pose ou validation de texture n'est associé à ces images.
+Les PNG de cette galerie conservent les concepts initiaux. Les nouveaux gabarits, textures et modèles habillés sont dans [sillage](sillage/README.md). Aucun prix, choix de fournisseur, essai de pose ou validation de texture n'est associé à ces images.
 
 [Plans](../README.md) · [Feuille de route](../../ROADMAP.md)

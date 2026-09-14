@@ -1,6 +1,6 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-13. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-09-14. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
 ## Réalisé
 
@@ -70,7 +70,8 @@ En complément du plan paramétrique, Steve souhaite un **plan technique d'ensem
 
 - [x] Concevoir trois [propositions originales de décalque](plans/decalques/README.md) pour **Chasse Galerie 1**, associant chasse-galerie et drapeau du Québec, avec nom, motifs et mises en situation sur la fusée.
 - [x] Choisir la proposition à développer : **02 — Le sillage fleurdelisé**, retenue par Steve le 2026-09-13.
-- [ ] Finaliser le dessin du Sillage fleurdelisé et les raccords sur les gabarits mesurés.
+- [x] Préparer les [gabarits provisoires du Sillage fleurdelisé](plans/decalques/sillage/README.md) aux cotes du plan, avec raccord périodique, recouvrement, retraits et épreuve PDF 1:1; Steve confirme que le tube n’est pas encore fini.
+- [ ] Finaliser le dessin et les raccords sur les gabarits mesurés; remplacer ou reconstruire l’illustration de maquette (environ 61 ppp) pour atteindre la qualité d’impression requise, avec texte et drapeau nets.
 - [ ] Mesurer les surfaces à décorer sur le kit et définir dimensions, emplacement, raccords et dégagements autour des ailerons, boutons de rail et jonctions démontables.
 - [ ] Comparer les moyens de fabrication et de pose (par exemple vinyle adhésif découpé ou imprimé, décalcomanie à l'eau, fournisseur spécialisé) : équipement, compatibilité avec la peinture et le vernis, tenue, coût et disponibilité.
 - [ ] Produire les sources modifiables, un fichier d'impression à l'échelle avec repère de contrôle et un aperçu sur la fusée; conserver les fichiers et leur notice dans `plans`.
@@ -79,6 +80,9 @@ En complément du plan paramétrique, Steve souhaite un **plan technique d'ensem
 **Critère de fin :** design retenu, dimensions vérifiées, méthode essayée et coût ajouté au budget.
 
 ## Décoration numérique — Textures et aides à la tâche
+
+- [x] Livrer une [version OpenRocket 24.12 avec textures intégrées et un aperçu OpenSCAD 2021.01 en mosaïque colorée](plans/decalques/sillage/README.md); vérifier les rendus natifs, le raccord et la conservation des paramètres de simulation. La masse réelle du décor reste à mesurer.
+- [x] Documenter l’ouverture, les paramètres de texture, l’épreuve et la régénération des fichiers provisoires.
 
 - [ ] Vérifier séparément la possibilité d'appliquer une texture de décalque dans **OpenSCAD**, dans un **autre logiciel 3D à choisir**, et dans **OpenRocket**. Consigner versions testées, formats acceptés, limites et solutions de remplacement dans une note comparative; ne pas supposer que les trois logiciels offrent les mêmes fonctions.
 - [ ] Produire une texture issue du design retenu et les fichiers nécessaires à chaque logiciel compatible, en documentant résolution, transparence, échelle, orientation et raccord autour du tube.

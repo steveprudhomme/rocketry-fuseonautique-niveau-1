@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-09-14 — Sillage fleurdelisé : gabarits et habillage 3D provisoires
+
+- Adaptation aux cotes du plan demandée par Steve, le tube n’étant pas encore fini; source artistique adaptée et raccord périodique paramétré.
+- Deux panneaux SVG avec fonds perdus, épreuve PDF 1:1, textures embarquées dans une copie OpenRocket et aperçu SCAD par tesselles colorées.
+- Compilation CSG, rendus natifs, intégrité des textures et conservation des paramètres physiques vérifiés; générateur, contrôles et notice fournis.
+- Mesures réelles, qualité finale de l’illustration (source actuelle environ 61 ppp), masse du décor et accord de l’imprimeur restent à établir.
+
 ## 2026-09-13 — Choix du Sillage fleurdelisé
 
 - Steve retient la proposition 02 pour le décalque de Chasse Galerie 1; les deux autres pistes restent archivées dans la galerie.

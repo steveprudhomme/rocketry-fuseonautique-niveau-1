@@ -26,7 +26,7 @@ Ce carnet personnel n’est pas une publication officielle de l’association. L
 
 ## Commencer
 
-La [note sur le décalque Chasse Galerie 1](notes/chasse-galerie-1-decalque.md) présente l’habillage imprimé retenu comme orientation, le thème visuel et les étapes avant fabrication. Consulter les [trois propositions de design](plans/decalques/README.md) ; **Le sillage fleurdelisé (02)** est le design retenu.
+La [note sur le décalque Chasse Galerie 1](notes/chasse-galerie-1-decalque.md) présente l’habillage imprimé retenu comme orientation, le thème visuel et les étapes avant fabrication. Consulter les [trois propositions de design](plans/decalques/README.md) ; **Le sillage fleurdelisé (02)** est le design retenu. Ses [gabarits provisoires et modèles habillés](plans/decalques/sillage/README.md) sont disponibles aux cotes du plan.
 
 Pour préparer l’assemblage, consulter l’[aide au montage illustrée](aides-a-la-tache/montage-chasse-galerie-1.md) et les [achats complémentaires par scénario](notes/loc-iv-achats-complement-montage-videos.md), issus des trois vidéos de montage.
 

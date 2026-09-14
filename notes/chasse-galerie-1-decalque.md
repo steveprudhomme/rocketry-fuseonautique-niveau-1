@@ -1,6 +1,6 @@
 # Chasse Galerie 1 — Habillage imprimé du tube
 
-- **Date :** 2026-09-13
+- **Date :** 2026-09-14 (choix artistique du 2026-09-13)
 - **Statut :** **Le sillage fleurdelisé (proposition 02) choisi par Steve le 2026-09-13**; dessin de fabrication, produit, dimensions, devis et pose à valider.
 - **Périmètre :** extérieur des sections cylindriques du corps. Ogive et ailerons : finition assortie à définir séparément.
 
@@ -24,6 +24,8 @@ Le satiné est une préférence esthétique pour l'illustration nocturne. Confir
 Trois [propositions illustrées](../plans/decalques/README.md) sont maintenant disponibles : La traversée nocturne, Le sillage fleurdelisé et La légende gravée. **Le sillage fleurdelisé est retenu**; les deux autres pistes sont conservées pour mémoire. Les planches montrent le développé et des mises en situation artistiques; le dessin final aux dimensions mesurées reste à produire. Les prompts de génération sont conservés avec les images.
 
 ## Gabarit et raccords
+
+**Révision provisoire disponible :** Steve précise que le tube n’est pas fini et demande de se fier au plan. Les [gabarits 1:1, textures OpenRocket et aperçu OpenSCAD](../plans/decalques/sillage/README.md) sont produits à partir du diamètre nominal de 101,6 mm et des longueurs 279,4 / 584,2 mm. Recouvrement 5 mm, fonds perdus 3 mm et retrait 0,5 mm par extrémité sont des choix de maquette. La source artistique actuelle est à environ 61 ppp : épreuve et placement uniquement, qualité finale à reprendre avec l’imprimeur.
 
 Créer un dessin à plat par section démontable, avec continuité visuelle entre les sections. La largeur utile est la **circonférence mesurée sur le tube fini**; ajouter seulement le chevauchement et les fonds perdus convenus avec l'imprimeur. La mention « 4 po » et les cotes SCAD ne sont pas des dimensions de commande.
 
@@ -53,7 +55,7 @@ Cette séquence prépare le travail; le tutoriel illustré de fabrication et de 
 
 ## Fichiers et budget à préparer
 
-Conserver ultérieurement dans `plans/decalques/` la source graphique modifiable, le gabarit coté, le fichier accepté par l'imprimeur à l'échelle 1:1 et les aperçus. Le dossier contient actuellement les trois planches de concepts et leurs prompts; les sources de fabrication, le gabarit coté et le fichier prêt à imprimer restent à produire. Les textures numériques seront des exports distincts; leur utilisation dans SCAD, un autre logiciel 3D ou OpenRocket reste à tester.
+Conserver ultérieurement dans `plans/decalques/` la source graphique modifiable, le gabarit coté, le fichier accepté par l'imprimeur à l'échelle 1:1 et les aperçus. Le dossier contient les trois concepts, leurs prompts et la révision provisoire dans `sillage/` : SVG avec fonds perdus, PDF coté, configuration, générateur, textures PNG, archive OpenRocket et mosaïque OpenSCAD. Le fichier final pour fabrication reste à valider après mesures et amélioration de l’illustration. OpenRocket et l’aperçu OpenSCAD ont été testés; un autre logiciel 3D reste à étudier.
 
 Ajouter au scénario S2 les postes détaillés du [complément d'achats, section D](loc-iv-achats-complement-montage-videos.md#d--habillage-imprimé-du-tube-option-de-finition-s2). Aucun prix ni total révisé n'est établi. Comparer le coût du lot fabriqué et posé à celui d'une pose personnelle, sans additionner ces deux options.
 

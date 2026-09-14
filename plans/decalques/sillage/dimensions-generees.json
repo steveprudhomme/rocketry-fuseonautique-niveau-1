@@ -1,0 +1,19 @@
+{
+  "date": "2026-09-14",
+  "statut": "PROVISOIRE - cotes du plan, tube non fini; accord Steve 2026-09-14",
+  "circonference_mm": 319.18581360472297,
+  "diametre_mm": 101.6,
+  "payload_mm": 279.4,
+  "booster_mm": 584.2,
+  "chevauchement_mm": 5.0,
+  "fond_perdu_mm": 3.0,
+  "retrait_mm": 0.5,
+  "image_source_pixels": [
+    763,
+    2062
+  ],
+  "resolution_source_ppp": 60.71761078955807,
+  "source_scad_sha256": "ad95a6dc01586eff35f2201ae52d48c296e21abe0278c92177639d71d3fcda6e",
+  "tesselles_scad": 44288,
+  "couleurs_scad": 74
+}

@@ -1,0 +1,11 @@
+# Adaptation du Sillage fleurdelisé
+
+Image produite avec l'outil intégré `image_gen`, à partir de `../proposition-02-sillage-fleurdelise.png`, inspecté avant modification. L'image générée est conservée sans retouche dans `illustration-source.png`. Les gabarits, fonds perdus et raccords sont construits séparément par le générateur de documents.
+
+## Prompt utilisé
+
+Edit the provided selected concept "Le sillage fleurdelisé": deliver ONLY its flat full-wrap artwork, no presentation board, no rocket mockups, no captions, no margins. Tall portrait image, aspect ratio approximately 1:2.706 (ideally 1024x2768 or nearest supported). Recompose the left artwork preserving its visual identity: royal blue and navy, flying canoe voyageurs in silhouette high up in front of pale moon, sweeping WHITE winding wake ribbon, white fleurs-de-lys, forest and river low down. Exact prominent white lettering "Chasse Galerie 1" in two lines, centered around 50 percent height, with a faithful small Quebec flag immediately above. Flag must have centered white upright cross and four upright white fleur-de-lys one in each blue quadrant. Keep all lettering/flag/canoe in central 65 percent width. CRITICAL WRAP SEAM: leftmost and rightmost 6 percent width must be SAME SOLID DEEP NAVY (#082a55) for the ENTIRE HEIGHT, art fades smoothly into these edges; no white ribbon, stars, trees, lines or features touching side edges. This deliberate quiet seam enables cylindrical wrap with no broken picture. Keep a quiet blue horizontal region at 32.35 percent of height for the separation of two physical tube sections: canoe entirely above 29 percent, flag entirely below 36 percent. No cut marks, no seam lines in artwork. Maintain bold graphic illustration, no photorealism, no dimensions, no extra text. Image is the adapted decorative artwork only.
+
+## Contrôle du résultat
+
+Le rendu reçu mesure 763 × 2062 pixels. Le raccord uni demandé n'était pas garanti pixel par pixel par la génération; il est donc défini exactement par les bandes et fondus du document paramétrique. Le sillage traverse la séparation haute/basse : sa continuité est obtenue par deux fenêtres dans une seule composition, sans déplacer indépendamment les motifs. Les limites de résolution et de fabrication sont détaillées dans la notice.
