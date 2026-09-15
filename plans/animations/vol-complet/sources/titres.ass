@@ -1,0 +1,359 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Arial,44,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,-1,0,0,0,100,100,1,0,1,2,1,7,65,65,45,1
+Style: Data,Arial,30,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,0,0,0,0,100,100,0,0,3,9,0,7,65,65,110,1
+Style: Footer,Arial,23,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,0,0,0,0,100,100,0,0,3,7,0,1,65,65,45,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:34.50,Title,,0,0,0,,CHASSE GALERIE 1  |  VOL COMPLET
+Dialogue: 0,0:00:00.00,0:00:34.50,Footer,,0,0,0,,OpenRocket · H143 · apogée idéale · modèle provisoire\NPaysage, fumée et déploiement illustratifs — vent nul
+Dialogue: 0,0:00:00.00,0:00:00.10,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.10,0:00:00.20,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.20,0:00:00.30,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.30,0:00:00.40,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.40,0:00:00.50,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.50,0:00:00.60,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.60,0:00:00.70,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.70,0:00:00.80,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.80,0:00:00.90,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:00.90,0:00:01.00,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.00,0:00:01.10,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.10,0:00:01.20,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.20,0:00:01.30,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.30,0:00:01.40,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.40,0:00:01.50,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.50,0:00:01.60,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.60,0:00:01.70,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.70,0:00:01.80,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.80,0:00:01.90,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:01.90,0:00:02.00,Data,,0,0,0,,SUR LA RAMPE   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:02.00,0:00:02.10,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.0 s    |    000.0 m    |    000.0 m/s
+Dialogue: 0,0:00:02.10,0:00:02.20,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.1 s    |    000.2 m    |    005.0 m/s
+Dialogue: 0,0:00:02.20,0:00:02.30,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.2 s    |    001.1 m    |    013.3 m/s
+Dialogue: 0,0:00:02.30,0:00:02.40,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.3 s    |    002.9 m    |    022.5 m/s
+Dialogue: 0,0:00:02.40,0:00:02.50,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.4 s    |    005.6 m    |    032.2 m/s
+Dialogue: 0,0:00:02.50,0:00:02.60,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.5 s    |    009.3 m    |    042.3 m/s
+Dialogue: 0,0:00:02.60,0:00:02.70,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.6 s    |    014.1 m    |    052.7 m/s
+Dialogue: 0,0:00:02.70,0:00:02.80,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.7 s    |    019.9 m    |    063.2 m/s
+Dialogue: 0,0:00:02.80,0:00:02.90,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.8 s    |    026.7 m    |    073.9 m/s
+Dialogue: 0,0:00:02.90,0:00:03.00,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 000.9 s    |    034.6 m    |    084.6 m/s
+Dialogue: 0,0:00:03.00,0:00:03.10,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.0 s    |    043.6 m    |    095.1 m/s
+Dialogue: 0,0:00:03.10,0:00:03.20,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.1 s    |    053.7 m    |    105.4 m/s
+Dialogue: 0,0:00:03.20,0:00:03.30,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.2 s    |    064.7 m    |    115.2 m/s
+Dialogue: 0,0:00:03.30,0:00:03.40,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.3 s    |    076.7 m    |    124.4 m/s
+Dialogue: 0,0:00:03.40,0:00:03.50,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.4 s    |    089.5 m    |    132.7 m/s
+Dialogue: 0,0:00:03.50,0:00:03.60,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.5 s    |    103.2 m    |    140.0 m/s
+Dialogue: 0,0:00:03.60,0:00:03.70,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.6 s    |    117.5 m    |    146.3 m/s
+Dialogue: 0,0:00:03.70,0:00:03.80,Data,,0,0,0,,PROPULSION   ·   TEMPS RÉEL\Nt + 001.7 s    |    132.3 m    |    149.1 m/s
+Dialogue: 0,0:00:03.80,0:00:03.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 001.8 s    |    147.0 m    |    144.6 m/s
+Dialogue: 0,0:00:03.90,0:00:04.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 001.9 s    |    161.3 m    |    140.0 m/s
+Dialogue: 0,0:00:04.00,0:00:04.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.0 s    |    175.0 m    |    135.6 m/s
+Dialogue: 0,0:00:04.10,0:00:04.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.1 s    |    188.4 m    |    131.4 m/s
+Dialogue: 0,0:00:04.20,0:00:04.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.2 s    |    201.3 m    |    127.4 m/s
+Dialogue: 0,0:00:04.30,0:00:04.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.3 s    |    213.9 m    |    123.7 m/s
+Dialogue: 0,0:00:04.40,0:00:04.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.4 s    |    226.1 m    |    120.1 m/s
+Dialogue: 0,0:00:04.50,0:00:04.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.5 s    |    237.9 m    |    116.6 m/s
+Dialogue: 0,0:00:04.60,0:00:04.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.6 s    |    249.4 m    |    113.3 m/s
+Dialogue: 0,0:00:04.70,0:00:04.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.7 s    |    260.6 m    |    110.2 m/s
+Dialogue: 0,0:00:04.80,0:00:04.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.8 s    |    271.4 m    |    107.1 m/s
+Dialogue: 0,0:00:04.90,0:00:05.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 002.9 s    |    282.0 m    |    104.2 m/s
+Dialogue: 0,0:00:05.00,0:00:05.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.0 s    |    292.3 m    |    101.4 m/s
+Dialogue: 0,0:00:05.10,0:00:05.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.1 s    |    302.3 m    |    098.7 m/s
+Dialogue: 0,0:00:05.20,0:00:05.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.2 s    |    312.0 m    |    096.1 m/s
+Dialogue: 0,0:00:05.30,0:00:05.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.3 s    |    321.5 m    |    093.5 m/s
+Dialogue: 0,0:00:05.40,0:00:05.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.4 s    |    330.7 m    |    091.1 m/s
+Dialogue: 0,0:00:05.50,0:00:05.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.5 s    |    339.7 m    |    088.7 m/s
+Dialogue: 0,0:00:05.60,0:00:05.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.6 s    |    348.5 m    |    086.4 m/s
+Dialogue: 0,0:00:05.70,0:00:05.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.7 s    |    357.0 m    |    084.2 m/s
+Dialogue: 0,0:00:05.80,0:00:05.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.8 s    |    365.3 m    |    082.1 m/s
+Dialogue: 0,0:00:05.90,0:00:06.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 003.9 s    |    373.4 m    |    080.0 m/s
+Dialogue: 0,0:00:06.00,0:00:06.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.0 s    |    381.3 m    |    077.9 m/s
+Dialogue: 0,0:00:06.10,0:00:06.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.1 s    |    389.0 m    |    075.9 m/s
+Dialogue: 0,0:00:06.20,0:00:06.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.2 s    |    396.5 m    |    074.0 m/s
+Dialogue: 0,0:00:06.30,0:00:06.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.3 s    |    403.8 m    |    072.1 m/s
+Dialogue: 0,0:00:06.40,0:00:06.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.4 s    |    410.9 m    |    070.3 m/s
+Dialogue: 0,0:00:06.50,0:00:06.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.5 s    |    417.9 m    |    068.5 m/s
+Dialogue: 0,0:00:06.60,0:00:06.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.6 s    |    424.6 m    |    066.7 m/s
+Dialogue: 0,0:00:06.70,0:00:06.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.7 s    |    431.2 m    |    065.0 m/s
+Dialogue: 0,0:00:06.80,0:00:06.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.8 s    |    437.6 m    |    063.4 m/s
+Dialogue: 0,0:00:06.90,0:00:07.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 004.9 s    |    443.9 m    |    061.7 m/s
+Dialogue: 0,0:00:07.00,0:00:07.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.0 s    |    450.0 m    |    060.1 m/s
+Dialogue: 0,0:00:07.10,0:00:07.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.1 s    |    455.9 m    |    058.6 m/s
+Dialogue: 0,0:00:07.20,0:00:07.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.2 s    |    461.7 m    |    057.0 m/s
+Dialogue: 0,0:00:07.30,0:00:07.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.3 s    |    467.3 m    |    055.5 m/s
+Dialogue: 0,0:00:07.40,0:00:07.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.4 s    |    472.8 m    |    054.0 m/s
+Dialogue: 0,0:00:07.50,0:00:07.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.5 s    |    478.1 m    |    052.6 m/s
+Dialogue: 0,0:00:07.60,0:00:07.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.6 s    |    483.3 m    |    051.2 m/s
+Dialogue: 0,0:00:07.70,0:00:07.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.7 s    |    488.4 m    |    049.8 m/s
+Dialogue: 0,0:00:07.80,0:00:07.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.8 s    |    493.3 m    |    048.4 m/s
+Dialogue: 0,0:00:07.90,0:00:08.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 005.9 s    |    498.0 m    |    047.0 m/s
+Dialogue: 0,0:00:08.00,0:00:08.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.0 s    |    502.7 m    |    045.7 m/s
+Dialogue: 0,0:00:08.10,0:00:08.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.1 s    |    507.2 m    |    044.4 m/s
+Dialogue: 0,0:00:08.20,0:00:08.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.2 s    |    511.5 m    |    043.1 m/s
+Dialogue: 0,0:00:08.30,0:00:08.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.3 s    |    515.8 m    |    041.8 m/s
+Dialogue: 0,0:00:08.40,0:00:08.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.4 s    |    519.9 m    |    040.5 m/s
+Dialogue: 0,0:00:08.50,0:00:08.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.5 s    |    523.9 m    |    039.3 m/s
+Dialogue: 0,0:00:08.60,0:00:08.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.6 s    |    527.8 m    |    038.1 m/s
+Dialogue: 0,0:00:08.70,0:00:08.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.7 s    |    531.5 m    |    036.8 m/s
+Dialogue: 0,0:00:08.80,0:00:08.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.8 s    |    535.1 m    |    035.6 m/s
+Dialogue: 0,0:00:08.90,0:00:09.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 006.9 s    |    538.6 m    |    034.5 m/s
+Dialogue: 0,0:00:09.00,0:00:09.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.0 s    |    542.0 m    |    033.3 m/s
+Dialogue: 0,0:00:09.10,0:00:09.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.1 s    |    545.3 m    |    032.1 m/s
+Dialogue: 0,0:00:09.20,0:00:09.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.2 s    |    548.5 m    |    031.0 m/s
+Dialogue: 0,0:00:09.30,0:00:09.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.3 s    |    551.5 m    |    029.9 m/s
+Dialogue: 0,0:00:09.40,0:00:09.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.4 s    |    554.4 m    |    028.7 m/s
+Dialogue: 0,0:00:09.50,0:00:09.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.5 s    |    557.2 m    |    027.6 m/s
+Dialogue: 0,0:00:09.60,0:00:09.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.6 s    |    560.0 m    |    026.5 m/s
+Dialogue: 0,0:00:09.70,0:00:09.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.7 s    |    562.6 m    |    025.4 m/s
+Dialogue: 0,0:00:09.80,0:00:09.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.8 s    |    565.0 m    |    024.4 m/s
+Dialogue: 0,0:00:09.90,0:00:10.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 007.9 s    |    567.4 m    |    023.3 m/s
+Dialogue: 0,0:00:10.00,0:00:10.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.0 s    |    569.7 m    |    022.2 m/s
+Dialogue: 0,0:00:10.10,0:00:10.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.1 s    |    571.9 m    |    021.2 m/s
+Dialogue: 0,0:00:10.20,0:00:10.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.2 s    |    573.9 m    |    020.1 m/s
+Dialogue: 0,0:00:10.30,0:00:10.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.3 s    |    575.9 m    |    019.1 m/s
+Dialogue: 0,0:00:10.40,0:00:10.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.4 s    |    577.7 m    |    018.0 m/s
+Dialogue: 0,0:00:10.50,0:00:10.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.5 s    |    579.5 m    |    017.0 m/s
+Dialogue: 0,0:00:10.60,0:00:10.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.6 s    |    581.1 m    |    016.0 m/s
+Dialogue: 0,0:00:10.70,0:00:10.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.7 s    |    582.7 m    |    015.0 m/s
+Dialogue: 0,0:00:10.80,0:00:10.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.8 s    |    584.1 m    |    013.9 m/s
+Dialogue: 0,0:00:10.90,0:00:11.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 008.9 s    |    585.5 m    |    012.9 m/s
+Dialogue: 0,0:00:11.00,0:00:11.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.0 s    |    586.7 m    |    011.9 m/s
+Dialogue: 0,0:00:11.10,0:00:11.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.1 s    |    587.9 m    |    010.9 m/s
+Dialogue: 0,0:00:11.20,0:00:11.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.2 s    |    588.9 m    |    009.9 m/s
+Dialogue: 0,0:00:11.30,0:00:11.40,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.3 s    |    589.9 m    |    008.9 m/s
+Dialogue: 0,0:00:11.40,0:00:11.50,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.4 s    |    590.7 m    |    007.9 m/s
+Dialogue: 0,0:00:11.50,0:00:11.60,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.5 s    |    591.4 m    |    006.9 m/s
+Dialogue: 0,0:00:11.60,0:00:11.70,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.6 s    |    592.1 m    |    006.0 m/s
+Dialogue: 0,0:00:11.70,0:00:11.80,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.7 s    |    592.6 m    |    005.0 m/s
+Dialogue: 0,0:00:11.80,0:00:11.90,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.8 s    |    593.1 m    |    004.0 m/s
+Dialogue: 0,0:00:11.90,0:00:12.00,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 009.9 s    |    593.4 m    |    003.0 m/s
+Dialogue: 0,0:00:12.00,0:00:12.10,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 010.0 s    |    593.7 m    |    002.0 m/s
+Dialogue: 0,0:00:12.10,0:00:12.20,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 010.1 s    |    593.8 m    |    001.0 m/s
+Dialogue: 0,0:00:12.20,0:00:12.30,Data,,0,0,0,,MONTÉE BALISTIQUE   ·   TEMPS RÉEL\Nt + 010.2 s    |    593.9 m    |    000.1 m/s
+Dialogue: 0,0:00:12.30,0:00:12.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.3 s    |    593.8 m    |    000.9 m/s
+Dialogue: 0,0:00:12.40,0:00:12.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.4 s    |    593.7 m    |    001.9 m/s
+Dialogue: 0,0:00:12.50,0:00:12.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.5 s    |    593.5 m    |    002.8 m/s
+Dialogue: 0,0:00:12.60,0:00:12.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.6 s    |    593.2 m    |    003.6 m/s
+Dialogue: 0,0:00:12.70,0:00:12.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.7 s    |    592.8 m    |    004.2 m/s
+Dialogue: 0,0:00:12.80,0:00:12.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.8 s    |    592.3 m    |    004.8 m/s
+Dialogue: 0,0:00:12.90,0:00:13.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 010.9 s    |    591.8 m    |    005.3 m/s
+Dialogue: 0,0:00:13.00,0:00:13.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.0 s    |    591.3 m    |    005.6 m/s
+Dialogue: 0,0:00:13.10,0:00:13.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.1 s    |    590.7 m    |    005.8 m/s
+Dialogue: 0,0:00:13.20,0:00:13.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.2 s    |    590.1 m    |    006.0 m/s
+Dialogue: 0,0:00:13.30,0:00:13.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.3 s    |    589.5 m    |    006.2 m/s
+Dialogue: 0,0:00:13.40,0:00:13.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.4 s    |    588.9 m    |    006.3 m/s
+Dialogue: 0,0:00:13.50,0:00:13.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.5 s    |    588.2 m    |    006.3 m/s
+Dialogue: 0,0:00:13.60,0:00:13.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.6 s    |    587.6 m    |    006.3 m/s
+Dialogue: 0,0:00:13.70,0:00:13.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.7 s    |    587.0 m    |    006.3 m/s
+Dialogue: 0,0:00:13.80,0:00:13.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.8 s    |    586.3 m    |    006.3 m/s
+Dialogue: 0,0:00:13.90,0:00:14.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 011.9 s    |    585.7 m    |    006.3 m/s
+Dialogue: 0,0:00:14.00,0:00:14.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 012.0 s    |    585.1 m    |    006.3 m/s
+Dialogue: 0,0:00:14.10,0:00:14.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 012.1 s    |    584.5 m    |    006.3 m/s
+Dialogue: 0,0:00:14.20,0:00:14.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 012.2 s    |    583.8 m    |    006.3 m/s
+Dialogue: 0,0:00:14.30,0:00:14.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 012.6 s    |    581.5 m    |    006.3 m/s
+Dialogue: 0,0:00:14.40,0:00:14.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 013.2 s    |    577.8 m    |    006.3 m/s
+Dialogue: 0,0:00:14.50,0:00:14.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 013.8 s    |    574.0 m    |    006.3 m/s
+Dialogue: 0,0:00:14.60,0:00:14.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 014.4 s    |    570.3 m    |    006.3 m/s
+Dialogue: 0,0:00:14.70,0:00:14.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 015.0 s    |    566.5 m    |    006.3 m/s
+Dialogue: 0,0:00:14.80,0:00:14.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 015.6 s    |    562.8 m    |    006.3 m/s
+Dialogue: 0,0:00:14.90,0:00:15.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 016.2 s    |    559.0 m    |    006.2 m/s
+Dialogue: 0,0:00:15.00,0:00:15.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 016.8 s    |    555.3 m    |    006.2 m/s
+Dialogue: 0,0:00:15.10,0:00:15.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 017.4 s    |    551.5 m    |    006.2 m/s
+Dialogue: 0,0:00:15.20,0:00:15.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 018.0 s    |    547.8 m    |    006.2 m/s
+Dialogue: 0,0:00:15.30,0:00:15.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 018.6 s    |    544.0 m    |    006.2 m/s
+Dialogue: 0,0:00:15.40,0:00:15.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 019.2 s    |    540.3 m    |    006.2 m/s
+Dialogue: 0,0:00:15.50,0:00:15.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 019.8 s    |    536.5 m    |    006.2 m/s
+Dialogue: 0,0:00:15.60,0:00:15.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 020.4 s    |    532.8 m    |    006.2 m/s
+Dialogue: 0,0:00:15.70,0:00:15.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 021.0 s    |    529.0 m    |    006.2 m/s
+Dialogue: 0,0:00:15.80,0:00:15.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 021.6 s    |    525.3 m    |    006.2 m/s
+Dialogue: 0,0:00:15.90,0:00:16.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 022.2 s    |    521.6 m    |    006.2 m/s
+Dialogue: 0,0:00:16.00,0:00:16.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 022.8 s    |    517.8 m    |    006.2 m/s
+Dialogue: 0,0:00:16.10,0:00:16.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 023.4 s    |    514.1 m    |    006.2 m/s
+Dialogue: 0,0:00:16.20,0:00:16.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 024.0 s    |    510.3 m    |    006.2 m/s
+Dialogue: 0,0:00:16.30,0:00:16.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 024.6 s    |    506.6 m    |    006.2 m/s
+Dialogue: 0,0:00:16.40,0:00:16.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 025.2 s    |    502.9 m    |    006.2 m/s
+Dialogue: 0,0:00:16.50,0:00:16.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 025.8 s    |    499.1 m    |    006.2 m/s
+Dialogue: 0,0:00:16.60,0:00:16.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 026.4 s    |    495.4 m    |    006.2 m/s
+Dialogue: 0,0:00:16.70,0:00:16.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 027.0 s    |    491.6 m    |    006.2 m/s
+Dialogue: 0,0:00:16.80,0:00:16.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 027.6 s    |    487.9 m    |    006.2 m/s
+Dialogue: 0,0:00:16.90,0:00:17.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 028.2 s    |    484.2 m    |    006.2 m/s
+Dialogue: 0,0:00:17.00,0:00:17.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 028.8 s    |    480.4 m    |    006.2 m/s
+Dialogue: 0,0:00:17.10,0:00:17.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 029.4 s    |    476.7 m    |    006.2 m/s
+Dialogue: 0,0:00:17.20,0:00:17.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 030.0 s    |    473.0 m    |    006.2 m/s
+Dialogue: 0,0:00:17.30,0:00:17.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 030.6 s    |    469.2 m    |    006.2 m/s
+Dialogue: 0,0:00:17.40,0:00:17.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 031.2 s    |    465.5 m    |    006.2 m/s
+Dialogue: 0,0:00:17.50,0:00:17.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 031.8 s    |    461.8 m    |    006.2 m/s
+Dialogue: 0,0:00:17.60,0:00:17.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 032.4 s    |    458.0 m    |    006.2 m/s
+Dialogue: 0,0:00:17.70,0:00:17.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 033.0 s    |    454.3 m    |    006.2 m/s
+Dialogue: 0,0:00:17.80,0:00:17.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 033.6 s    |    450.6 m    |    006.2 m/s
+Dialogue: 0,0:00:17.90,0:00:18.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 034.2 s    |    446.8 m    |    006.2 m/s
+Dialogue: 0,0:00:18.00,0:00:18.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 034.8 s    |    443.1 m    |    006.2 m/s
+Dialogue: 0,0:00:18.10,0:00:18.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 035.4 s    |    439.4 m    |    006.2 m/s
+Dialogue: 0,0:00:18.20,0:00:18.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 036.0 s    |    435.6 m    |    006.2 m/s
+Dialogue: 0,0:00:18.30,0:00:18.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 036.6 s    |    431.9 m    |    006.2 m/s
+Dialogue: 0,0:00:18.40,0:00:18.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 037.2 s    |    428.2 m    |    006.2 m/s
+Dialogue: 0,0:00:18.50,0:00:18.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 037.8 s    |    424.5 m    |    006.2 m/s
+Dialogue: 0,0:00:18.60,0:00:18.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 038.4 s    |    420.7 m    |    006.2 m/s
+Dialogue: 0,0:00:18.70,0:00:18.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 039.0 s    |    417.0 m    |    006.2 m/s
+Dialogue: 0,0:00:18.80,0:00:18.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 039.6 s    |    413.3 m    |    006.2 m/s
+Dialogue: 0,0:00:18.90,0:00:19.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 040.2 s    |    409.6 m    |    006.2 m/s
+Dialogue: 0,0:00:19.00,0:00:19.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 040.8 s    |    405.9 m    |    006.2 m/s
+Dialogue: 0,0:00:19.10,0:00:19.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 041.4 s    |    402.1 m    |    006.2 m/s
+Dialogue: 0,0:00:19.20,0:00:19.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 042.0 s    |    398.4 m    |    006.2 m/s
+Dialogue: 0,0:00:19.30,0:00:19.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 042.6 s    |    394.7 m    |    006.2 m/s
+Dialogue: 0,0:00:19.40,0:00:19.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 043.2 s    |    391.0 m    |    006.2 m/s
+Dialogue: 0,0:00:19.50,0:00:19.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 043.8 s    |    387.3 m    |    006.2 m/s
+Dialogue: 0,0:00:19.60,0:00:19.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 044.4 s    |    383.5 m    |    006.2 m/s
+Dialogue: 0,0:00:19.70,0:00:19.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 045.0 s    |    379.8 m    |    006.2 m/s
+Dialogue: 0,0:00:19.80,0:00:19.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 045.6 s    |    376.1 m    |    006.2 m/s
+Dialogue: 0,0:00:19.90,0:00:20.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 046.2 s    |    372.4 m    |    006.2 m/s
+Dialogue: 0,0:00:20.00,0:00:20.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 046.8 s    |    368.7 m    |    006.2 m/s
+Dialogue: 0,0:00:20.10,0:00:20.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 047.4 s    |    365.0 m    |    006.2 m/s
+Dialogue: 0,0:00:20.20,0:00:20.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 048.0 s    |    361.2 m    |    006.2 m/s
+Dialogue: 0,0:00:20.30,0:00:20.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 048.6 s    |    357.5 m    |    006.2 m/s
+Dialogue: 0,0:00:20.40,0:00:20.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 049.2 s    |    353.8 m    |    006.2 m/s
+Dialogue: 0,0:00:20.50,0:00:20.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 049.8 s    |    350.1 m    |    006.2 m/s
+Dialogue: 0,0:00:20.60,0:00:20.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 050.4 s    |    346.4 m    |    006.2 m/s
+Dialogue: 0,0:00:20.70,0:00:20.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 051.0 s    |    342.7 m    |    006.2 m/s
+Dialogue: 0,0:00:20.80,0:00:20.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 051.6 s    |    339.0 m    |    006.2 m/s
+Dialogue: 0,0:00:20.90,0:00:21.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 052.2 s    |    335.3 m    |    006.2 m/s
+Dialogue: 0,0:00:21.00,0:00:21.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 052.8 s    |    331.6 m    |    006.2 m/s
+Dialogue: 0,0:00:21.10,0:00:21.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 053.4 s    |    327.8 m    |    006.2 m/s
+Dialogue: 0,0:00:21.20,0:00:21.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 054.0 s    |    324.1 m    |    006.2 m/s
+Dialogue: 0,0:00:21.30,0:00:21.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 054.6 s    |    320.4 m    |    006.2 m/s
+Dialogue: 0,0:00:21.40,0:00:21.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 055.2 s    |    316.7 m    |    006.2 m/s
+Dialogue: 0,0:00:21.50,0:00:21.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 055.8 s    |    313.0 m    |    006.2 m/s
+Dialogue: 0,0:00:21.60,0:00:21.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 056.4 s    |    309.3 m    |    006.2 m/s
+Dialogue: 0,0:00:21.70,0:00:21.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 057.0 s    |    305.6 m    |    006.2 m/s
+Dialogue: 0,0:00:21.80,0:00:21.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 057.6 s    |    301.9 m    |    006.2 m/s
+Dialogue: 0,0:00:21.90,0:00:22.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 058.2 s    |    298.2 m    |    006.2 m/s
+Dialogue: 0,0:00:22.00,0:00:22.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 058.8 s    |    294.5 m    |    006.2 m/s
+Dialogue: 0,0:00:22.10,0:00:22.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 059.4 s    |    290.8 m    |    006.2 m/s
+Dialogue: 0,0:00:22.20,0:00:22.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 060.0 s    |    287.1 m    |    006.2 m/s
+Dialogue: 0,0:00:22.30,0:00:22.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 060.6 s    |    283.4 m    |    006.2 m/s
+Dialogue: 0,0:00:22.40,0:00:22.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 061.2 s    |    279.7 m    |    006.2 m/s
+Dialogue: 0,0:00:22.50,0:00:22.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 061.8 s    |    276.0 m    |    006.2 m/s
+Dialogue: 0,0:00:22.60,0:00:22.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 062.4 s    |    272.3 m    |    006.2 m/s
+Dialogue: 0,0:00:22.70,0:00:22.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 063.0 s    |    268.6 m    |    006.2 m/s
+Dialogue: 0,0:00:22.80,0:00:22.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 063.6 s    |    264.9 m    |    006.2 m/s
+Dialogue: 0,0:00:22.90,0:00:23.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 064.2 s    |    261.2 m    |    006.2 m/s
+Dialogue: 0,0:00:23.00,0:00:23.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 064.8 s    |    257.5 m    |    006.2 m/s
+Dialogue: 0,0:00:23.10,0:00:23.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 065.4 s    |    253.8 m    |    006.2 m/s
+Dialogue: 0,0:00:23.20,0:00:23.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 066.0 s    |    250.1 m    |    006.2 m/s
+Dialogue: 0,0:00:23.30,0:00:23.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 066.6 s    |    246.4 m    |    006.2 m/s
+Dialogue: 0,0:00:23.40,0:00:23.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 067.2 s    |    242.7 m    |    006.2 m/s
+Dialogue: 0,0:00:23.50,0:00:23.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 067.8 s    |    239.0 m    |    006.2 m/s
+Dialogue: 0,0:00:23.60,0:00:23.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 068.4 s    |    235.4 m    |    006.2 m/s
+Dialogue: 0,0:00:23.70,0:00:23.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 069.0 s    |    231.7 m    |    006.2 m/s
+Dialogue: 0,0:00:23.80,0:00:23.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 069.6 s    |    228.0 m    |    006.1 m/s
+Dialogue: 0,0:00:23.90,0:00:24.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 070.2 s    |    224.3 m    |    006.1 m/s
+Dialogue: 0,0:00:24.00,0:00:24.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 070.8 s    |    220.6 m    |    006.1 m/s
+Dialogue: 0,0:00:24.10,0:00:24.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 071.4 s    |    216.9 m    |    006.1 m/s
+Dialogue: 0,0:00:24.20,0:00:24.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 072.0 s    |    213.2 m    |    006.1 m/s
+Dialogue: 0,0:00:24.30,0:00:24.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 072.6 s    |    209.5 m    |    006.1 m/s
+Dialogue: 0,0:00:24.40,0:00:24.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 073.2 s    |    205.9 m    |    006.1 m/s
+Dialogue: 0,0:00:24.50,0:00:24.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 073.8 s    |    202.2 m    |    006.1 m/s
+Dialogue: 0,0:00:24.60,0:00:24.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 074.4 s    |    198.5 m    |    006.1 m/s
+Dialogue: 0,0:00:24.70,0:00:24.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 075.0 s    |    194.8 m    |    006.1 m/s
+Dialogue: 0,0:00:24.80,0:00:24.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 075.6 s    |    191.1 m    |    006.1 m/s
+Dialogue: 0,0:00:24.90,0:00:25.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 076.2 s    |    187.4 m    |    006.1 m/s
+Dialogue: 0,0:00:25.00,0:00:25.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 076.8 s    |    183.7 m    |    006.1 m/s
+Dialogue: 0,0:00:25.10,0:00:25.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 077.4 s    |    180.1 m    |    006.1 m/s
+Dialogue: 0,0:00:25.20,0:00:25.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 078.0 s    |    176.4 m    |    006.1 m/s
+Dialogue: 0,0:00:25.30,0:00:25.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 078.6 s    |    172.7 m    |    006.1 m/s
+Dialogue: 0,0:00:25.40,0:00:25.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 079.2 s    |    169.0 m    |    006.1 m/s
+Dialogue: 0,0:00:25.50,0:00:25.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 079.8 s    |    165.3 m    |    006.1 m/s
+Dialogue: 0,0:00:25.60,0:00:25.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 080.4 s    |    161.7 m    |    006.1 m/s
+Dialogue: 0,0:00:25.70,0:00:25.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 081.0 s    |    158.0 m    |    006.1 m/s
+Dialogue: 0,0:00:25.80,0:00:25.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 081.6 s    |    154.3 m    |    006.1 m/s
+Dialogue: 0,0:00:25.90,0:00:26.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 082.2 s    |    150.6 m    |    006.1 m/s
+Dialogue: 0,0:00:26.00,0:00:26.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 082.8 s    |    147.0 m    |    006.1 m/s
+Dialogue: 0,0:00:26.10,0:00:26.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 083.4 s    |    143.3 m    |    006.1 m/s
+Dialogue: 0,0:00:26.20,0:00:26.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 084.0 s    |    139.6 m    |    006.1 m/s
+Dialogue: 0,0:00:26.30,0:00:26.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 084.6 s    |    135.9 m    |    006.1 m/s
+Dialogue: 0,0:00:26.40,0:00:26.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 085.2 s    |    132.3 m    |    006.1 m/s
+Dialogue: 0,0:00:26.50,0:00:26.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 085.8 s    |    128.6 m    |    006.1 m/s
+Dialogue: 0,0:00:26.60,0:00:26.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 086.4 s    |    124.9 m    |    006.1 m/s
+Dialogue: 0,0:00:26.70,0:00:26.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 087.0 s    |    121.2 m    |    006.1 m/s
+Dialogue: 0,0:00:26.80,0:00:26.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 087.6 s    |    117.6 m    |    006.1 m/s
+Dialogue: 0,0:00:26.90,0:00:27.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 088.2 s    |    113.9 m    |    006.1 m/s
+Dialogue: 0,0:00:27.00,0:00:27.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 088.8 s    |    110.2 m    |    006.1 m/s
+Dialogue: 0,0:00:27.10,0:00:27.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 089.4 s    |    106.6 m    |    006.1 m/s
+Dialogue: 0,0:00:27.20,0:00:27.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 090.0 s    |    102.9 m    |    006.1 m/s
+Dialogue: 0,0:00:27.30,0:00:27.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 090.6 s    |    099.2 m    |    006.1 m/s
+Dialogue: 0,0:00:27.40,0:00:27.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 091.2 s    |    095.6 m    |    006.1 m/s
+Dialogue: 0,0:00:27.50,0:00:27.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 091.8 s    |    091.9 m    |    006.1 m/s
+Dialogue: 0,0:00:27.60,0:00:27.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 092.4 s    |    088.2 m    |    006.1 m/s
+Dialogue: 0,0:00:27.70,0:00:27.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 093.0 s    |    084.6 m    |    006.1 m/s
+Dialogue: 0,0:00:27.80,0:00:27.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 093.6 s    |    080.9 m    |    006.1 m/s
+Dialogue: 0,0:00:27.90,0:00:28.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 094.2 s    |    077.2 m    |    006.1 m/s
+Dialogue: 0,0:00:28.00,0:00:28.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 094.8 s    |    073.6 m    |    006.1 m/s
+Dialogue: 0,0:00:28.10,0:00:28.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 095.4 s    |    069.9 m    |    006.1 m/s
+Dialogue: 0,0:00:28.20,0:00:28.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 096.0 s    |    066.2 m    |    006.1 m/s
+Dialogue: 0,0:00:28.30,0:00:28.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 096.6 s    |    062.6 m    |    006.1 m/s
+Dialogue: 0,0:00:28.40,0:00:28.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 097.2 s    |    058.9 m    |    006.1 m/s
+Dialogue: 0,0:00:28.50,0:00:28.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 097.8 s    |    055.3 m    |    006.1 m/s
+Dialogue: 0,0:00:28.60,0:00:28.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 098.4 s    |    051.6 m    |    006.1 m/s
+Dialogue: 0,0:00:28.70,0:00:28.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 099.0 s    |    047.9 m    |    006.1 m/s
+Dialogue: 0,0:00:28.80,0:00:28.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 099.6 s    |    044.3 m    |    006.1 m/s
+Dialogue: 0,0:00:28.90,0:00:29.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 100.2 s    |    040.6 m    |    006.1 m/s
+Dialogue: 0,0:00:29.00,0:00:29.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 100.8 s    |    037.0 m    |    006.1 m/s
+Dialogue: 0,0:00:29.10,0:00:29.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 101.4 s    |    033.3 m    |    006.1 m/s
+Dialogue: 0,0:00:29.20,0:00:29.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 102.0 s    |    029.7 m    |    006.1 m/s
+Dialogue: 0,0:00:29.30,0:00:29.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 102.6 s    |    026.0 m    |    006.1 m/s
+Dialogue: 0,0:00:29.40,0:00:29.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 103.2 s    |    022.4 m    |    006.1 m/s
+Dialogue: 0,0:00:29.50,0:00:29.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   DESCENTE ACCÉLÉRÉE ×6\Nt + 103.8 s    |    018.7 m    |    006.1 m/s
+Dialogue: 0,0:00:29.60,0:00:29.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 103.9 s    |    017.7 m    |    006.1 m/s
+Dialogue: 0,0:00:29.70,0:00:29.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.0 s    |    017.1 m    |    006.1 m/s
+Dialogue: 0,0:00:29.80,0:00:29.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.1 s    |    016.5 m    |    006.1 m/s
+Dialogue: 0,0:00:29.90,0:00:30.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.2 s    |    015.9 m    |    006.1 m/s
+Dialogue: 0,0:00:30.00,0:00:30.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.3 s    |    015.3 m    |    006.1 m/s
+Dialogue: 0,0:00:30.10,0:00:30.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.4 s    |    014.7 m    |    006.1 m/s
+Dialogue: 0,0:00:30.20,0:00:30.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.5 s    |    014.1 m    |    006.1 m/s
+Dialogue: 0,0:00:30.30,0:00:30.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.6 s    |    013.5 m    |    006.1 m/s
+Dialogue: 0,0:00:30.40,0:00:30.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.7 s    |    012.9 m    |    006.1 m/s
+Dialogue: 0,0:00:30.50,0:00:30.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.8 s    |    012.2 m    |    006.1 m/s
+Dialogue: 0,0:00:30.60,0:00:30.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 104.9 s    |    011.6 m    |    006.1 m/s
+Dialogue: 0,0:00:30.70,0:00:30.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.0 s    |    011.0 m    |    006.1 m/s
+Dialogue: 0,0:00:30.80,0:00:30.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.1 s    |    010.4 m    |    006.1 m/s
+Dialogue: 0,0:00:30.90,0:00:31.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.2 s    |    009.8 m    |    006.1 m/s
+Dialogue: 0,0:00:31.00,0:00:31.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.3 s    |    009.2 m    |    006.1 m/s
+Dialogue: 0,0:00:31.10,0:00:31.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.4 s    |    008.6 m    |    006.1 m/s
+Dialogue: 0,0:00:31.20,0:00:31.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.5 s    |    008.0 m    |    006.1 m/s
+Dialogue: 0,0:00:31.30,0:00:31.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.6 s    |    007.4 m    |    006.1 m/s
+Dialogue: 0,0:00:31.40,0:00:31.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.7 s    |    006.8 m    |    006.1 m/s
+Dialogue: 0,0:00:31.50,0:00:31.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.8 s    |    006.2 m    |    006.1 m/s
+Dialogue: 0,0:00:31.60,0:00:31.70,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 105.9 s    |    005.5 m    |    006.1 m/s
+Dialogue: 0,0:00:31.70,0:00:31.80,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.0 s    |    004.9 m    |    006.1 m/s
+Dialogue: 0,0:00:31.80,0:00:31.90,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.1 s    |    004.3 m    |    006.1 m/s
+Dialogue: 0,0:00:31.90,0:00:32.00,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.2 s    |    003.7 m    |    006.1 m/s
+Dialogue: 0,0:00:32.00,0:00:32.10,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.3 s    |    003.1 m    |    006.1 m/s
+Dialogue: 0,0:00:32.10,0:00:32.20,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.4 s    |    002.5 m    |    006.1 m/s
+Dialogue: 0,0:00:32.20,0:00:32.30,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.5 s    |    001.9 m    |    006.1 m/s
+Dialogue: 0,0:00:32.30,0:00:32.40,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.6 s    |    001.3 m    |    006.1 m/s
+Dialogue: 0,0:00:32.40,0:00:32.50,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.7 s    |    000.7 m    |    006.1 m/s
+Dialogue: 0,0:00:32.50,0:00:32.60,Data,,0,0,0,,DESCENTE SOUS PARACHUTE   ·   TEMPS RÉEL\Nt + 106.8 s    |    000.1 m    |    006.1 m/s
+Dialogue: 0,0:00:32.60,0:00:32.70,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:32.70,0:00:32.80,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:32.80,0:00:32.90,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:32.90,0:00:33.00,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.00,0:00:33.10,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.10,0:00:33.20,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.20,0:00:33.30,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.30,0:00:33.40,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.40,0:00:33.50,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.50,0:00:33.60,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.60,0:00:33.70,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.70,0:00:33.80,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.80,0:00:33.90,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:33.90,0:00:34.00,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:34.00,0:00:34.10,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:34.10,0:00:34.20,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:34.20,0:00:34.30,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:34.30,0:00:34.40,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s
+Dialogue: 0,0:00:34.40,0:00:34.50,Data,,0,0,0,,CONTACT AU SOL — FIN DU CALCUL   ·   ARRÊT SUR IMAGE\Nt + 106.8 s    |    000.0 m    |    006.1 m/s

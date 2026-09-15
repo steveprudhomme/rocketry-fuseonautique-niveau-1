@@ -14,6 +14,14 @@ Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la 
 
 **État :** carnet en cours — notes et premier plan LOC-IV en brouillon • **Langue :** français
 
+## Vidéo du vol complet
+
+[![Lire la vidéo du vol complet de Chasse Galerie 1](plans/animations/vol-complet/apercu-video.jpg)](plans/animations/vol-complet/chasse-galerie-1-vol-complet.mp4)
+
+**[▶ Lire la vidéo MP4](plans/animations/vol-complet/chasse-galerie-1-vol-complet.mp4)** · [Scène Blender, données et méthode](plans/animations/vol-complet/README.md)
+
+Animation 1080p de 34,5 secondes fondée sur le scénario OpenRocket **H143 — apogée idéale** : départ, montée, récupération et retour au sol. Le vol simulé de 106,8 s est présenté avec une descente accélérée ×6, signalée à l'écran. Modèle provisoire; déploiement et effets visuels illustratifs.
+
 ## Objectif
 Rassembler les notes, plans, exercices, aides à la tâche, références et traces de progression dans un seul dépôt versionné.
 

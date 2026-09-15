@@ -126,3 +126,7 @@ Consultées le 2026-09-12; elles complètent les notes sans modifier leur statut
 ## Plan d’ensemble avec vue écorchée
 
 Le [dossier ensemble](ensemble/README.md) contient le PDF A3 de deux feuilles, les aperçus et les projections SVG. La source de mise en page est `outils/generer-plan-ensemble.py`. Les cotes estimées restent identifiées; le kit réel reste à mesurer.
+
+## Animation du vol complet
+
+[Vidéo MP4, scène Blender et données OpenRocket](animations/vol-complet/README.md) — H143 à apogée idéale, vol entier visualisé avec descente accélérée ×6.

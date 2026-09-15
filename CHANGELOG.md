@@ -1,5 +1,13 @@
 # Historique des changements
 
+## 2026-09-15 — Vidéo du vol complet
+
+- Recalcul du scénario H143 à apogée idéale et export de sa trajectoire et de ses événements.
+- Animation Blender du départ au contact au sol, vidéo MP4 1080p à 30 images/s, télémétrie et descente accélérée explicitement signalée.
+- Ajout de l’aperçu cliquable au README, de la scène modifiable, des données et des scripts; hypothèses et effets illustratifs documentés.
+- Aucun changement des paramètres physiques du modèle OpenRocket.
+
+
 ## 2026-09-15 — Image d’introduction et scène artistique du décollage
 
 - Ajout du rendu Cycles 1800 × 2400 de Chasse Galerie 1 dans un champ de maïs récolté à l’heure dorée, produit le 2026-09-14.

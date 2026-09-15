@@ -4,6 +4,8 @@ Mise à jour : 2026-09-15. Organisation du projet personnel; cette liste ne cons
 
 ## Réalisé
 
+- [x] Produire une [animation Blender du vol complet](plans/animations/vol-complet/README.md) fondée sur les données du scénario H143 à apogée idéale; ajouter le MP4 et son aperçu cliquable au README.
+
 - [x] Produire un [rendu artistique du décollage à l’heure dorée](plans/rendus-artistiques/README.md) dans Blender avec la texture du Sillage fleurdelisé, puis l’intégrer à l’introduction du README.
 
 - [x] Rédiger les notes des trois vidéos, une [aide au montage illustrée](aides-a-la-tache/montage-chasse-galerie-1.md) et les [compléments aux achats](notes/loc-iv-achats-complement-montage-videos.md), sans valider physiquement le kit.
