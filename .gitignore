@@ -25,3 +25,6 @@ build/
 *.synctex.gz
 *.fdb_latexmk
 *.fls
+
+# Cache du moteur de rendu GPU Blender
+optix7cache.db

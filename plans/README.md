@@ -6,6 +6,10 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 **Première utilisation d'OpenSCAD ?** Suivre l'[aide à la tâche pour débuter et coder la LOC-IV](../aides-a-la-tache/debuter-openscad-loc-iv.md), avec des exercices expliqués pas à pas.
 
+## Rendu artistique du décollage
+
+L’[image à l’heure dorée et sa scène Blender](rendus-artistiques/README.md) représentent Chasse Galerie 1 avec sa texture, au-dessus d’un champ de maïs récolté. La scène modifiable contient ses textures et son éclairage.
+
 ## Décoration du tube
 
 Consulter le [cahier d’intention du décalque](../notes/chasse-galerie-1-decalque.md) : vinyle imprimé satiné, gabarits par section et essais prévus. Les [trois propositions visuelles](decalques/README.md) sont disponibles; **Le sillage fleurdelisé (02)** est retenu. Les [gabarits provisoires d’impression et l’habillage OpenRocket/OpenSCAD](decalques/sillage/README.md) sont disponibles aux cotes du plan; mesures réelles et qualité finale d’impression restent à valider.

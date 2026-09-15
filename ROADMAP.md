@@ -1,8 +1,10 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-14. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-09-15. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
 ## Réalisé
+
+- [x] Produire un [rendu artistique du décollage à l’heure dorée](plans/rendus-artistiques/README.md) dans Blender avec la texture du Sillage fleurdelisé, puis l’intégrer à l’introduction du README.
 
 - [x] Rédiger les notes des trois vidéos, une [aide au montage illustrée](aides-a-la-tache/montage-chasse-galerie-1.md) et les [compléments aux achats](notes/loc-iv-achats-complement-montage-videos.md), sans valider physiquement le kit.
 

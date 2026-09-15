@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-09-15 — Image d’introduction et scène artistique du décollage
+
+- Ajout du rendu Cycles 1800 × 2400 de Chasse Galerie 1 dans un champ de maïs récolté à l’heure dorée, produit le 2026-09-14.
+- Conservation de la scène Blender avec ses deux textures intégrées et du script de reconstruction; fichier rouvert et contenu vérifié.
+- Image placée en introduction du README à la demande de Steve et référencée dans les plans. Paysage et panache artistiques; modèles techniques inchangés.
+
 ## 2026-09-14 — Sillage fleurdelisé : gabarits et habillage 3D provisoires
 
 - Adaptation aux cotes du plan demandée par Steve, le tube n’étant pas encore fini; source artistique adaptée et raccord périodique paramétré.

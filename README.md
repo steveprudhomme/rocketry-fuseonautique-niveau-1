@@ -1,5 +1,13 @@
 # Chasse Galerie 1 — Certification niveau 1
 
+<p align="center">
+  <a href="plans/rendus-artistiques/chasse-galerie-1-golden-hour.png">
+    <img src="plans/rendus-artistiques/chasse-galerie-1-golden-hour.png" width="480" alt="Chasse Galerie 1, habillée du Sillage fleurdelisé, décolle d’un champ de maïs récolté à l’heure dorée.">
+  </a>
+</p>
+
+*Chasse Galerie 1 — Le sillage fleurdelisé. [Vue artistique du décollage et scène 3D modifiable](plans/rendus-artistiques/README.md).*
+
 **Chasse Galerie 1** est le nom du projet et de la fusée, construite à partir du kit **LOC-IV 4 po de LOC Precision**.
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
