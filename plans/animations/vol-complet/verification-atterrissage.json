@@ -1,0 +1,44 @@
+{
+  "checked_frames": 317,
+  "contact_frame": 977,
+  "frames": 1217,
+  "fps": 30,
+  "duration_s": 40.56666666666667,
+  "post_contact_s": 8,
+  "terrain_max_vertex_z_m": 0.0223877914249897,
+  "minimum_visible_geometry_z_m": {
+    "body": 0.0319998636841774,
+    "payload": 0.031999893486499786,
+    "canopy": 0.06100001931190491,
+    "rope": 0.03500000014901161
+  },
+  "maximum_attachment_error_m": 6.103515642763568e-05,
+  "root_altitude_error_m": 3.0120034848549193e-05,
+  "impact_cord_length_range_m": [
+    4.613827395832693,
+    4.620103354777739
+  ],
+  "observed_airborne_max_tilt_deg": 6.736534134766939,
+  "observed_yaw_range_deg": [
+    -5.99933763861572,
+    5.994638041579928
+  ],
+  "final_canopy_thickness_m": 0.017999961972236633,
+  "final_bodies_horizontal": true,
+  "physics_scope": "keyframed landing with geometric support plane; not a physical impact prediction",
+  "video": {
+    "decoded_frames": 1217,
+    "duration_s": 40.56666666666667,
+    "fps": 30,
+    "resolution": [
+      1920,
+      1080
+    ],
+    "decode_errors": 0
+  },
+  "excerpt": {
+    "decoded_frames": 332,
+    "duration_s": 11.066666666666666,
+    "decode_errors": 0
+  }
+}

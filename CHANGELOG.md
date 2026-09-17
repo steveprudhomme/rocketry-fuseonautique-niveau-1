@@ -1,5 +1,13 @@
 # Historique des changements
 
+## 2026-09-17 — Descente et atterrissage v3
+
+- Ajout d’un balancement amorti et d’un léger lacet aux sections sous voilure.
+- Ajout de huit secondes après contact : rebond amorti, basculement, affaissement du parachute et mise au repos.
+- Contrôle géométrique du sol, attaches suivies et longueur de corde conservée sous forme de boucles; comportement après contact explicitement visuel.
+- Vidéo complète portée à 40,57 s, nouvel extrait, scène et sources; tâches correspondantes cochées dans le ROADMAP.
+
+
 ## 2026-09-17 — Récupération animée v2
 
 - Remplacement de la mise à l’échelle du système complet par un gonflage de voilure sur 1,5 s avec suspentes raccordées.

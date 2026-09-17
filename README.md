@@ -20,7 +20,7 @@ Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la 
 
 **[▶ Lire la vidéo MP4](plans/animations/vol-complet/chasse-galerie-1-vol-complet.mp4)** · [Scène Blender, données et méthode](plans/animations/vol-complet/README.md)
 
-Animation 1080p de 34,5 secondes fondée sur le scénario OpenRocket **H143 — apogée idéale** : départ, montée, récupération et retour au sol. Le vol simulé de 106,8 s est présenté avec une descente accélérée ×6, signalée à l'écran. Modèle provisoire; déploiement et effets visuels illustratifs. **Récupération v2 :** gonflage sur 1,5 s et corde principale animée depuis une simulation Soft Body Blender; [voir l’extrait](plans/animations/vol-complet/extrait-recuperation.mp4).
+Animation 1080p de 40,6 secondes fondée sur le scénario OpenRocket **H143 — apogée idéale** : départ, montée, récupération et retour au sol. Le vol simulé de 106,8 s est présenté avec une descente accélérée ×6, signalée à l'écran. Modèle provisoire; déploiement et effets visuels illustratifs. **Récupération v2 :** gonflage sur 1,5 s et corde principale animée depuis une simulation Soft Body Blender; [voir l’extrait](plans/animations/vol-complet/extrait-recuperation.mp4). **Descente et atterrissage v3 :** balancier, léger lacet, basculement et dégonflage; [extrait de l’atterrissage](plans/animations/vol-complet/extrait-atterrissage.mp4). Les huit secondes après contact sont une animation visuelle explicitement signalée.
 
 ## Objectif
 Rassembler les notes, plans, exercices, aides à la tâche, références et traces de progression dans un seul dépôt versionné.

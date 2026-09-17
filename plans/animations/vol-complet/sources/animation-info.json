@@ -1,1 +1,10 @@
-{"duration": 34.51211421304872, "frames": 1035, "flight_duration": 106.84268527829295, "apogee": 593.893170260696, "deployment": 10.245999999999869}
+{
+  "duration": 40.56666666666667,
+  "frames": 1217,
+  "flight_duration": 106.84268527829295,
+  "apogee": 593.893170260696,
+  "deployment": 10.245999999999869,
+  "contact_frame": 977,
+  "post_contact_duration": 8,
+  "revision": "v3"
+}

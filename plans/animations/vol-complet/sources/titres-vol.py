@@ -22,5 +22,6 @@ duration=len(rows)/30
 lines=[header,f'Dialogue: 0,0:00:00.00,{ts(duration)},Title,,0,0,0,,CHASSE GALERIE 1  |  VOL COMPLET\n',f'Dialogue: 0,0:00:00.00,{ts(duration)},Footer,,0,0,0,,OpenRocket · H143 · apogée idéale · modèle provisoire\\NPaysage, fumée et déploiement illustratifs — vent nul\n']
 for i in range(0,len(rows),3):
  r=dict(rows[i]);r['rate']='ARRÊT SUR IMAGE' if r['phase']=='RETOUR AU SOL' else r['rate'];r['phase']=r['phase'].replace('RETOUR AU SOL','CONTACT AU SOL — FIN DU CALCUL').replace('MONTEE','MONTÉE');r['rate']=r['rate'].replace('REEL','RÉEL').replace('ACCELEREE x6','ACCÉLÉRÉE ×6');text=f"{r['phase']}   ·   {r['rate']}\\Nt + {r['time']:05.1f} s    |    {r['altitude']:05.1f} m    |    {r['speed']:05.1f} m/s"
+ if 'post_contact_s' in r:text=f"{r['phase']}   ·   ANIMATION VISUELLE\\NAprès contact : +{r['post_contact_s']:.1f} s   |   Données de vol terminées"
  lines.append(f'Dialogue: 0,{ts(i/30)},{ts(min(i+3,len(rows))/30)},Data,,0,0,0,,{text}\n')
 (root/'titres.ass').write_text(''.join(lines),encoding='utf-8-sig')
