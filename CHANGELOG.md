@@ -1,5 +1,13 @@
 # Historique des changements
 
+## 2026-09-17 — Récupération animée v2
+
+- Remplacement de la mise à l’échelle du système complet par un gonflage de voilure sur 1,5 s avec suspentes raccordées.
+- Simulation native Soft Body de la corde principale : 49 sommets, attaches animées, gravité et amortissement; 601 états intégrés à la scène.
+- Cadrage anticipé, extrait de récupération, contrôles des attaches et de l’allongement; trajectoire OpenRocket conservée.
+- Deux tâches de récupération cochées dans la feuille de route; coefficients physiques visuels et limites documentés.
+
+
 ## 2026-09-15 — Vidéo du vol complet
 
 - Recalcul du scénario H143 à apogée idéale et export de sa trajectoire et de ses événements.

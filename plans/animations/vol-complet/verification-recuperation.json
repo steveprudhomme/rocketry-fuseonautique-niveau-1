@@ -1,0 +1,32 @@
+{
+  "native_solver": "Blender 4.3 native SOFT_BODY",
+  "samples": 601,
+  "nodes": 49,
+  "rest_length_m": 4.572,
+  "maximum_length_m": 4.632935897396778,
+  "maximum_extension_percent": 1.332806154785171,
+  "maximum_pin_error_m": 4.76837158203125e-07,
+  "baked_endpoint_error_m": 1.4305114757936217e-06,
+  "flight_altitude_error_m": 3.0456575659629226e-05,
+  "inflation_duration_s": 1.5,
+  "first_inflation_sample_s": 10.266666666666667,
+  "first_full_sample_s": 11.766666666666667,
+  "canopy_framing": "passed every fifth frame after deployment",
+  "video": {
+    "codec": "H.264",
+    "pixels": "yuv420p",
+    "resolution": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "frames": 1035,
+    "duration_s": 34.5,
+    "decode_errors": 0
+  },
+  "excerpt": {
+    "frames": 180,
+    "duration_s": 6,
+    "decode_errors": 0
+  }
+}

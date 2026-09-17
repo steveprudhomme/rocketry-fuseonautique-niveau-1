@@ -132,9 +132,10 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 
 *Objectif : Atténuer la rigidité de l’animation en introduisant des dynamiques physiques réalistes adaptées à la fuséologie de haute puissance.*
 
-- [ ] **Système de récupération (parachute et corde de choc) :**
-  - [ ] Animer le gonflage progressif de la voilure du parachute (transition sur 1 à 2 secondes).
-  - [ ] Intégrer une simulation de type « corps souple » ou « tissu » pour la corde de choc afin d’obtenir une courbure et une tension naturelles.
+- [x] **Système de récupération (parachute et corde de choc) :**
+  - [x] Animer le gonflage progressif de la voilure du parachute (transition sur 1 à 2 secondes).
+  - [x] Intégrer une simulation de type « corps souple » ou « tissu » pour la corde de choc afin d’obtenir une courbure et une tension naturelles.
+  - Livraison du 2026-09-17 : gonflage sur 1,5 s et corde principale calculée avec le solveur Soft Body de Blender; [vidéo, scène et limites de simulation](plans/animations/vol-complet/README.md).
 - [ ] **Descente et atterrissage :**
   - [ ] Ajouter un mouvement de balancier (effet pendule) et une légère rotation sur l’axe vertical (lacet) pendant la descente sous voilure.
   - [ ] Animer l’impact au sol : contact, léger rebond ou absorption du choc, basculement et affaissement de la fusée sur le côté (dégonflage du parachute).

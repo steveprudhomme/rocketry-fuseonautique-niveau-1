@@ -1,45 +1,48 @@
-# Chasse Galerie 1 — Animation du vol complet
+# Chasse Galerie 1 — Vol complet, récupération v2
 
-Animation Blender fondée sur le scénario **H143 — apogée IDÉALE [A]** du modèle OpenRocket 24.12, recalculé le 2026-09-15. Le décor et les textures reprennent la scène du décollage à l'heure dorée. Le rendu animé utilise EEVEE avec un ciel et des effets simplifiés pour accélérer le calcul.
+**Révision du 2026-09-17.** Gonflage progressif du parachute et simulation native Blender de la corde de choc principale.
 
-[![Lire la vidéo du vol complet](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)
+[![Lire la vidéo](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)
 
-## Livrables
+- [Vidéo complète MP4](chasse-galerie-1-vol-complet.mp4) : 1920 × 1080, 30 images/s, 34,5 s, sans son.
+- [Extrait de la récupération](extrait-recuperation.mp4) : six secondes centrées sur l’ouverture.
+- [Scène Blender](chasse-galerie-1-vol-complet.blend) : textures et mouvements de corde intégrés.
+- [Scène du solveur corps souple](sources/corde-solveur.blend) et [échantillons calculés](sources/corde-simulation.json).
+- [Contrôles de la récupération](verification-recuperation.json).
+- [Trajectoire OpenRocket](vol-h143.csv) et [événements](evenements-h143.csv).
 
-- [Vidéo MP4](chasse-galerie-1-vol-complet.mp4) : 1920 × 1080, 30 images/s, environ 34,5 secondes, sans piste sonore.
-- [Scène Blender modifiable](chasse-galerie-1-vol-complet.blend) : géométrie, textures intégrées, caméras et mouvements enregistrés.
-- [Trajectoire exportée](vol-h143.csv) et [événements](evenements-h143.csv).
+## Changements visibles
 
-## Lecture de l'animation
+La voilure passe d’une forme étroite plissée à un dôme gonflé sur **1,5 seconde de temps simulé**, avec une progression douce. Les suspentes suivent son bord; le système de récupération n’est plus agrandi uniformément. La caméra élargit le cadre avant le déclenchement pour conserver la voilure entière à l’image.
 
-Le vol simulé dure **106,843 s**. La vidéo couvre le départ, la propulsion, la montée balistique, l'apogée, la récupération et le premier contact au sol. La montée est montrée en temps réel, la partie centrale de la descente à **×6**, puis les trois dernières secondes de vol reviennent au temps réel. Des pauses encadrent le vol. Le temps simulé, l'altitude et la vitesse sont affichés à l'écran; les accélérations sont signalées.
+La corde principale utilise le véritable solveur **Soft Body de Blender 4.3** : 49 sommets reliés par 48 ressorts, deux extrémités fixées aux points d’attache animés, gravité et amortissement. Elle prend une courbure souple puis se tend. Les 601 états calculés à 60 Hz sur dix secondes sont intégrés au maillage de la scène finale; ensuite, son état stabilisé est conservé. La lecture utilise le temps physique de la télémétrie, y compris pendant la descente accélérée ×6.
 
-L'export donne une apogée de **593,893 m**, une extinction moteur à **1,730 s**, un déclenchement de récupération à **10,246 s** et un contact au sol à **106,843 s**. Le marqueur d'apogée est enregistré à 10,245 s; le maximum d'altitude échantillonné survient légèrement avant, vers 10,205 s. Cette distinction vient des événements et pas de temps du moteur de simulation.
+## Contrôles réalisés
 
-## Ce que représentent les images
+- Tous les échantillons de la corde sont finis, sans divergence numérique.
+- Longueur au repos : **4,572 m**; longueur maximale calculée : **4,633 m**, soit **1,33 %** d’allongement.
+- Écart maximal des attaches du solveur : inférieur à **0,001 mm**; écart des attaches après intégration au maillage : inférieur à **0,002 mm**.
+- Gonflage progressif et monotone sur 1,5 seconde; cadrage de la voilure vérifié toutes les cinq images après déploiement.
+- La trajectoire du corps reste celle de la première vidéo, avec un écart numérique inférieur à 0,1 mm par rapport aux altitudes exportées.
+- Contrôle visuel de cinq états : début, 0,5 s, 1 s, 1,5 s et 3 s après le déclenchement.
 
-- Les positions et l'altitude proviennent des échantillons OpenRocket, interpolés dans Blender. Un petit décalage de présentation de 8 cm place les ailerons au-dessus du sol au départ.
-- Le vent est nul dans ce scénario. La caméra suit la fusée, ce qui réduit volontairement son déplacement apparent à l'écran.
-- Le parachute s'ouvre idéalement à l'apogée : ce scénario n'est pas un réglage d'éjection moteur. L'événement d'éjection nominal à 14,73 s demeure dans l'export mais ne commande pas un second déploiement.
-- Le parachute de 36 pouces, son gonflage, les sangles, la séparation de la section avant, la fumée et le paysage sont des représentations illustratives. La forme du parachute gonflé et les longueurs visibles de la récupération ne constituent pas un plan d'assemblage. L'attitude est simplifiée; la vidéo ne prétend pas restituer la rotation calculée ni simuler le choc au sol ou l'affaissement de la voilure.
-- Les masses, cotes et conditions du modèle restent provisoires. Il s'agit d'une visualisation du scénario numérique, pas d'une prévision validée du lancement réel.
+## Portée de la simulation
 
-## Reproduction
+Le scénario reste **H143 — apogée idéale**, avec un vol de 106,843 s et une altitude maximale de 593,893 m. La montée et le gonflage sont montrés en temps réel; la partie centrale de la descente est accélérée ×6. Le dernier plan fige l’état au premier contact au sol.
 
-Les sources sont dans `sources/` : exportateur Java, préparation Blender et génération des titres. Dépendances utilisées : OpenRocket 24.12, Java 21, Blender 4.3 et FFmpeg avec libass et libx264. Le script de titres utilise Python 3; le script Blender utilise le Python et NumPy livrés avec Blender.
+La corde est simulée dans un repère local attaché à la fusée : gravité, ressorts et ancrages imposés. Les coefficients de masse, rigidité et amortissement servent au rendu et ne sont pas des propriétés mesurées du nylon. Les collisions corde/fusée, les efforts aérodynamiques et le couplage des forces au vol OpenRocket ne sont pas calculés. La corde principale reprend une longueur nominale de 15 pieds, mais la répartition réelle des attaches et la branche secondaire restent à confirmer.
 
-1. Exécuter `ExporterVol.java` avec le JAR OpenRocket dans le classpath et trois arguments : fichier `.ork`, chemin CSV du vol, chemin CSV des événements.
-2. Ouvrir en arrière-plan la scène source `plans/rendus-artistiques/chasse-galerie-1-golden-hour.blend` du dépôt et exécuter `animer-vol.py`, suivi de `--` et des quatre chemins : CSV du vol, CSV des événements, dossier final, dossier temporaire. Le script enregistre la scène animée et trois aperçus.
-3. Ouvrir la scène animée; rendre les images 1 à 1035 à 30 images/s dans le dossier temporaire. Dans Blender, choisir un chemin PNG absolu avant le rendu si le dossier temporaire d'origine n'existe plus.
-4. Générer les titres avec `titres-vol.py`, en lui donnant le dossier temporaire contenant `telemetrie.json`.
-5. Assembler les PNG avec FFmpeg à 30 images/s, appliquer le filtre ASS `titres.ass`, encoder avec libx264 en yuv420p et activer `+faststart` pour la lecture web.
+Le gonflage est une déformation animée de la voilure, pas une simulation aérodynamique du tissu. L’extraction depuis l’intérieur du tube et le lien secondaire vers la section avant restent illustratifs. Le modèle de vol conserve son déploiement idéal instantané : la durée visuelle du gonflage ne modifie pas sa traînée calculée. L’atterrissage dynamique, le dégonflage au sol, le vent et le balancement de la fusée restent des tâches distinctes du ROADMAP.
 
-La scène `.blend` conserve les mouvements mais les titres sont ajoutés lors de l'encodage MP4. Ils ne sont pas intégrés au rendu brut Blender.
+## Sources et reproduction
 
-## Présentation dans le README
+Les fichiers de base de la première édition restent dans `sources/` : `ExporterVol.java`, `animer-vol.py`, `titres-vol.py`, télémétrie et titres. Cette révision ajoute :
 
-Le README utilise une image cliquable et un lien explicite vers le MP4 stocké dans le dépôt. Cela donne accès à la vidéo sans dépendre de la prise en charge d'une balise HTML vidéo dans le lecteur Markdown.
+1. `simuler-corde.py` : lancer Blender 4.3 avec `--background --factory-startup --python`, puis `--` et un dossier temporaire absolu. Le script crée les données de corde et la scène du solveur. Il vérifie les attaches, les nombres finis et un allongement maximal inférieur à 3 %.
+2. `ameliorer-recuperation.py` : ouvrir la scène animée de première édition en arrière-plan; exécuter le script avec quatre arguments après `--` : JSON de corde, JSON de télémétrie, dossier final et dossier temporaire. Il enregistre la scène révisée et cinq aperçus.
+3. Rendre les images 1 à 1035 de la scène finale, à 30 images/s. Utiliser un chemin PNG absolu adapté au poste. Les images 1 à 332 de la première édition sont identiques et ont été réutilisées dans cette livraison.
+4. Assembler les images avec FFmpeg, appliquer les titres ASS, encoder en H.264/yuv420p et activer `+faststart`. Les titres sont ajoutés au MP4 et ne font pas partie du rendu brut Blender.
 
-## Vérification de la livraison
+Le fichier `.blend` final est autonome pour les textures et la déformation de corde. Pour modifier la physique, utiliser la scène du solveur ou le script, puis régénérer les échantillons et la scène finale.
 
-Les 1 035 images du MP4 ont été décodées sans erreur : H.264, yuv420p, 1920 × 1080, 30 images/s, durée de 34,5 s. Départ, récupération, titres et contact au sol inspectés. Les positions animées reproduisent l’altitude exportée avec un écart numérique maximal inférieur à 0,1 mm; les deux textures sont intégrées à la scène. La dernière image fige les données au contact, dont la vitesse juste avant impact.
+Références : [forces extérieures et ancrages Soft Body](https://docs.blender.org/manual/en/4.3/physics/soft_body/forces/exterior.html), [ressorts des arêtes](https://docs.blender.org/manual/en/4.3/physics/soft_body/settings/edges.html).
