@@ -1,64 +1,52 @@
-# Chasse Galerie 1 — Descente et atterrissage v3
+# Chasse Galerie 1 — Vent et fumée volumétrique v4
 
-**Révision du 2026-09-17.** Ajout du balancement sous voilure, d’un léger lacet et d’une séquence d’atterrissage avec mise au repos.
+**Révision du 2026-09-17.** Vent léger calculé dans OpenRocket et nouveau panache volumétrique animé dans Blender 4.3.
 
 [![Lire la vidéo](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)
 
-- [Vidéo complète](chasse-galerie-1-vol-complet.mp4) : MP4 H.264, 1080p, 30 images/s, **40,57 secondes**, sans son.
-- [Extrait de l’atterrissage](extrait-atterrissage.mp4) : approche, contact, basculement et dégonflage.
+- [Vidéo complète](chasse-galerie-1-vol-complet.mp4) : 1080p, 30 images/s, 40,57 secondes, sans son.
+- [Extrait du moteur et de la fumée](extrait-atmosphere.mp4).
+- [Extrait de l’atterrissage](extrait-atterrissage.mp4).
 - [Scène Blender modifiable](chasse-galerie-1-vol-complet.blend).
-- [Contrôles de la scène](verification-atterrissage.json).
-- [Données OpenRocket](vol-h143.csv) et [événements](evenements-h143.csv).
+- [Trajectoire OpenRocket](vol-h143.csv) et [événements](evenements-h143.csv).
 
-## Descente sous voilure
+## Vent et dérive
 
-Après le gonflage de 1,5 seconde conservé de la v2, le corps effectue un mouvement de pendule autour de son attache supérieure. Les deux composantes du balancement ont des amplitudes maximales réglées à 7° et 4°, avec un amortissement partiel. Le lacet oscille doucement entre −6° et +6°. La section avant reçoit un mouvement secondaire plus faible.
+Le scénario H143 à récupération idéale à l’apogée a été recalculé avec un vent moyen de **2 m/s (7,2 km/h)**, une intensité de turbulence de **10 %**, une direction OpenRocket de 90° et le paramètre de graine de simulation 20260912. Il s’agit d’une hypothèse de démonstration, pas d’un relevé météo du site.
 
-Ces mouvements sont calculés en fonction du temps du vol : ils sont donc accélérés, comme le reste de la descente, dans le passage marqué ×6. Les derniers instants d’approche sont en temps réel. La trajectoire de référence OpenRocket reste conservée; le balancement est un déplacement visuel des pièces autour de leurs attaches.
+L’apogée atteint **592,645 m**, la récupération intervient à **10,195 s** et le contact à **106,682 s**. La position finale vaut **x = −163,759 m, y = −0,015 m**, soit environ 164 m du départ dans le repère de la simulation. La caméra suit cette nouvelle trajectoire. Un deuxième secteur de sol détaillé couvre la zone de retour; le décor reste illustratif et n’est pas géoréférencé.
 
-## Contact et mise au repos
+Le montage conserve 1 217 images. Les instants physiques sont raccordés aux étapes du montage précédent; le facteur de lecture est indiqué à l’écran. Le gonflage conserve ses 1,5 seconde et les huit secondes après contact restent une animation visuelle sans télémétrie de vol.
 
-La vidéo comprend **huit secondes après le contact** :
+## Fumée volumétrique
 
-1. Contact du corps et petit rebond amorti, plafonné par un paramètre de 3,5 cm.
-2. Basculement du corps sur le côté en environ 1,9 seconde, suivi d’une petite oscillation amortie.
-3. Descente et basculement de la section avant, légèrement décalés.
-4. Affaissement de la voilure pendant environ 4,4 secondes; son tissu forme une surface plissée au sol.
-5. Mise en mou des cordes et rapprochement de la caméra sur l’ensemble au repos.
+Les anciennes formes opaques sont remplacées par **116 particules à matériau volumétrique**, émises uniquement pendant les 1,73 seconde de combustion. Chaque volume naît à la position du moteur, reste indépendant de la fusée, puis se déplace sous un vent moyen dirigé vers −X. L’entraînement par le vent est progressif.
 
-Une surface de contact horizontale située à **32 mm** dans le repère de la scène évite que la géométrie pénètre le terrain, dont le relief maximal est d’environ 22,4 mm. Les deux sections reposent sur leurs parties basses; le corps est déplacé latéralement pendant son basculement pour se placer à côté du trépied. Les chaumes constituent un décor et ne sont pas des obstacles physiques calculés.
+Un bruit tridimensionnel évoluant dans le temps module la densité. Les volumes grossissent, subissent des déplacements tourbillonnaires et une légère ascension, puis leur densité diminue jusqu’à disparition après sept secondes. Une atténuation près de leur bord évite une coque opaque. Toutes les animations et les matériaux sont intégrés à la scène, sans cache externe.
 
-## Cordes et continuité avec la v2
+**Portée :** le vent et la trajectoire sont calculés par OpenRocket. La dispersion et les turbulences de la fumée sont procédurales et artistiques; ce n’est pas un calcul de mécanique des fluides validé. Le vent des particules reprend la moyenne du scénario, sans reproduire chaque fluctuation du modèle OpenRocket. La fusée et la récupération restent provisoires.
 
-Le gonflage progressif et les échantillons du solveur Soft Body natif sont conservés. La corde principale est adaptée aux points d’attache mobiles. Lors de l’atterrissage, des boucles de mou préservent sa longueur au lieu de la raccourcir à mesure que le parachute descend. La longueur contrôlée pendant cette phase reste entre **4,614 et 4,621 m**, en continuité avec le léger allongement de la corde de 4,572 m de la v2.
+## Améliorations conservées
 
-Les attaches et les suspentes suivent les pièces et le bord de la voilure. La corde et la déformation du tissu sont intégrées au fichier Blender; aucun cache de calcul extérieur n’est nécessaire pour lire l’animation.
+- Gonflage progressif sur 1,5 seconde et corde issue du solveur Soft Body de Blender.
+- Pendule, léger lacet et mouvement secondaire de la section avant.
+- Contact amorti, basculement des deux sections et parachute affaissé sur 4,4 secondes.
+- Cordes avec mou et contrainte géométrique au-dessus du terrain.
 
-## Portée des mouvements et des données
+Le balancement, l’impact et le dégonflage sont des animations illustratives, pas des prédictions de charges ou de dommages.
 
-OpenRocket fournit le scénario **H143 — apogée idéale**, jusqu’au premier contact à 106,843 s, avec une altitude maximale de 593,893 m. Les données de la simulation restent inchangées. Le temps, l’altitude et la vitesse de vol s’affichent jusqu’au contact.
+## Reproduction
 
-**Après le contact, les titres indiquent « animation visuelle » et le temps écoulé depuis l’impact.** Ils n’affichent pas de mesures de vol inventées. Le balancement, le rebond, le basculement et le dégonflage sont des animations géométriques, pas une simulation validée des charges, des dommages, du tissu ou de la dynamique de collision. Le traitement du sol est une contrainte géométrique, et les boucles de corde après contact sont illustratives. Le vent et la fumée volumétrique restent des tâches distinctes du ROADMAP.
+Les sources v1 à v3 sont conservées. `ExporterVent.java` recharge le fichier OpenRocket du projet et exporte la nouvelle trajectoire. `animer-atmosphere.py` se lance depuis la racine de l’espace de travail sur la scène v3; il attend la trajectoire dans `outputs/vol-complet-v4` et écrit les rendus temporaires dans `work/atmosphere-v4`. La scène v4 livrée est autonome pour le rendu.
 
-## Vérifications
+Rendre les images 1 à 1217, générer les sous-titres avec `titres-vol.py`, puis encoder en H.264/yuv420p avec FFmpeg et le filtre ASS. Les titres sont ajoutés à l’encodage, pas dans Blender.
 
-- Contrôle de la scène rouverte sur **317 images**, dont chaque image après le contact.
-- Corps, section avant, voilure et corde au-dessus du relief maximal du terrain lors des contrôles.
-- Écart maximal des attaches inférieur à **0,1 mm**.
-- Trajectoire de référence conservée à moins de **0,1 mm** d’écart numérique sur l’altitude.
-- Balancement et lacet présents pendant la descente; les deux sections sont horizontales à la fin.
-- Voilure finale affaissée : environ **18 mm** de différence de hauteur dans son maillage.
-- Six poses d’approche et d’atterrissage inspectées visuellement.
-- MP4 complet (1 217 images) et extrait (332 images) décodés sans erreur.
+## Vérifications de la livraison
 
-## Reproduction et modification
+Les 1 217 positions ont été comparées à la télémétrie : écart maximal inférieur à 0,1 mm. Les 116 volumes ont été contrôlés pour leurs instants d’émission, leur déplacement indépendant, leur croissance et leur disparition. Les contrôles de récupération et d’atterrissage sur 317 poses restent réussis : attaches à moins de 0,1 mm et aucune pénétration du terrain.
 
-Les sources des versions précédentes sont conservées dans `sources/`. La v3 ajoute `animer-atterrissage.py` et `verifier-atterrissage.py`.
+Rapports : [atmosphère](verification-atmosphere.json), [atterrissage](verification-atterrissage.json).
 
-1. Ouvrir la scène animée v2 en arrière-plan dans Blender 4.3.
-2. Exécuter `animer-atterrissage.py` avec, après `--`, quatre chemins : télémétrie de la v2, JSON natif de corde, dossier final et dossier temporaire. Le script produit la scène v3, la nouvelle télémétrie d’affichage et six aperçus.
-3. Rendre les images **1 à 1217**, à 30 images/s, dans un dossier temporaire avec un chemin absolu. Les 368 premières images de v2 ont été réutilisées dans cette livraison; la suite a été rendue avec la scène v3.
-4. Exécuter `titres-vol.py` sur le dossier contenant la nouvelle `telemetrie.json`. Encoder les PNG avec FFmpeg, filtre ASS, H.264/yuv420p et `+faststart`.
-5. Pour contrôler une scène rouverte, exécuter `verifier-atterrissage.py` avec deux chemins après `--` : rapport JSON de sortie et télémétrie v3.
+Pour reproduire exactement les matériaux et le cadrage finaux, appliquer également `fix-vol.py` puis `renforcer-fumee.py` sur la scène v4 générée, avant le rendu. Appliquer ensuite `diluer-fumee.py` pour l’atténuation de densité liée à l’expansion. La passe `attente-sans-fumee.py` fixe explicitement l’absence d’émission avant l’allumage. Ces passes règlent les coordonnées des volumes, leur densité et le cadrage plus large du décollage.
 
-Les titres sont ajoutés lors de l’encodage et ne sont pas incorporés au rendu brut Blender. Les paramètres de pendule, de rebond, de basculement et d’affaissement se trouvent dans le script de la v3.
+Le CSV livré constitue la référence exacte de cette animation. Dans OpenRocket 24.12, le paramètre de graine de simulation ne réinitialise pas la graine interne du modèle de vent déjà créé : une nouvelle exécution de l’exporteur peut donc produire de légères variations. Un second calcul de contrôle a donné 592,542 m d’apogée contre 592,645 m pour les données livrées. Le rendu Blender est reproductible à partir du CSV archivé.

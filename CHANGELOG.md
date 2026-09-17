@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-09-17 — Vent et fumée volumétrique v4
+
+- Recalcul OpenRocket avec vent moyen de 2 m/s, turbulence de 10 % et trajectoire archivée; dérive d’environ 164 m, trajectoire et caméra actualisées.
+- Remplacement du panache opaque par 116 volumes indépendants : émission pendant la combustion, entraînement par le vent, turbulence procédurale, expansion et dissipation.
+- Cadrage élargi au décollage, distance au départ dans l’affichage et extrait à caméra fixe pour voir la dispersion.
+- Récupération et atterrissage conservés; scène autonome, contrôles de trajectoire et de géométrie, README et ROADMAP mis à jour. Fumée artistique, sans prétention de calcul CFD validé.
+
 ## 2026-09-17 — Descente et atterrissage v3
 
 - Ajout d’un balancement amorti et d’un léger lacet aux sections sous voilure.

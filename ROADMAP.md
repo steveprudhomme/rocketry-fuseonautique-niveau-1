@@ -140,9 +140,10 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
   - [x] Ajouter un mouvement de balancier (effet pendule) et une légère rotation sur l’axe vertical (lacet) pendant la descente sous voilure.
   - [x] Animer l’impact au sol : contact, léger rebond ou absorption du choc, basculement et affaissement de la fusée sur le côté (dégonflage du parachute).
   - Livraison v3 du 2026-09-17 : pendule, lacet, contact amorti, basculement et affaissement de la voilure; huit secondes visuelles après contact, [vidéo et limites](plans/animations/vol-complet/README.md).
-- [ ] **Conditions atmosphériques et dynamiques des fluides :**
-  - [ ] Intégrer un vecteur de vent léger affectant la trajectoire de descente (dérive).
-  - [ ] Retravailler le nuanceur et le système de particules du moteur pour une fumée volumétrique qui se dissipe et subit des turbulences dans l’atmosphère.
+- [x] **Conditions atmosphériques et dynamiques des fluides :**
+  - [x] Intégrer un vecteur de vent léger affectant la trajectoire de descente (dérive).
+  - [x] Retravailler le nuanceur et le système de particules du moteur pour une fumée volumétrique qui se dissipe et subit des turbulences dans l’atmosphère.
+  - Livraison v4 du 2026-09-17 : vent OpenRocket de 2 m/s et 116 volumes de fumée avec advection, turbulence procédurale et dissipation; [vidéo et portée des calculs](plans/animations/vol-complet/README.md).
 
 ### 🌍 Étape 2 : Environnement géospatial (Saint-Pie-de-Guire)
 

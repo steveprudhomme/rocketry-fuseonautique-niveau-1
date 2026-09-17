@@ -2,7 +2,7 @@
 import json, sys
 from pathlib import Path
 root=Path(sys.argv[1]).resolve() if len(sys.argv)>1 else Path(__file__).resolve().parent/'vol-complet'
-rows=json.loads((root/'telemetrie.json').read_text())
+rows=json.loads((root/'telemetrie.json').read_text(encoding='utf8'))
 def ts(t):
  n=round(t*100);return f'{n//360000}:{n//6000%60:02}:{n//100%60:02}.{n%100:02}'
 header='''[Script Info]
@@ -19,9 +19,10 @@ Style: Footer,Arial,23,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,0,0,0,0,100,1
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 '''
 duration=len(rows)/30
-lines=[header,f'Dialogue: 0,0:00:00.00,{ts(duration)},Title,,0,0,0,,CHASSE GALERIE 1  |  VOL COMPLET\n',f'Dialogue: 0,0:00:00.00,{ts(duration)},Footer,,0,0,0,,OpenRocket · H143 · apogée idéale · modèle provisoire\\NPaysage, fumée et déploiement illustratifs — vent nul\n']
+lines=[header,f'Dialogue: 0,0:00:00.00,{ts(duration)},Title,,0,0,0,,CHASSE GALERIE 1  |  VOL COMPLET\n',f'Dialogue: 0,0:00:00.00,{ts(duration)},Footer,,0,0,0,,OpenRocket · H143 · apogée idéale · modèle provisoire\\NPaysage, fumée et déploiement illustratifs — vent moyen : 2 m/s (7,2 km/h)\n']
 for i in range(0,len(rows),3):
  r=dict(rows[i]);r['rate']='ARRÊT SUR IMAGE' if r['phase']=='RETOUR AU SOL' else r['rate'];r['phase']=r['phase'].replace('RETOUR AU SOL','CONTACT AU SOL — FIN DU CALCUL').replace('MONTEE','MONTÉE');r['rate']=r['rate'].replace('REEL','RÉEL').replace('ACCELEREE x6','ACCÉLÉRÉE ×6');text=f"{r['phase']}   ·   {r['rate']}\\Nt + {r['time']:05.1f} s    |    {r['altitude']:05.1f} m    |    {r['speed']:05.1f} m/s"
+ text+=f"\\NDistance du départ : {(r['x']**2+r['y']**2)**.5:05.1f} m"
  if 'post_contact_s' in r:text=f"{r['phase']}   ·   ANIMATION VISUELLE\\NAprès contact : +{r['post_contact_s']:.1f} s   |   Données de vol terminées"
  lines.append(f'Dialogue: 0,{ts(i/30)},{ts(min(i+3,len(rows))/30)},Data,,0,0,0,,{text}\n')
 (root/'titres.ass').write_text(''.join(lines),encoding='utf-8-sig')

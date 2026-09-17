@@ -1,10 +1,22 @@
 {
-  "duration": 40.56666666666667,
+  "revision": "v4",
   "frames": 1217,
-  "flight_duration": 106.84268527829295,
-  "apogee": 593.893170260696,
-  "deployment": 10.245999999999869,
+  "duration": 40.56666666666667,
   "contact_frame": 977,
   "post_contact_duration": 8,
-  "revision": "v3"
+  "flight_duration": 106.68214059725395,
+  "deployment": 10.19545953152845,
+  "apogee": 592.6447202605419,
+  "wind_average_m_s": 2,
+  "wind_turbulence_intensity": 0.1,
+  "wind_direction_parameter_deg": 90,
+  "random_seed": 20260912,
+  "landing_xy_m": [
+    -163.75930786132812,
+    -0.01506391353905201
+  ],
+  "smoke_particles": 116,
+  "smoke_model": "procedural volume particles, not CFD",
+  "timing": "v3 landmarks preserved; physical time remapped and playback rate displayed",
+  "random_seed_scope": "Simulation option only; internal OpenRocket wind model seed was not reset. Archived CSV is authoritative."
 }

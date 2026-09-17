@@ -12,8 +12,8 @@
     "canopy": 0.06100001931190491,
     "rope": 0.03500000014901161
   },
-  "maximum_attachment_error_m": 6.103515642763568e-05,
-  "root_altitude_error_m": 3.0120034848549193e-05,
+  "maximum_attachment_error_m": 6.103515636368684e-05,
+  "root_altitude_error_m": 2.6836373381231016e-05,
   "impact_cord_length_range_m": [
     4.613827395832693,
     4.620103354777739
@@ -25,20 +25,5 @@
   ],
   "final_canopy_thickness_m": 0.017999961972236633,
   "final_bodies_horizontal": true,
-  "physics_scope": "keyframed landing with geometric support plane; not a physical impact prediction",
-  "video": {
-    "decoded_frames": 1217,
-    "duration_s": 40.56666666666667,
-    "fps": 30,
-    "resolution": [
-      1920,
-      1080
-    ],
-    "decode_errors": 0
-  },
-  "excerpt": {
-    "decoded_frames": 332,
-    "duration_s": 11.066666666666666,
-    "decode_errors": 0
-  }
+  "physics_scope": "keyframed landing with geometric support plane; not a physical impact prediction"
 }

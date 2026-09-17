@@ -1,0 +1,11 @@
+{
+  "frames_checked": 1217,
+  "maximum_trajectory_coordinate_error_m": 3.048795706035723e-05,
+  "volumetric_particles": 116,
+  "active_particle_frames": 24485,
+  "births_only_during_motor_burn": true,
+  "world_space_advection_and_growth": true,
+  "all_particles_invisible_at_end": true,
+  "wind_average_m_s": 2,
+  "landing_distance_m": 163.7593053728595
+}
