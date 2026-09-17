@@ -1,6 +1,6 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-15. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-09-17. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
 ## Réalisé
 
@@ -119,6 +119,71 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 - [ ] Recenser les principaux documents officiels du projet à décorer : accueil du dépôt, plans et cartouches, aides à la tâche et notes de référence.
 - [ ] Préparer un petit visuel fidèle du drapeau du Québec, avec source et conditions de réutilisation documentées, puis définir une taille et un emplacement cohérents.
 - [ ] Intégrer le drapeau aux documents retenus et à leurs sources de génération; vérifier sa lisibilité sur GitHub et dans les PDF, à l'écran et à l'impression.
+
+## 🗺️ Amélioration de l’animation « Chasse-Galerie 1 »
+
+**Ajout :** 2026-09-17 — demandes de Steve, à réaliser.
+
+**Projet :** Simulation de vol complet d’une fusée LOC-IV pour la certification de niveau 1 de l’ACF (Association canadienne de fuséonautique).
+**Lieu de lancement indiqué :** Intersection du rang Letendre et du 10e rang, Saint-Pie-de-Guire, Québec.
+**Point de départ :** [Animation actuelle, scène Blender et données OpenRocket](plans/animations/vol-complet/README.md).
+
+### 🚀 Étape 1 : Physique, fluides et comportement numérique
+
+*Objectif : Atténuer la rigidité de l’animation en introduisant des dynamiques physiques réalistes adaptées à la fuséologie de haute puissance.*
+
+- [ ] **Système de récupération (parachute et corde de choc) :**
+  - [ ] Animer le gonflage progressif de la voilure du parachute (transition sur 1 à 2 secondes).
+  - [ ] Intégrer une simulation de type « corps souple » ou « tissu » pour la corde de choc afin d’obtenir une courbure et une tension naturelles.
+- [ ] **Descente et atterrissage :**
+  - [ ] Ajouter un mouvement de balancier (effet pendule) et une légère rotation sur l’axe vertical (lacet) pendant la descente sous voilure.
+  - [ ] Animer l’impact au sol : contact, léger rebond ou absorption du choc, basculement et affaissement de la fusée sur le côté (dégonflage du parachute).
+- [ ] **Conditions atmosphériques et dynamiques des fluides :**
+  - [ ] Intégrer un vecteur de vent léger affectant la trajectoire de descente (dérive).
+  - [ ] Retravailler le nuanceur et le système de particules du moteur pour une fumée volumétrique qui se dissipe et subit des turbulences dans l’atmosphère.
+
+### 🌍 Étape 2 : Environnement géospatial (Saint-Pie-de-Guire)
+
+*Objectif : Reproduire le site de lancement réel avec une approche de rendu hybride pour contourner les limites de résolution des images satellites.*
+
+- [ ] **Intégration topographique :**
+  - [ ] Importer les coordonnées de l’intersection du rang Letendre et du 10e rang au moyen d’un module d’extension (ex. BlenderGIS).
+  - [ ] Générer le maillage de base avec les données d’élévation (SRTM) pour un relief précis.
+- [ ] **Création du nuanceur de terrain hybride (masquage de fusion) :**
+  - [ ] Vue globale : appliquer la texture satellite pour les vues aériennes lors de la montée.
+  - [ ] Vue détaillée : créer une zone haute résolution (rayon d’environ 30 m) autour du pas de tir avec des textures à base physique (terre, chaumes de maïs).
+  - [ ] Transition : configurer un masque de fusion (texture de dégradé) dans l’éditeur de nuanceurs pour lier harmonieusement la zone détaillée et la carte satellite.
+- [ ] **Traitement des ombres et de l’éclairage :**
+  - [ ] Utiliser un logiciel d’édition graphique (ex. GIMP) pour atténuer ou effacer les ombres fixes trop prononcées sur la texture satellite originale.
+  - [ ] Aligner la source lumineuse principale (soleil ou image à grande gamme dynamique) de Blender avec l’angle résiduel des ombres de la carte satellite.
+
+### 🎥 Étape 3 : Cinématographie, optique et conception sonore
+
+*Objectif : Simuler un suivi de vol réaliste et créer une ambiance immersive.*
+
+- [ ] **Comportement de la caméra et optique :**
+  - [ ] Ajouter un modificateur de secousse synchronisé avec l’allumage du moteur et la phase d’accélération maximale.
+  - [ ] Configurer une zone de tolérance au centre du cadre et un amortissement pour permettre à la fusée de flotter légèrement dans l’image.
+  - [ ] Simuler une profondeur de champ adaptative (environnement flou en altitude).
+  - [ ] Ajouter de subtiles aberrations chromatiques et des reflets parasites face à la source lumineuse.
+- [ ] **Environnement sonore et musical :**
+  - [ ] Synchroniser des bruitages réalistes : grondement du propulseur, friction aérodynamique (inertie) et charge d’éjection (apogée).
+  - [ ] Intégrer une composition musicale originale aux influences rock progressif ou métal, en utilisant des signatures rythmiques complexes (ex. polyrythmies) pour accentuer la tension du compte à rebours et l’intensité du décollage.
+
+### 🖥️ Étape 4 : Affichage tête haute (ATH) et éléments didactiques
+
+*Objectif : Moderniser l’interface de données tout en offrant une couche d’apprentissage visuel et analytique.*
+
+- [ ] **Conception de l’interface (IU/EU) :**
+  - [ ] Créer des panneaux de fond avec un effet de verre dépoli bordés de lignes filaires fines.
+  - [ ] Intégrer une typographie technique sans empattement.
+  - [ ] Développer des jauges radiales pour la vitesse et l’altitude, ainsi qu’une minicarte tridimensionnelle en représentation filaire de la fusée.
+- [ ] **Séquenceur de vol (chronogramme vertical) :**
+  - [ ] Animer les phases de l’ACF (Attente, Allumage, Inertie, Apogée, Descente, Fin de vol) avec des effets de lueur dynamique sur le nœud en cours.
+- [ ] **Couche didactique et bilan :**
+  - [ ] Superposer temporairement des vecteurs de force (poussée, traînée, gravité) sur le modèle 3D pendant le vol.
+  - [ ] Générer un rapport de télémétrie post-vol à l’atterrissage, avec une mise en page à préciser. **Consigne reçue tronquée après « mise en page standar »; fin à compléter.**
+
 
 ## Dépôt et suivi
 
