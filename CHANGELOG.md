@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-09-20 — Base topographique géoréférencée v5
+
+- Intersection du rang Letendre et du 10e Rang identifiée par le nœud partagé OpenStreetMap 540514913 et vérifiée sur la carte topographique du Québec.
+- Origine géographique et projection UTM 18N enregistrées avec BlenderGIS 2.2.14; maillage SRTM GL1 natif de 57 200 sommets, sans exagération verticale.
+- Scène Blender avec topographie et scène v4 de référence, GeoTIFF recadré, GeoJSON, carte, survol 1080p et sources archivées.
+- Réouverture de la scène, coordonnées, hauteurs natives, textures intégrées et décodage des 240 images vérifiés. La vidéo complète reste v4 en attendant la fusion visuelle du terrain.
+
 ## 2026-09-17 — Vent et fumée volumétrique v4
 
 - Recalcul OpenRocket avec vent moyen de 2 m/s, turbulence de 10 % et trajectoire archivée; dérive d’environ 164 m, trajectoire et caméra actualisées.

@@ -1,0 +1,52 @@
+{
+  "name": "Intersection du rang Letendre et du 10e Rang, Saint-Pie-de-Guire",
+  "latitude": 46.004782,
+  "longitude": -72.7232675,
+  "osm_node_id": 540514913,
+  "osm_way_ids": [
+    349408869,
+    349408868
+  ],
+  "crs": "EPSG:32618",
+  "origin_easting_m": 676275.9123523133,
+  "origin_northing_m": 5097099.001849064,
+  "origin_elevation_egm96_m": 46.21519999999555,
+  "vertical_datum": "EGM96 EPSG:5773",
+  "dem": "NASA/NGA SRTM GL1 v3, hosted by OpenTopography",
+  "acquisition": "2000-02-11/2000-02-22",
+  "native_spacing_arcsec": 1,
+  "approx_spacing_east_m": 21.5,
+  "approx_spacing_north_m": 30.9,
+  "rows": 200,
+  "cols": 286,
+  "vertices": 57200,
+  "faces": 56715,
+  "elevation_range_m": [
+    10,
+    59
+  ],
+  "bounds_wgs84": [
+    -72.76277777777777,
+    45.977222222222224,
+    -72.6836111111111,
+    46.0325
+  ],
+  "vertical_exaggeration": 1,
+  "void_samples": 0,
+  "tile_seam_equal": true,
+  "utm_roundtrip_max_degrees": 7.429190986840695e-07,
+  "retrieved": "2026-09-17",
+  "source_tiles": [
+    {
+      "name": "N45W073.tif",
+      "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N45W073.tif",
+      "sha256": "f376319c3c835a3779187d6bb80c99f4040b63f26367420ff5304e1d79f371c7"
+    },
+    {
+      "name": "N46W073.tif",
+      "url": "https://opentopography.s3.sdsc.edu/raster/SRTM_GL1/SRTM_GL1_srtm/N46W073.tif",
+      "sha256": "029a8810595c9a473a43f9110185c59a9038dd0bdeea25d1717439c821345cec"
+    }
+  ],
+  "scope": "Intersection is a geographic reference, not a surveyed launch-pad position. SRTM is a radar surface model, not centimetre-accurate bare-earth lidar."
+}

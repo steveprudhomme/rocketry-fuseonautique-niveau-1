@@ -1,0 +1,11 @@
+{
+  "reopened_blend": true,
+  "native_vertices_checked": 57200,
+  "mesh_error_m": 0.00012206658720970154,
+  "reference_flight_samples_checked": 6,
+  "reference_flight_error_m": 2.560014827850121e-05,
+  "georeference_matches_metadata": true,
+  "vertical_exaggeration": 1,
+  "all_file_textures_packed": true,
+  "topography_animation_frames": 240
+}

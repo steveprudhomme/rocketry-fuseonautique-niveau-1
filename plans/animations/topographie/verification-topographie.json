@@ -1,0 +1,20 @@
+{
+  "blendergis_version": [
+    2,
+    2,
+    14
+  ],
+  "georeferenced": true,
+  "crs": "EPSG:32618",
+  "origin": [
+    676275.9123523133,
+    5097099.001849064
+  ],
+  "vertices": 57200,
+  "faces": 56715,
+  "mesh_float_precision_error_m": 0.00012206658720970154,
+  "height_samples_modified": false,
+  "scale": 1,
+  "scene_v4_preserved": true,
+  "scene_topography_frames": 240
+}

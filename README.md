@@ -22,6 +22,8 @@ Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la 
 
 Animation 1080p de 40,6 secondes fondée sur le scénario OpenRocket **H143 — apogée idéale** : départ, montée, récupération et retour au sol. **Atmosphère v4 :** vent moyen de 2 m/s (7,2 km/h), dérive calculée d’environ 164 m et fumée volumétrique avec dispersion et turbulences visuelles; [voir l’extrait de fumée](plans/animations/vol-complet/extrait-atmosphere.mp4). Le vol simulé de 106,7 s est condensé avec un facteur de lecture indiqué à l’écran. Gonflage sur 1,5 s, corde issue d’une simulation Soft Body, pendule, lacet, basculement et dégonflage conservés; [récupération](plans/animations/vol-complet/extrait-recuperation.mp4) et [atterrissage](plans/animations/vol-complet/extrait-atterrissage.mp4). Les huit secondes après contact sont une animation visuelle explicitement signalée. Modèle provisoire; fumée et impact illustratifs.
 
+**Topographie v5 :** [terrain réel SRTM et scène Blender géoréférencée](plans/animations/topographie/README.md), [carte du site](plans/animations/topographie/carte-topographique.png) et [survol MP4](plans/animations/topographie/survol-topographique.mp4). Base de 57 200 sommets autour du rang Letendre et du 10e Rang, à l’échelle réelle. Le vol complet ci-dessus reste en v4; sa fusion avec ce terrain appartient à la prochaine étape du nuanceur hybride.
+
 ## Objectif
 Rassembler les notes, plans, exercices, aides à la tâche, références et traces de progression dans un seul dépôt versionné.
 

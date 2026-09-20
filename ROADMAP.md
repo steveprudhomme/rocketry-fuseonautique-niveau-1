@@ -149,9 +149,10 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 
 *Objectif : Reproduire le site de lancement réel avec une approche de rendu hybride pour contourner les limites de résolution des images satellites.*
 
-- [ ] **Intégration topographique :**
-  - [ ] Importer les coordonnées de l’intersection du rang Letendre et du 10e rang au moyen d’un module d’extension (ex. BlenderGIS).
-  - [ ] Générer le maillage de base avec les données d’élévation (SRTM) pour un relief précis.
+- [x] **Intégration topographique :**
+  - [x] Importer les coordonnées de l’intersection du rang Letendre et du 10e rang au moyen d’un module d’extension (ex. BlenderGIS).
+  - [x] Générer le maillage de base avec les données d’élévation (SRTM) pour un relief précis.
+  - Livraison v5 du 2026-09-20 : intersection 46,004782° N / 72,7232675° O importée avec BlenderGIS; maillage SRTM GL1 natif (57 200 sommets, environ 30 m), sans exagération. [Scène, carte et survol](plans/animations/topographie/README.md). La fusion visuelle du terrain avec le vol reste à réaliser avec le nuanceur hybride.
 - [ ] **Création du nuanceur de terrain hybride (masquage de fusion) :**
   - [ ] Vue globale : appliquer la texture satellite pour les vues aériennes lors de la montée.
   - [ ] Vue détaillée : créer une zone haute résolution (rayon d’environ 30 m) autour du pas de tir avec des textures à base physique (terre, chaumes de maïs).

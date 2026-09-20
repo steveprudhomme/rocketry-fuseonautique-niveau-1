@@ -1,0 +1,15 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Title,Arial,44,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,-1,0,0,0,100,100,1,0,1,2,1,7,65,65,45,1
+Style: Data,Arial,30,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,0,0,0,0,100,100,0,0,3,9,0,7,65,65,110,1
+Style: Footer,Arial,23,&H00FFFFFF,&H00FFFFFF,&H00201810,&H80201810,0,0,0,0,100,100,0,0,3,7,0,1,65,65,45,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:08.00,Title,,0,0,0,,CHASSE GALERIE 1 | BASE TOPOGRAPHIQUE
+Dialogue: 0,0:00:00.00,0:00:08.00,Data,,0,0,0,,Rang Letendre × 10e Rang — Saint-Pie-de-Guire\N46,004782° N  ·  72,7232675° O\N57 200 sommets  |  Relief à l’échelle réelle
+Dialogue: 0,0:00:00.00,0:00:08.00,Footer,,0,0,0,,SRTM GL1 (~30 m) : NASA / NGA · OpenTopography\NAxes routiers : © contributeurs OpenStreetMap (ODbL) · Largeur symbolique
