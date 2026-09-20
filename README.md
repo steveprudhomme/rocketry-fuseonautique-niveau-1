@@ -12,7 +12,9 @@
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
 
-**État :** carnet en cours — notes et premier plan LOC-IV en brouillon • **Langue :** français
+**État au 2026-09-20 :** modèles provisoires, animation de vol v4 et base topographique v5 réalisées localement; mesures du kit et validation physique en attente. **Langue :** français
+
+La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les prochaines étapes et la publication. Les révisions v2 à v5 restent locales; le prochain travail d’animation porte sur la fusion du terrain géoréférencé avec le vol et les textures hybrides.
 
 ## Vidéo du vol complet
 

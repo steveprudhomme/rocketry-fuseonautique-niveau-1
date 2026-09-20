@@ -6,6 +6,12 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 **Première utilisation d'OpenSCAD ?** Suivre l'[aide à la tâche pour débuter et coder la LOC-IV](../aides-a-la-tache/debuter-openscad-loc-iv.md), avec des exercices expliqués pas à pas.
 
+## Animation et terrain — état au 2026-09-20
+
+- [Vol complet v4, données et scène Blender](animations/vol-complet/README.md) : récupération progressive, pendule, atterrissage, vent et fumée volumétrique; vidéo de 40,57 s.
+- [Base topographique v5](animations/topographie/README.md) : intersection géoréférencée, terrain SRTM, carte et survol de 8 s. La fusion avec le vol reste à réaliser.
+- [Feuille de route](../ROADMAP.md) : tâches terminées localement et étapes restantes. Les modèles restent provisoires; les révisions v2 à v5 ne sont pas encore publiées sur GitHub.
+
 ## Rendu artistique du décollage
 
 L’[image à l’heure dorée et sa scène Blender](rendus-artistiques/README.md) représentent Chasse Galerie 1 avec sa texture, au-dessus d’un champ de maïs récolté. La scène modifiable contient ses textures et son éclairage.

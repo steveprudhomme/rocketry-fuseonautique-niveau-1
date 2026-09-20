@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-09-20 — Réconciliation des fichiers Markdown
+
+- Correction de la date du ROADMAP et ajout d’un état synthétique des livraisons v2 à v5; distinction entre terrain disponible et fusion avec le vol restant à réaliser.
+- Actualisation du README, des index des plans et médias, de la notice du vol et du journal; état local/non publié explicite.
+- Inscription dans CONTRIBUTING de la mise à jour des Markdown concernés et du contrôle des liens à chaque commit.
+- Vérification des liens locaux des documents modifiés et synchronisation des copies de suivi remises à Steve. Aucun changement des modèles ou des vidéos.
+
 ## 2026-09-20 — Base topographique géoréférencée v5
 
 - Intersection du rang Letendre et du 10e Rang identifiée par le nœud partagé OpenStreetMap 540514913 et vérifiée sur la carte topographique du Québec.

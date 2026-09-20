@@ -1,8 +1,25 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-17. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-09-20. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+
+## État actuel — 20 septembre 2026
+
+| Volet | Réalisé et vérifié localement | Suite à réaliser |
+| --- | --- | --- |
+| Récupération v2 | Gonflage sur 1,5 s; corde issue du solveur Soft Body | Validation physique du système réel |
+| Descente et atterrissage v3 | Pendule, lacet, contact amorti, basculement et dégonflage | Comportements visuels, sans validation mécanique |
+| Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
+| Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Raccorder le vol au terrain et réaliser les textures hybrides |
+
+**Prochaine étape d’animation :** texture satellite, zone détaillée autour du pas de tir, masque de transition et raccord du vol au nouveau relief. Le fichier topographique contient deux scènes; la vidéo complète utilise encore le décor v4. Le SRTM à environ 30 m décrit le relief général, pas les petites irrégularités du sol.
+
+**Statut de publication :** les révisions v2 à v5 et cette mise à jour documentaire sont locales. Leur présence dans ce dossier ne signifie pas qu’elles ont été publiées sur GitHub. Les cases cochées ci-dessous décrivent les livrables locaux. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
+
+- [x] Ajouter le gonflage progressif et la corde Soft Body (v2), puis le pendule, le lacet et la mise au repos après contact (v3); [méthode et limites](plans/animations/vol-complet/README.md).
+- [x] Recalculer la trajectoire avec un vent moyen de 2 m/s et produire une fumée volumétrique avec turbulence et dissipation (v4); [extrait](plans/animations/vol-complet/extrait-atmosphere.mp4).
+- [x] Géoréférencer l’intersection du rang Letendre et du 10e Rang avec BlenderGIS et générer le maillage natif SRTM (v5); [terrain, carte et survol](plans/animations/topographie/README.md).
 
 - [x] Produire une [animation Blender du vol complet](plans/animations/vol-complet/README.md) fondée sur les données du scénario H143 à apogée idéale; ajouter le MP4 et son aperçu cliquable au README.
 
@@ -85,10 +102,12 @@ En complément du plan paramétrique, Steve souhaite un **plan technique d'ensem
 
 ## Décoration numérique — Textures et aides à la tâche
 
+**Avancement partiel :** les fichiers de démonstration OpenRocket, OpenSCAD et Blender existent. Blender 4.3 est le logiciel 3D retenu. La comparaison consolidée et les guides illustrés complets ci-dessous restent à rédiger; les livraisons de maquettes ne ferment pas ces tâches.
+
 - [x] Livrer une [version OpenRocket 24.12 avec textures intégrées et un aperçu OpenSCAD 2021.01 en mosaïque colorée](plans/decalques/sillage/README.md); vérifier les rendus natifs, le raccord et la conservation des paramètres de simulation. La masse réelle du décor reste à mesurer.
 - [x] Documenter l’ouverture, les paramètres de texture, l’épreuve et la régénération des fichiers provisoires.
 
-- [ ] Vérifier séparément la possibilité d'appliquer une texture de décalque dans **OpenSCAD**, dans un **autre logiciel 3D à choisir**, et dans **OpenRocket**. Consigner versions testées, formats acceptés, limites et solutions de remplacement dans une note comparative; ne pas supposer que les trois logiciels offrent les mêmes fonctions.
+- [ ] Vérifier séparément la possibilité d'appliquer une texture de décalque dans **OpenSCAD**, dans **Blender 4.3**, et dans **OpenRocket**. Consigner versions testées, formats acceptés, limites et solutions de remplacement dans une note comparative; ne pas supposer que les trois logiciels offrent les mêmes fonctions.
 - [ ] Produire une texture issue du design retenu et les fichiers nécessaires à chaque logiciel compatible, en documentant résolution, transparence, échelle, orientation et raccord autour du tube.
 - [ ] Créer une aide à la tâche pour débutant : **produire une texture de décalque**, depuis le dessin source jusqu'à l'export et au contrôle de ses dimensions.
 - [ ] Créer un pas à pas illustré pour **appliquer la texture sur la fusée**, avec un parcours pour OpenSCAD, le logiciel 3D retenu et OpenRocket selon les possibilités vérifiées. Pour une fonction non disponible, expliquer la limite et donner un parcours de remplacement testé.
@@ -151,8 +170,9 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 
 - [x] **Intégration topographique :**
   - [x] Importer les coordonnées de l’intersection du rang Letendre et du 10e rang au moyen d’un module d’extension (ex. BlenderGIS).
-  - [x] Générer le maillage de base avec les données d’élévation (SRTM) pour un relief précis.
+  - [x] Générer le maillage de base avec les données d’élévation (SRTM) pour un relief géoréférencé à la résolution native SRTM (environ 30 m).
   - Livraison v5 du 2026-09-20 : intersection 46,004782° N / 72,7232675° O importée avec BlenderGIS; maillage SRTM GL1 natif (57 200 sommets, environ 30 m), sans exagération. [Scène, carte et survol](plans/animations/topographie/README.md). La fusion visuelle du terrain avec le vol reste à réaliser avec le nuanceur hybride.
+- [ ] Raccorder la trajectoire et les contacts au sol au nouveau terrain géoréférencé; vérifier les altitudes et l’atterrissage avant de remplacer la vidéo complète v4.
 - [ ] **Création du nuanceur de terrain hybride (masquage de fusion) :**
   - [ ] Vue globale : appliquer la texture satellite pour les vues aériennes lors de la montée.
   - [ ] Vue détaillée : créer une zone haute résolution (rayon d’environ 30 m) autour du pas de tir avec des textures à base physique (terre, chaumes de maïs).
@@ -190,6 +210,10 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 
 
 ## Dépôt et suivi
+
+- [x] Réconcilier le ROADMAP, les index et les notices avec les livraisons locales v2 à v5 (2026-09-20).
+- [ ] Publier les révisions locales v2 à v5 et les corrections documentaires sur GitHub après autorisation de publication.
+- À chaque commit : actualiser les Markdown concernés, vérifier leurs liens et distinguer réalisation locale et publication; voir les [règles de tenue du dépôt](CONTRIBUTING.md).
 
 - [ ] Faire examiner la séquence de montage retenue et les interfaces de retenue/récupération sur le kit réel.
 
