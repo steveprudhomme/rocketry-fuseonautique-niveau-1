@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Base topographique v5
 
+**Suite réalisée :** le [terrain hybride et le vol complet v6](../terrain-hybride/README.md) intègrent cette base avec une orthophoto 2025, la terre PBR et les chaumes. Le fichier v5 décrit ici reste la référence native; son vol v4 est conservé.
+
 **Livraison locale finalisée le 2026-09-20 (données téléchargées le 2026-09-17).** Intersection géoréférencée avec BlenderGIS et maillage natif SRTM GL1 à l’échelle réelle.
 
 [![Carte du site](carte-topographique.png)](carte-topographique.png)
@@ -16,7 +18,7 @@
 
 **02 — Site SRTM géoréférencé** est la scène active à l’ouverture : terrain réel, axes des deux routes et marqueur de l’intersection. Les couleurs représentent l’altitude; aucune image satellite n’est encore appliquée.
 
-**01 — Vol v4 de référence** conserve l’animation précédente, avec vent, fumée et récupération. Le survol livré ici présente le terrain seul. La vidéo complète reste en v4 : le raccord du vol avec le nouveau sol et les textures hybrides fera partie de l’intégration visuelle suivante. Les données de vol n’ont pas été recalculées sur ce relief.
+**01 — Vol v4 de référence** conserve l’animation précédente, avec vent, fumée et récupération. Le survol livré ici présente le terrain seul. La scène de vol de ce fichier reste en v4. Le raccord au nouveau sol et les textures hybrides sont maintenant disponibles dans la livraison v6 liée ci-dessus. Les données de vol n’ont pas été recalculées sur ce relief.
 
 ## Coordonnées importées avec BlenderGIS
 

@@ -51,6 +51,6 @@ Pour reproduire exactement les matériaux et le cadrage finaux, appliquer égale
 
 Le CSV livré constitue la référence exacte de cette animation. Dans OpenRocket 24.12, le paramètre de graine de simulation ne réinitialise pas la graine interne du modèle de vent déjà créé : une nouvelle exécution de l’exporteur peut donc produire de légères variations. Un second calcul de contrôle a donné 592,542 m d’apogée contre 592,645 m pour les données livrées. Le rendu Blender est reproductible à partir du CSV archivé.
 
-## Suivi au 2026-09-20
+## Version suivante — terrain hybride v6
 
-La [base topographique v5](../topographie/README.md) est disponible dans un fichier contenant une scène de terrain et une scène v4 de référence. Cette vidéo complète reste la v4 : elle n’intègre pas encore le relief SRTM. La fusion du terrain et les textures hybrides restent ouvertes dans le [ROADMAP](../../../ROADMAP.md). Les révisions v2 à v5 sont enregistrées localement, sans publication GitHub à ce stade.
+Cette notice décrit la vidéo v4 conservée comme référence. La [vidéo complète v6](../terrain-hybride/README.md) intègre maintenant le relief SRTM, une orthophoto aérienne 2025, la terre PBR et les chaumes avec fondu radial. Les appuis et le raccord vertical au relief sont visuels et documentés. Les versions v2 à v6 restent locales, sans publication GitHub.

@@ -1,0 +1,502 @@
+[
+  {
+    "file": "MOS_25_364-5096_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_364-5096_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      364000.0,
+      5098000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 73,3% | 2025-05-14 = 26,7%",
+    "season": "Printemps",
+    "sha256_texture": "fee2daac2606dac387cd3d96baf5ee72fa4873462ecb2e8206ed25c0e806ba45"
+  },
+  {
+    "file": "MOS_25_366-5096_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_366-5096_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      366000.0,
+      5098000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 54,6% | 2025-05-13 = 45,4%",
+    "season": "Printemps",
+    "sha256_texture": "2aa8f26ff8cc03e95fc89eb95e55427cb4060273fa6ea36f1326cc8f579d5f00"
+  },
+  {
+    "file": "MOS_25_368-5092_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_368-5092_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      368000.0,
+      5094000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "ac7e03681eb2c7579874c6a64ec9f6715258e5f15a8a754fc479f8a5f9dcdc81"
+  },
+  {
+    "file": "MOS_25_362-5098_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_362-5098_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      362000.0,
+      5100000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "36344a7b012c038586f4a4cc1fa30699c9ff051ad702a778b4dc3794d3f99961"
+  },
+  {
+    "file": "MOS_25_360-5094_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_360-5094_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      360000.0,
+      5096000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 84,1% | 2025-05-14 = 15,9%",
+    "season": "Printemps",
+    "sha256_texture": "df1ad93a8d2160bdd0d3b60db30fbf11b65e05e64ceede8f57ce950bcf604763"
+  },
+  {
+    "file": "MOS_25_364-5098_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_364-5098_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      364000.0,
+      5100000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "8d035165298b572321fe85bed7cf781527a0a86c699f3cd06f9e4f71ed74286c"
+  },
+  {
+    "file": "MOS_25_366-5094_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_366-5094_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      366000.0,
+      5096000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "d709ec202efc85f16f74a341f3a827a9e90ac18ec0e42eada0e159de4491bf72"
+  },
+  {
+    "file": "MOS_25_362-5096_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_362-5096_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      362000.0,
+      5098000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "7120dc33707f5f7cc8b43e5841f65c965a91ce1e3da0527f92e55a34d3e25343"
+  },
+  {
+    "file": "MOS_25_360-5098_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_360-5098_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      360000.0,
+      5100000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "4cd890e344e627c61f6c8f5d54e7b59e59f5d3c3cf281c0134ab2cfaceac79dd"
+  },
+  {
+    "file": "MOS_25_368-5098_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_368-5098_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      368000.0,
+      5100000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 60,0% | 2025-05-14 = 40,0%",
+    "season": "Printemps",
+    "sha256_texture": "e8bfcc068692d7f5ba8bc5b4ca33395ad1d0adc4562e86de57b94193c88bc2f3"
+  },
+  {
+    "file": "MOS_25_366-5092_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_366-5092_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      366000.0,
+      5094000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 96,1% | 2025-05-13 = 3,9%",
+    "season": "Printemps",
+    "sha256_texture": "1401cf02b3ed941af9bbfcccc0aa87e7a3d6c30a8db1381c4939306845db4e4a"
+  },
+  {
+    "file": "MOS_25_364-5092_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_364-5092_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      364000.0,
+      5094000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 81,7% | 2025-05-13 = 18,3%",
+    "season": "Printemps",
+    "sha256_texture": "af7da6fa16dd24acf79198a7da1eda1515ea2843fddeb7b883acc573595044a1"
+  },
+  {
+    "file": "MOS_25_360-5092_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_360-5092_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      360000.0,
+      5094000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 61,7% | 2025-05-13 = 38,3%",
+    "season": "Printemps",
+    "sha256_texture": "85e2b2d8b0383b8fa471fb35964f1f5fbbefd365bbc9dac87bde992044a51ad5"
+  },
+  {
+    "file": "MOS_25_368-5096_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_368-5096_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      368000.0,
+      5098000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 87,5% | 2025-05-13 = 12,5%",
+    "season": "Printemps",
+    "sha256_texture": "06b4459e3d875b17f0af1f319102ba4cf65c63f90b666b7576ef87d4276a0f70"
+  },
+  {
+    "file": "MOS_25_368-5094_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_368-5094_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      368000.0,
+      5096000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "99cd57c1f7f231bc17a1c8c988ed631b256505f61ddcc12ea25ac73b8009c7fd"
+  },
+  {
+    "file": "MOS_25_366-5098_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_366-5098_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      366000.0,
+      5100000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "4b7a62acacd4a45a420968285e99db4664cd2fe806e6fa48fed7e6382113365a"
+  },
+  {
+    "file": "MOS_25_362-5094_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_362-5094_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      362000.0,
+      5096000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 54,3% | 2025-05-14 = 45,7%",
+    "season": "Printemps",
+    "sha256_texture": "4ff4cc7e87a864ea1b2658375ca0ef13f6b1ce43857d1e7978a5311d03be6bd9"
+  },
+  {
+    "file": "MOS_25_364-5094_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_364-5094_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      364000.0,
+      5096000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 72,9% | 2025-05-13 = 27,1%",
+    "season": "Printemps",
+    "sha256_texture": "bec8bb109d303f3044287cecd9ff17dd42b98c8acc31a0b0574be88c147ceb62"
+  },
+  {
+    "file": "MOS_25_362-5092_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_362-5092_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      362000.0,
+      5094000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-14 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "7e4ab114f96198c3744c45a6c8d7cff7f422a40ab0734b82a672ee27fce8248b"
+  },
+  {
+    "file": "MOS_25_360-5096_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_360-5096_20CM_F08.TIF",
+    "original_resolution_m": 0.2,
+    "output_resolution_m": 2,
+    "processing": "one native row in ten, horizontal mean of ten RGB pixels; NIR discarded",
+    "tiepoint": [
+      0.0,
+      0.0,
+      0.0,
+      360000.0,
+      5098000.0,
+      0.0
+    ],
+    "pixel_scale": [
+      0.2,
+      0.2,
+      0.0
+    ],
+    "licence": "Creative Commons Attribution 4.0 International (CC BY 4.0) https://www.donneesquebec.ca/licence",
+    "copyright": "© Région Centre-du-Québec",
+    "acquisition": "2025-05-13 = 100,0%",
+    "season": "Printemps",
+    "sha256_texture": "2d5279b6c743fb18e66dab3e83526734897fdb5637293c3f5ae02112f594de7a"
+  }
+]

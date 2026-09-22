@@ -1,19 +1,20 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-20. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-09-21. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
-## État actuel — 20 septembre 2026
+## État actuel — 21 septembre 2026
 
 | Volet | Réalisé et vérifié localement | Suite à réaliser |
 | --- | --- | --- |
 | Récupération v2 | Gonflage sur 1,5 s; corde issue du solveur Soft Body | Validation physique du système réel |
 | Descente et atterrissage v3 | Pendule, lacet, contact amorti, basculement et dégonflage | Comportements visuels, sans validation mécanique |
 | Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
-| Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Raccorder le vol au terrain et réaliser les textures hybrides |
+| Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Base native conservée comme référence |
+| Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres photographiques et alignement de l’éclairage |
 
-**Prochaine étape d’animation :** texture satellite, zone détaillée autour du pas de tir, masque de transition et raccord du vol au nouveau relief. Le fichier topographique contient deux scènes; la vidéo complète utilise encore le décor v4. Le SRTM à environ 30 m décrit le relief général, pas les petites irrégularités du sol.
+**Prochaine étape d’animation :** traitement des ombres fixes de l’imagerie et alignement de l’éclairage. La [vidéo complète v6](plans/animations/terrain-hybride/README.md) utilise désormais le terrain hybride. Les appuis au sol et le raccord vertical restent des adaptations visuelles; le SRTM décrit le relief général, pas les petites irrégularités du sol.
 
-**Statut de publication :** les révisions v2 à v5 et cette mise à jour documentaire sont locales. Leur présence dans ce dossier ne signifie pas qu’elles ont été publiées sur GitHub. Les cases cochées ci-dessous décrivent les livrables locaux. Les mesures du kit et la validation de vol restent ouvertes.
+**Statut de publication :** les révisions v2 à v6 et cette mise à jour documentaire sont locales. Leur présence dans ce dossier ne signifie pas qu’elles ont été publiées sur GitHub. Les cases cochées ci-dessous décrivent les livrables locaux. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
 
@@ -171,12 +172,13 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 - [x] **Intégration topographique :**
   - [x] Importer les coordonnées de l’intersection du rang Letendre et du 10e rang au moyen d’un module d’extension (ex. BlenderGIS).
   - [x] Générer le maillage de base avec les données d’élévation (SRTM) pour un relief géoréférencé à la résolution native SRTM (environ 30 m).
-  - Livraison v5 du 2026-09-20 : intersection 46,004782° N / 72,7232675° O importée avec BlenderGIS; maillage SRTM GL1 natif (57 200 sommets, environ 30 m), sans exagération. [Scène, carte et survol](plans/animations/topographie/README.md). La fusion visuelle du terrain avec le vol reste à réaliser avec le nuanceur hybride.
-- [ ] Raccorder la trajectoire et les contacts au sol au nouveau terrain géoréférencé; vérifier les altitudes et l’atterrissage avant de remplacer la vidéo complète v4.
-- [ ] **Création du nuanceur de terrain hybride (masquage de fusion) :**
-  - [ ] Vue globale : appliquer la texture satellite pour les vues aériennes lors de la montée.
-  - [ ] Vue détaillée : créer une zone haute résolution (rayon d’environ 30 m) autour du pas de tir avec des textures à base physique (terre, chaumes de maïs).
-  - [ ] Transition : configurer un masque de fusion (texture de dégradé) dans l’éditeur de nuanceurs pour lier harmonieusement la zone détaillée et la carte satellite.
+  - Livraison v5 du 2026-09-20 : intersection 46,004782° N / 72,7232675° O importée avec BlenderGIS; maillage SRTM GL1 natif (57 200 sommets, environ 30 m), sans exagération. [Scène, carte et survol](plans/animations/topographie/README.md). La fusion visuelle est réalisée dans la v6; le terrain natif reste conservé dans la scène de référence.
+- [x] Raccorder visuellement la trajectoire et les contacts au nouveau terrain géoréférencé; contrôler les 1 217 positions et les 241 poses après contact. Appuis locaux et raccord Z documentés, sans nouveau calcul de vol tenant compte du relief.
+- [x] **Création du nuanceur de terrain hybride (masquage de fusion) :**
+  - [x] Vue globale : appliquer une orthophoto aérienne ouverte de 2025 (rôle de la texture satellite) pour les vues de la montée.
+  - [x] Vue détaillée : créer une zone haute résolution (rayon d’environ 30 m) autour du pas de tir avec des textures à base physique (terre, chaumes de maïs).
+  - [x] Transition : configurer un masque de fusion (texture de dégradé) dans l’éditeur de nuanceurs pour lier harmonieusement la zone détaillée et l’orthophoto.
+  - Livraison v6 : terre PBR à échelle métrique, 9 260 chaumes, dégradé radial de 24 à 36 m; [vidéos, scène, sources et vérifications](plans/animations/terrain-hybride/README.md).
 - [ ] **Traitement des ombres et de l’éclairage :**
   - [ ] Utiliser un logiciel d’édition graphique (ex. GIMP) pour atténuer ou effacer les ombres fixes trop prononcées sur la texture satellite originale.
   - [ ] Aligner la source lumineuse principale (soleil ou image à grande gamme dynamique) de Blender avec l’angle résiduel des ombres de la carte satellite.
@@ -212,7 +214,7 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 ## Dépôt et suivi
 
 - [x] Réconcilier le ROADMAP, les index et les notices avec les livraisons locales v2 à v5 (2026-09-20).
-- [ ] Publier les révisions locales v2 à v5 et les corrections documentaires sur GitHub après autorisation de publication.
+- [ ] Publier les révisions locales v2 à v6 et les corrections documentaires sur GitHub après autorisation de publication.
 - À chaque commit : actualiser les Markdown concernés, vérifier leurs liens et distinguer réalisation locale et publication; voir les [règles de tenue du dépôt](CONTRIBUTING.md).
 
 - [ ] Faire examiner la séquence de montage retenue et les interfaces de retenue/récupération sur le kit réel.

@@ -1,5 +1,13 @@
 # Historique des changements
 
+## 2026-09-21 — Terrain hybride et vol complet v6
+
+- Orthophoto aérienne ouverte de 2025, mosaïque à 2 m/pixel et projection MTM8 vers le terrain UTM18.
+- Terre PBR procédurale, 9 260 chaumes et masque radial progressif de 24 à 36 m.
+- Vol complet intégré au terrain, cadrage aérien, appuis visuels locaux et raccord Z explicités; scène native SRTM conservée.
+- MP4 complet de 40,57 s, démonstration de 8 s, textures intégrées, sources, crédits et contrôles archivés.
+- README, ROADMAP, notices, index, crédits et journal mis à jour avant le commit local. Aucune publication GitHub.
+
 ## 2026-09-20 — Réconciliation des fichiers Markdown
 
 - Correction de la date du ROADMAP et ajout d’un état synthétique des livraisons v2 à v5; distinction entre terrain disponible et fusion avec le vol restant à réaliser.
