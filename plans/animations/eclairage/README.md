@@ -44,4 +44,4 @@ Relief : NASA/NGA, SRTM GL1 v3, [DOI 10.5067/MEaSUREs/SRTM/SRTMGL1.003](https://
 
 Le fichier de vol s’ouvre et se rend dans Blender 4.3 sans téléchargement de textures. Les scènes 03 et 04 correspondent respectivement au vol complet et à la démonstration. Pour reconstruire la correction, rendre le projet `correction-orthophoto.blend`, ou utiliser `corriger-orthophoto.py`; appliquer ensuite `appliquer-eclairage.py` à la scène v6. Les scripts conservent la structure locale `outputs/terrain-hybride-v6`, `outputs/eclairage-v7` et `work/eclairage-v7`. Les titres et l’encodage sont fournis dans `sources/`.
 
-Les documents du projet sont mis à jour avant le commit local. Cette révision n’est pas publiée sur GitHub.
+Les documents du projet ont été mis à jour avant le commit `e42b6cb`. Cette révision est publiée sur GitHub; présence distante vérifiée le 2026-10-06.

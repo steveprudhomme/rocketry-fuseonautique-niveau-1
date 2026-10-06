@@ -13,7 +13,7 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 - [Vol complet v4, données et scène Blender](animations/vol-complet/README.md) : récupération progressive, pendule, atterrissage, vent et fumée volumétrique; vidéo de 40,57 s.
 - [Base topographique v5](animations/topographie/README.md) : intersection géoréférencée, terrain SRTM, carte et survol de 8 s. Base native conservée; la fusion avec le vol est disponible dans la v6.
-- [Feuille de route](../ROADMAP.md) : tâches terminées localement et étapes restantes. Les modèles restent provisoires; les révisions v2 à v7 ne sont pas encore publiées sur GitHub.
+- [Feuille de route](../ROADMAP.md) : tâches terminées localement et étapes restantes. Les modèles restent provisoires; les révisions v2 à v7 sont publiées sur GitHub avec leur historique par étape.
 
 ## Rendu artistique du décollage
 

@@ -14,7 +14,7 @@ Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la 
 
 **État au 2026-10-06 :** modèles provisoires, animation de vol avec ombres et éclairage v7 réalisée localement; mesures du kit et validation physique en attente. **Langue :** français
 
-La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les prochaines étapes et la publication. Les révisions v2 à v7 restent locales; le terrain hybride et son raccord visuel au vol sont réalisés. Les ombres de l’imagerie sont atténuées et l’orientation du soleil est raccordée visuellement dans la v7.
+La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les prochaines étapes et la publication. Les révisions v2 à v7 sont publiées sur GitHub, avec un commit distinct par étape; le terrain hybride et son raccord visuel au vol sont réalisés. Les ombres de l’imagerie sont atténuées et l’orientation du soleil est raccordée visuellement dans la v7.
 
 ## Vidéo du vol complet
 

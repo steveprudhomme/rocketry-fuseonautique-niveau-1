@@ -55,4 +55,4 @@ Le CSV livré constitue la référence exacte de cette animation. Dans OpenRocke
 
 ## Version suivante — terrain hybride v6
 
-Cette notice décrit la vidéo v4 conservée comme référence. La [vidéo complète v6](../terrain-hybride/README.md) intègre maintenant le relief SRTM, une orthophoto aérienne 2025, la terre PBR et les chaumes avec fondu radial. Les appuis et le raccord vertical au relief sont visuels et documentés. Les versions v2 à v6 restent locales, sans publication GitHub.
+Cette notice décrit la vidéo v4 conservée comme référence. La [vidéo complète v6](../terrain-hybride/README.md) intègre maintenant le relief SRTM, une orthophoto aérienne 2025, la terre PBR et les chaumes avec fondu radial. Les appuis et le raccord vertical au relief sont visuels et documentés. Les versions v2 à v7 sont maintenant publiées sur GitHub; l’historique des étapes est conservé.

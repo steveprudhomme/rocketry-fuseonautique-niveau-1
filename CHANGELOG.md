@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-10-06 — Publication des étapes v2 à v7
+
+- Publication sur `main` des sept commits existants, sans regroupement ni réécriture de l’historique.
+- Vérification distante du commit `e42b6cb`, incluant les vidéos, scènes Blender, données, scripts et documents.
+- Actualisation du statut de publication dans le README, le ROADMAP, les index, les crédits et les notices. Les entrées historiques décrivent toujours leur état à la date de leur rédaction.
+
 ## 2026-10-06 — Ombres et éclairage v7
 
 - Atténuation des ombres de l’orthophoto dans le compositeur Blender, avec source intacte et masque tonal progressif.

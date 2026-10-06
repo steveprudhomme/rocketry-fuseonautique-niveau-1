@@ -15,7 +15,7 @@ Mise à jour : 2026-10-06. Organisation du projet personnel; cette liste ne cons
 
 **Prochaine étape d’animation :** cinématographie et optique (secousse, suivi amorti, profondeur de champ et effets optiques). Les ombres et l’éclairage sont traités dans la [v7](plans/animations/eclairage/README.md). La [vidéo complète v7](plans/animations/eclairage/README.md) utilise le terrain hybride et le nouvel éclairage. Les appuis au sol et le raccord vertical restent des adaptations visuelles; le SRTM décrit le relief général, pas les petites irrégularités du sol.
 
-**Statut de publication :** les révisions v2 à v7 et cette mise à jour documentaire sont locales. Leur présence dans ce dossier ne signifie pas qu’elles ont été publiées sur GitHub. Les cases cochées ci-dessous décrivent les livrables locaux. Les mesures du kit et la validation de vol restent ouvertes.
+**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
 
@@ -216,7 +216,7 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 ## Dépôt et suivi
 
 - [x] Réconcilier le ROADMAP, les index et les notices avec les livraisons locales v2 à v5 (2026-09-20).
-- [ ] Publier les révisions locales v2 à v7 et les corrections documentaires sur GitHub après autorisation de publication.
+- [x] Publier les révisions v2 à v7 et les corrections documentaires sur GitHub : sept commits distincts, de `7e6eba1` à `e42b6cb`; [journal de publication](journal/2026-10-06-publication-v2-v7.md).
 - À chaque commit : actualiser les Markdown concernés, vérifier leurs liens et distinguer réalisation locale et publication; voir les [règles de tenue du dépôt](CONTRIBUTING.md).
 
 - [ ] Faire examiner la séquence de montage retenue et les interfaces de retenue/récupération sur le kit réel.

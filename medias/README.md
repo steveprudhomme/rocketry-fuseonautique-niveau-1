@@ -11,6 +11,6 @@ Photos et illustrations du projet. Consigner leur provenance et conditions de r�
 - [Carte, aperçu et survol topographique v5](../plans/animations/topographie/README.md), avec les attributions SRTM/OpenTopography et OpenStreetMap dans la notice.
 - [Rendu artistique du décollage](../plans/rendus-artistiques/README.md).
 
-Les dernières révisions v2 à v7 restent locales.
+Les révisions v2 à v7 sont publiées sur GitHub.
 
 [Retour à l’accueil](../README.md)

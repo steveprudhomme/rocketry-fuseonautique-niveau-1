@@ -59,4 +59,4 @@ Les contrôles couvrent les 1 217 positions du vol et les 241 poses après conta
 
 Rapports : [matériau et maillage](verification-hybride.json), [trajectoire et contacts](verification-vol-terrain.json), [décodage des vidéos](verification-video.json).
 
-Livraison et commit locaux. Cette révision n’est pas publiée sur GitHub.
+Révision publiée sur GitHub dans le commit `780c3ab`; présence distante vérifiée le 2026-10-06.
