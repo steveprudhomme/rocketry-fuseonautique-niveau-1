@@ -12,15 +12,17 @@
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
 
-**État au 2026-10-06 :** modèles provisoires, animation de vol avec ombres et éclairage v7 réalisée localement; mesures du kit et validation physique en attente. **Langue :** français
+**État au 2026-10-06 :** modèles provisoires, animation de vol avec caméra et optique v8 réalisée localement; mesures du kit et validation physique en attente. **Langue :** français
 
 La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les prochaines étapes et la publication. Les révisions v2 à v7 sont publiées sur GitHub, avec un commit distinct par étape; le terrain hybride et son raccord visuel au vol sont réalisés. Les ombres de l’imagerie sont atténuées et l’orientation du soleil est raccordée visuellement dans la v7.
 
+La v8 ajoute les secousses moteur, le suivi amorti et la profondeur de champ adaptative. Les reflets face au soleil sont montrés dans un [extrait de contrôle](plans/animations/cinematographie/extrait-optique.mp4). Cette nouvelle livraison est locale, avec publication distante à confirmer.
+
 ## Vidéo du vol complet
 
-[![Lire la vidéo du vol complet de Chasse Galerie 1](plans/animations/eclairage/apercu-video.jpg)](plans/animations/eclairage/chasse-galerie-1-vol-complet.mp4)
+[![Lire la vidéo du vol complet de Chasse Galerie 1](plans/animations/cinematographie/apercu-video.jpg)](plans/animations/cinematographie/chasse-galerie-1-vol-complet.mp4)
 
-**[▶ Lire la vidéo MP4](plans/animations/eclairage/chasse-galerie-1-vol-complet.mp4)** · [Scène Blender, données et méthode](plans/animations/eclairage/README.md)
+**[▶ Lire la vidéo MP4](plans/animations/cinematographie/chasse-galerie-1-vol-complet.mp4)** · [Scène Blender, données et méthode](plans/animations/cinematographie/README.md)
 
 Animation 1080p de 40,6 secondes fondée sur le scénario OpenRocket **H143 — apogée idéale** : départ, montée, récupération et retour au sol. **Éclairage v7 :** ombres photographiques atténuées et soleil orienté selon les ombres résiduelles, avec estimation et limites documentées; [comparaison](plans/animations/eclairage/comparaison-orthophoto.jpg). **Terrain hybride conservé :** orthophoto aérienne 2025, terre PBR et chaumes autour du départ, fondu de 24 à 36 m; [voir la démonstration](plans/animations/terrain-hybride/extrait-terrain-hybride.mp4). **Atmosphère conservée :** vent moyen de 2 m/s (7,2 km/h), dérive calculée d’environ 164 m et fumée volumétrique avec dispersion et turbulences visuelles; [voir l’extrait de fumée v4](plans/animations/vol-complet/extrait-atmosphere.mp4). Le vol simulé de 106,7 s est condensé avec un facteur de lecture indiqué à l’écran. Gonflage sur 1,5 s, corde issue d’une simulation Soft Body, pendule, lacet, basculement et dégonflage conservés; [ancien extrait de récupération v4](plans/animations/vol-complet/extrait-recuperation.mp4) et [ancien extrait d’atterrissage v4](plans/animations/vol-complet/extrait-atterrissage.mp4). Les huit secondes après contact sont une animation visuelle explicitement signalée. Modèle provisoire; fumée et impact illustratifs.
 

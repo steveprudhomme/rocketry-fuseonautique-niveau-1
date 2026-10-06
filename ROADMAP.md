@@ -11,9 +11,10 @@ Mise à jour : 2026-10-06. Organisation du projet personnel; cette liste ne cons
 | Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
 | Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Base native conservée comme référence |
 | Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres réalisé dans la v7 |
+| Cinématographie v8 | Secousse moteur, suivi amorti, mise au point adaptative, dispersion et reflets directionnels; 1 217 cadrages vérifiés | Son et musique à réaliser; publication v8 à confirmer |
 | Ombres et éclairage v7 | Atténuation tonale dans le compositeur Blender; soleil orienté selon les ombres résiduelles | Orientation estimée ±10°; hauteur solaire visuelle |
 
-**Prochaine étape d’animation :** cinématographie et optique (secousse, suivi amorti, profondeur de champ et effets optiques). Les ombres et l’éclairage sont traités dans la [v7](plans/animations/eclairage/README.md). La [vidéo complète v7](plans/animations/eclairage/README.md) utilise le terrain hybride et le nouvel éclairage. Les appuis au sol et le raccord vertical restent des adaptations visuelles; le SRTM décrit le relief général, pas les petites irrégularités du sol.
+**Prochaine étape d’animation :** environnement sonore et musical. La [v8](plans/animations/cinematographie/README.md) réalise la caméra et l’optique; le vol reste sans son. Le terrain, son raccord visuel et l’éclairage v7 sont conservés.
 
 **Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. Les mesures du kit et la validation de vol restent ouvertes.
 
@@ -189,11 +190,12 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 
 *Objectif : Simuler un suivi de vol réaliste et créer une ambiance immersive.*
 
-- [ ] **Comportement de la caméra et optique :**
-  - [ ] Ajouter un modificateur de secousse synchronisé avec l’allumage du moteur et la phase d’accélération maximale.
-  - [ ] Configurer une zone de tolérance au centre du cadre et un amortissement pour permettre à la fusée de flotter légèrement dans l’image.
-  - [ ] Simuler une profondeur de champ adaptative (environnement flou en altitude).
-  - [ ] Ajouter de subtiles aberrations chromatiques et des reflets parasites face à la source lumineuse.
+- [x] **Comportement de la caméra et optique :**
+  - [x] Ajouter un modificateur de secousse synchronisé avec l’allumage du moteur et la phase d’accélération maximale.
+  - [x] Configurer une zone de tolérance au centre du cadre et un amortissement pour permettre à la fusée de flotter légèrement dans l’image.
+  - [x] Simuler une profondeur de champ adaptative (environnement flou en altitude).
+  - [x] Ajouter de subtiles aberrations chromatiques et des reflets parasites face à la source lumineuse.
+  - Livraison v8 : [vol complet, contrôle face au soleil et vérifications](plans/animations/cinematographie/README.md). Réalisée localement; publication distante à confirmer. Reflets désactivés pendant le vol car la caméra regarde à l’opposé du soleil.
 - [ ] **Environnement sonore et musical :**
   - [ ] Synchroniser des bruitages réalistes : grondement du propulseur, friction aérodynamique (inertie) et charge d’éjection (apogée).
   - [ ] Intégrer une composition musicale originale aux influences rock progressif ou métal, en utilisant des signatures rythmiques complexes (ex. polyrythmies) pour accentuer la tension du compte à rebours et l’intensité du décollage.

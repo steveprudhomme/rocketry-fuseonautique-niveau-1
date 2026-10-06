@@ -1,11 +1,13 @@
 # Médias
 
-- [Ombres et éclairage v7 — dernière vidéo complète](../plans/animations/eclairage/README.md) : atténuation de l’orthophoto, soleil orienté selon les ombres résiduelles; méthode, comparaison et limites documentées.
+- [Cinématographie et optique v8 — dernière vidéo complète](../plans/animations/cinematographie/README.md) : suivi amorti, secousse moteur, profondeur de champ et contrôle optique. Livraison locale, publication à confirmer.
+
+- [Ombres et éclairage v7 — version précédente](../plans/animations/eclairage/README.md) : atténuation de l’orthophoto, soleil orienté selon les ombres résiduelles; méthode, comparaison et limites documentées.
 
 - [Vidéo complète et terrain hybride v6](../plans/animations/terrain-hybride/README.md), avec orthophoto ouverte, sol PBR et chaumes.
 Photos et illustrations du projet. Consigner leur provenance et conditions de réutilisation dans les [crédits](credits.md).
 
-## Médias disponibles au 2026-09-20
+## Médias disponibles au 2026-10-06
 
 - [Vidéo complète et extraits v4](../plans/animations/vol-complet/README.md).
 - [Carte, aperçu et survol topographique v5](../plans/animations/topographie/README.md), avec les attributions SRTM/OpenTopography et OpenStreetMap dans la notice.

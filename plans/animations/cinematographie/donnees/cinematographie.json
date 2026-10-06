@@ -1,0 +1,38 @@
+{
+  "revision": "v8",
+  "fps": 30,
+  "frames": 1217,
+  "dead_zone_half_fraction": [
+    0.022,
+    0.025
+  ],
+  "damping_time_constant_s": 0.18,
+  "tracking_lag_limit_fraction": 0.05,
+  "shake_max_amplitude_deg": [
+    0.22,
+    0.16,
+    0.12
+  ],
+  "shake_modifiers": [
+    "NOISE",
+    "ENVELOPE"
+  ],
+  "burnout_physical_s": 1.73,
+  "peak_positive_acceleration_time_s": 0.8,
+  "peak_positive_acceleration_m_s2": 106.59271603391744,
+  "dispersion": 0.0007,
+  "flare_cone_deg": 25,
+  "flare_max_mix": 0.1,
+  "solar_disc_diameter_deg": 0.532846908999713,
+  "fstop_range": [
+    2.8,
+    7.1
+  ],
+  "autofocus": "evaluated assembly bounding-box center",
+  "frame_count_unchanged": true,
+  "audio": false,
+  "note": "Artistic camera effects; no trajectory or force modification.",
+  "solar_disc": "Compositor projection of solar direction; no shadow-casting geometry",
+  "optical_test_frames": 150,
+  "flare_note": "Main flight cameras face away from sun; flare mix remains zero there. Scene 05 demonstrates sun-facing response."
+}

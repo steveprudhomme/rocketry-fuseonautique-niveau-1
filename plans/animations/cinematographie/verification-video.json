@@ -1,0 +1,20 @@
+[
+  {
+    "file": "chasse-galerie-1-vol-complet.mp4",
+    "decoded_frames": 1217,
+    "fps": 30,
+    "duration_s": 40.56666666666667,
+    "size_bytes": 15769126,
+    "sha256": "93a4d14f155e217f030c4701bb73bd0982f8b4cc9204e75490f42bc44a27769e",
+    "decode_errors": ""
+  },
+  {
+    "file": "extrait-optique.mp4",
+    "decoded_frames": 150,
+    "fps": 30,
+    "duration_s": 5.0,
+    "size_bytes": 83380,
+    "sha256": "9097beab604a6ed4df168e4931da1ae1c4940739533b2b3d9a5bb83be636cc41",
+    "decode_errors": ""
+  }
+]
