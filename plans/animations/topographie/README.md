@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Base topographique v5
 
+**Version suivante disponible :** [ombres et éclairage v7](../eclairage/README.md), avec orthophoto atténuée et soleil orienté selon les ombres résiduelles. Cette notice conserve la description de sa révision historique.
+
 **Suite réalisée :** le [terrain hybride et le vol complet v6](../terrain-hybride/README.md) intègrent cette base avec une orthophoto 2025, la terre PBR et les chaumes. Le fichier v5 décrit ici reste la référence native; son vol v4 est conservé.
 
 **Livraison locale finalisée le 2026-09-20 (données téléchargées le 2026-09-17).** Intersection géoréférencée avec BlenderGIS et maillage natif SRTM GL1 à l’échelle réelle.

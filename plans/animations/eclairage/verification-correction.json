@@ -1,0 +1,12 @@
+{
+  "size": [
+    5000,
+    4000
+  ],
+  "no_warp_or_resampling": true,
+  "linear_model_error_p99": 0.006711006164550781,
+  "dark_linear_luminance_gain_median": 1.4605135417624633,
+  "bright_srgb_change_p99": 0.003921568393707275,
+  "source_sha256": "6bb9a05c0bbf1d917e721f825276b15bb14c82cc81e9091df81b9c6919841d70",
+  "result_sha256": "a0923aceae3ab549b1ee22e6bc24df626bfc07d95b4b44c0fcd1be157425a64c"
+}

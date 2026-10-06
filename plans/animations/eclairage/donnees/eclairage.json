@@ -1,0 +1,60 @@
+{
+  "method": "Manual visual estimate from three roof/shadow edges; approximate, no surveyed building height or capture time",
+  "samples": [
+    {
+      "name": "maison ouest",
+      "roof": [
+        868,
+        633
+      ],
+      "shadow": [
+        848,
+        611
+      ],
+      "sun_azimuth_mtm_deg": 137.72631099390625
+    },
+    {
+      "name": "maison sud",
+      "roof": [
+        1066,
+        744
+      ],
+      "shadow": [
+        1053,
+        723
+      ],
+      "sun_azimuth_mtm_deg": 148.2405199151872
+    },
+    {
+      "name": "bâtiment est",
+      "roof": [
+        1357,
+        451
+      ],
+      "shadow": [
+        1340,
+        431
+      ],
+      "sun_azimuth_mtm_deg": 139.63546342690265
+    }
+  ],
+  "sun_azimuth_mtm_deg": 141.86743144533204,
+  "sun_azimuth_utm_deg": 140.78791175924943,
+  "azimuth_uncertainty_deg": 10,
+  "sun_elevation_deg": 50,
+  "elevation_status": "Visual choice, not inferred from unknown building heights",
+  "sun_energy": 2.8,
+  "sun_angular_size_rad": 0.035,
+  "shadow_correction": "Blender compositor: luminance-dependent linear-light gain up to 1.75; dark materials may also be affected; no geometry changes or invented hidden detail",
+  "roi": {
+    "x0": 4036,
+    "y0": 7249,
+    "pixel_size_m": 0.2,
+    "roi_upper_left_mtm": [
+      364807.2,
+      5096550.2
+    ],
+    "tile": "MOS_25_364-5096_20CM_F08",
+    "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_364-5096_20CM_F08.TIF"
+  }
+}

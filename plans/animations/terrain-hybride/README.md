@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Terrain hybride v6
 
+**Version suivante disponible :** [ombres et éclairage v7](../eclairage/README.md), avec orthophoto atténuée et soleil orienté selon les ombres résiduelles. Cette notice conserve la description de sa révision historique.
+
 Révision locale du 21 septembre 2026. Le vol complet utilise maintenant le relief géoréférencé et un matériau combinant imagerie aérienne, terre PBR et chaumes en 3D.
 
 [![Lire le vol complet](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)

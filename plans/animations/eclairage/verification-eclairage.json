@@ -1,0 +1,15 @@
+{
+  "sun_count": 1,
+  "sun_azimuth_utm_deg": 140.7879161741073,
+  "shadow_azimuth_utm_deg": 320.7879161741073,
+  "sun_elevation_deg": 50.00000484643161,
+  "solar_direction_numeric_error_deg": 4.414857869505795e-06,
+  "visual_estimation_uncertainty_deg": 10,
+  "elevation_is_artistic": true,
+  "texture_size": [
+    5000,
+    4000
+  ],
+  "texture_packed": true,
+  "fill_light_shadows_disabled": true
+}

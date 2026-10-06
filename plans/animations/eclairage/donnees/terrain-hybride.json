@@ -1,0 +1,37 @@
+{
+  "crs_imagery": "EPSG:2950",
+  "crs_scene": "EPSG:32618",
+  "imagery_bounds_m": [
+    360000.0,
+    5092000.0,
+    370000.0,
+    5100000.0
+  ],
+  "texture_resolution_m": 2,
+  "texture_size": [
+    5000,
+    4000
+  ],
+  "pad_local_m": [
+    -80.0,
+    0.0,
+    -3.353979880801937
+  ],
+  "landing_local_m": [
+    -243.75930786132812,
+    -0.01506391353905201,
+    -1.6554830181772786
+  ],
+  "pad_wgs84": [
+    -72.72429993290402,
+    46.0048025750884
+  ],
+  "pad_status": "Provisional illustrative placement 80 m west of intersection, not surveyed",
+  "detail_radius_m": 30,
+  "blend_start_m": 24,
+  "blend_end_m": 36,
+  "support_flat_radius_m": 16,
+  "support_blend_end_m": 32,
+  "render_support_max_height_change_m": 0.5478697282692342,
+  "elevation_note": "Native SRTM unchanged in reference scene; render mesh bilinearly interpolated, with two level support discs for existing landing animation. No new measured elevation accuracy."
+}

@@ -1,5 +1,7 @@
 # Plans
 
+- [Ombres et éclairage v7 — dernière vidéo complète](animations/eclairage/README.md) : atténuation de l’orthophoto, soleil orienté selon les ombres résiduelles; méthode, comparaison et limites documentées.
+
 - [Terrain hybride et vol complet v6](animations/terrain-hybride/README.md) : orthophoto 2025, terre PBR, chaumes et fondu radial; MP4 de 40,57 s et démonstration de 8 s.
 **Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
 
@@ -11,7 +13,7 @@ Plans, schémas, fichiers sources et décisions. Préciser versions, unités, hy
 
 - [Vol complet v4, données et scène Blender](animations/vol-complet/README.md) : récupération progressive, pendule, atterrissage, vent et fumée volumétrique; vidéo de 40,57 s.
 - [Base topographique v5](animations/topographie/README.md) : intersection géoréférencée, terrain SRTM, carte et survol de 8 s. Base native conservée; la fusion avec le vol est disponible dans la v6.
-- [Feuille de route](../ROADMAP.md) : tâches terminées localement et étapes restantes. Les modèles restent provisoires; les révisions v2 à v6 ne sont pas encore publiées sur GitHub.
+- [Feuille de route](../ROADMAP.md) : tâches terminées localement et étapes restantes. Les modèles restent provisoires; les révisions v2 à v7 ne sont pas encore publiées sur GitHub.
 
 ## Rendu artistique du décollage
 

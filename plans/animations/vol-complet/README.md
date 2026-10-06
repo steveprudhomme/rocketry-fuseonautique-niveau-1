@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Vent et fumée volumétrique v4
 
+**Version suivante disponible :** [ombres et éclairage v7](../eclairage/README.md), avec orthophoto atténuée et soleil orienté selon les ombres résiduelles. Cette notice conserve la description de sa révision historique.
+
 **Révision du 2026-09-17.** Vent léger calculé dans OpenRocket et nouveau panache volumétrique animé dans Blender 4.3.
 
 [![Lire la vidéo](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)

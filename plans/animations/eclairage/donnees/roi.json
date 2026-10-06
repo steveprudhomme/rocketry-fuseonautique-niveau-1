@@ -1,0 +1,11 @@
+{
+  "x0": 4036,
+  "y0": 7249,
+  "pixel_size_m": 0.2,
+  "roi_upper_left_mtm": [
+    364807.2,
+    5096550.2
+  ],
+  "tile": "MOS_25_364-5096_20CM_F08",
+  "url": "https://diffusion.mern.gouv.qc.ca/diffusion/RGQ/Imagerie/Orthomosaique/2025_Centreduquebec_20cm_Rvbi/Mtm8/Geotiff/MOS_25_364-5096_20CM_F08.TIF"
+}

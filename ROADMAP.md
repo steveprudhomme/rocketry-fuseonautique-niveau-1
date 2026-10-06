@@ -1,8 +1,8 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-09-21. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-10-06. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
-## État actuel — 21 septembre 2026
+## État actuel — 6 octobre 2026
 
 | Volet | Réalisé et vérifié localement | Suite à réaliser |
 | --- | --- | --- |
@@ -10,11 +10,12 @@ Mise à jour : 2026-09-21. Organisation du projet personnel; cette liste ne cons
 | Descente et atterrissage v3 | Pendule, lacet, contact amorti, basculement et dégonflage | Comportements visuels, sans validation mécanique |
 | Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
 | Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Base native conservée comme référence |
-| Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres photographiques et alignement de l’éclairage |
+| Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres réalisé dans la v7 |
+| Ombres et éclairage v7 | Atténuation tonale dans le compositeur Blender; soleil orienté selon les ombres résiduelles | Orientation estimée ±10°; hauteur solaire visuelle |
 
-**Prochaine étape d’animation :** traitement des ombres fixes de l’imagerie et alignement de l’éclairage. La [vidéo complète v6](plans/animations/terrain-hybride/README.md) utilise désormais le terrain hybride. Les appuis au sol et le raccord vertical restent des adaptations visuelles; le SRTM décrit le relief général, pas les petites irrégularités du sol.
+**Prochaine étape d’animation :** cinématographie et optique (secousse, suivi amorti, profondeur de champ et effets optiques). Les ombres et l’éclairage sont traités dans la [v7](plans/animations/eclairage/README.md). La [vidéo complète v7](plans/animations/eclairage/README.md) utilise le terrain hybride et le nouvel éclairage. Les appuis au sol et le raccord vertical restent des adaptations visuelles; le SRTM décrit le relief général, pas les petites irrégularités du sol.
 
-**Statut de publication :** les révisions v2 à v6 et cette mise à jour documentaire sont locales. Leur présence dans ce dossier ne signifie pas qu’elles ont été publiées sur GitHub. Les cases cochées ci-dessous décrivent les livrables locaux. Les mesures du kit et la validation de vol restent ouvertes.
+**Statut de publication :** les révisions v2 à v7 et cette mise à jour documentaire sont locales. Leur présence dans ce dossier ne signifie pas qu’elles ont été publiées sur GitHub. Les cases cochées ci-dessous décrivent les livrables locaux. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
 
@@ -179,9 +180,10 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
   - [x] Vue détaillée : créer une zone haute résolution (rayon d’environ 30 m) autour du pas de tir avec des textures à base physique (terre, chaumes de maïs).
   - [x] Transition : configurer un masque de fusion (texture de dégradé) dans l’éditeur de nuanceurs pour lier harmonieusement la zone détaillée et l’orthophoto.
   - Livraison v6 : terre PBR à échelle métrique, 9 260 chaumes, dégradé radial de 24 à 36 m; [vidéos, scène, sources et vérifications](plans/animations/terrain-hybride/README.md).
-- [ ] **Traitement des ombres et de l’éclairage :**
-  - [ ] Utiliser un logiciel d’édition graphique (ex. GIMP) pour atténuer ou effacer les ombres fixes trop prononcées sur la texture satellite originale.
-  - [ ] Aligner la source lumineuse principale (soleil ou image à grande gamme dynamique) de Blender avec l’angle résiduel des ombres de la carte satellite.
+- [x] **Traitement des ombres et de l’éclairage :**
+  - [x] Atténuer les ombres fixes de l’orthophoto dans un logiciel d’édition graphique : compositeur Blender, masque tonal progressif; original conservé.
+  - [x] Orienter le soleil Blender selon les ombres résiduelles : azimut UTM estimé à 140,8° (incertitude visuelle ±10°); élévation illustrative de 50°.
+  - Livraison v7 du 2026-10-06 : [vidéos, comparaison avant/après, scène, méthode et contrôles](plans/animations/eclairage/README.md). Atténuation et accord de direction; pas de restitution exacte des conditions de prise de vue.
 
 ### 🎥 Étape 3 : Cinématographie, optique et conception sonore
 
@@ -214,7 +216,7 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
 ## Dépôt et suivi
 
 - [x] Réconcilier le ROADMAP, les index et les notices avec les livraisons locales v2 à v5 (2026-09-20).
-- [ ] Publier les révisions locales v2 à v6 et les corrections documentaires sur GitHub après autorisation de publication.
+- [ ] Publier les révisions locales v2 à v7 et les corrections documentaires sur GitHub après autorisation de publication.
 - À chaque commit : actualiser les Markdown concernés, vérifier leurs liens et distinguer réalisation locale et publication; voir les [règles de tenue du dépôt](CONTRIBUTING.md).
 
 - [ ] Faire examiner la séquence de montage retenue et les interfaces de retenue/récupération sur le kit réel.

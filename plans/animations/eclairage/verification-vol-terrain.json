@@ -1,0 +1,18 @@
+{
+  "checked_flight_frames": 1217,
+  "checked_post_contact_frames": 241,
+  "maximum_transformed_trajectory_error_m": 6.151014518144746e-05,
+  "minimum_root_clearance_m": 0.07977986335754395,
+  "minimum_post_contact_clearance_m": {
+    "body": 0.03199986540279354,
+    "payload": 0.03199988960641664,
+    "canopy": 0.06100006587803364,
+    "rope": 0.035000044852495193
+  },
+  "native_srtm_reference_error_m": 0.00012206658720970154,
+  "packed_orthophoto": true,
+  "smoothstep_mask_24_36m": true,
+  "support_flat_radius_m": 16,
+  "support_visual_max_height_edit_m": 0.5478697282692342,
+  "physics_note": "Checks include the documented visual Z contact adjustment, not a new OpenRocket terrain simulation."
+}

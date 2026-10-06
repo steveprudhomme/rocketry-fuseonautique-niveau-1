@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-10-06 — Ombres et éclairage v7
+
+- Atténuation des ombres de l’orthophoto dans le compositeur Blender, avec source intacte et masque tonal progressif.
+- Direction solaire estimée sur trois repères puis convertie vers UTM18 : 140,8°; incertitude visuelle ±10°, élévation artistique de 50°.
+- Vidéo complète et démonstration renouvelées; correction de texture, orientation solaire, trajectoire, contacts et décodage vérifiés.
+- README, ROADMAP, notices, crédits, index et journal actualisés avant le commit local; aucune publication GitHub.
+
 ## 2026-09-21 — Terrain hybride et vol complet v6
 
 - Orthophoto aérienne ouverte de 2025, mosaïque à 2 m/pixel et projection MTM8 vers le terrain UTM18.
