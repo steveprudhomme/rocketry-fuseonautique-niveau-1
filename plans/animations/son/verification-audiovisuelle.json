@@ -1,0 +1,34 @@
+{
+  "frames": 1217,
+  "duration_s": 40.56666666666667,
+  "sample_rate": 48000,
+  "channels": 2,
+  "decode_errors": "",
+  "video_bitstream_unchanged": true,
+  "video_hash": "SHA256=d9c4c225a0f3f9d8a852ca871472d24da71cb45606c0e50124f112f98f763fe7",
+  "normalization": {
+    "input_i": "-22.85",
+    "input_tp": "-2.88",
+    "input_lra": "20.60",
+    "input_thresh": "-34.67",
+    "output_i": "-18.30",
+    "output_tp": "-2.00",
+    "output_lra": "5.50",
+    "output_thresh": "-28.67",
+    "normalization_type": "dynamic",
+    "target_offset": "0.30"
+  },
+  "aac_measurement": {
+    "input_i": "-18.41",
+    "input_tp": "-1.79",
+    "input_lra": "6.50",
+    "input_thresh": "-29.01",
+    "output_i": "-19.47",
+    "output_tp": "-2.00",
+    "output_lra": "5.20",
+    "output_thresh": "-29.84",
+    "normalization_type": "dynamic",
+    "target_offset": "1.47"
+  },
+  "sha256": "35383814b513f4a904d8bf919a0da3a2314c168112546cf77c1ef77426ffb1fc"
+}

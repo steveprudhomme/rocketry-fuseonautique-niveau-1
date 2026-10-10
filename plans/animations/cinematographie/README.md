@@ -1,6 +1,6 @@
 # Chasse Galerie 1 — Cinématographie et optique v8
 
-6 octobre 2026. Nouvelle caméra pour le vol complet, avec secousses à l’allumage, suivi amorti, profondeur de champ et effets optiques subtils. Livraison locale; publication distante à confirmer. Les versions v2 à v7 sont déjà publiées.
+6 octobre 2026. Nouvelle caméra pour le vol complet, avec secousses à l’allumage, suivi amorti, profondeur de champ et effets optiques subtils. Publiée sur GitHub, commit `4060a51` vérifié le 10 octobre 2026. Les versions v2 à v7 sont déjà publiées.
 
 [![Lire le vol complet](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)
 
@@ -28,7 +28,7 @@ La trajectoire, le vent, les mouvements de récupération, le terrain hybride et
 
 Rapports : [caméra](verification-camera.json), [vol et terrain](verification-vol-terrain.json), [décodage des vidéos](verification-video.json). Paramètres : [cinématographie](donnees/cinematographie.json) et [caméra par image](donnees/camera-par-image.json).
 
-La conception sonore et musicale, ainsi que le nouvel affichage tête haute, restent à réaliser.
+Le [son et la musique sont réalisés dans la v9](../son/README.md). Le nouvel affichage tête haute reste à réaliser.
 
 ## Sources et reproduction
 

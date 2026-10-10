@@ -1,0 +1,39 @@
+{
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples": 1947200,
+  "duration_s": 40.56666666666667,
+  "seed": 14309,
+  "events": [
+    {
+      "event": "allumage",
+      "video_s": 2,
+      "physical_s": 0
+    },
+    {
+      "event": "extinction",
+      "video_s": 3.73,
+      "physical_s": 1.73
+    },
+    {
+      "event": "ejection",
+      "video_s": 12.266666666666667,
+      "physical_s": 10.1954595315
+    },
+    {
+      "event": "contact",
+      "video_s": 32.53333333333333,
+      "physical_s": 106.68214059725395
+    }
+  ],
+  "composition": {
+    "title": "Sept sillages",
+    "tempo_bpm": 120,
+    "meter": "7/8, accents 2+2+3",
+    "polyrhythm": "3:2 cymbal overlay against quarter-note pulse",
+    "instruments": "synthetic distorted power chords, bass, drums, bell arpeggio",
+    "original": true
+  },
+  "audio_sources": "Procedural synthesis only; no recordings or third-party music. Illustrative sound design, not measured motor acoustics.",
+  "peak_dbfs": -2.922446429123676
+}

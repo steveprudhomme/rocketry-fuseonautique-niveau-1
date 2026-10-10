@@ -1,8 +1,8 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-10-06. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-10-10. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
-## État actuel — 6 octobre 2026
+## État actuel — 10 octobre 2026
 
 | Volet | Réalisé et vérifié localement | Suite à réaliser |
 | --- | --- | --- |
@@ -11,12 +11,13 @@ Mise à jour : 2026-10-06. Organisation du projet personnel; cette liste ne cons
 | Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
 | Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Base native conservée comme référence |
 | Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres réalisé dans la v7 |
-| Cinématographie v8 | Secousse moteur, suivi amorti, mise au point adaptative, dispersion et reflets directionnels; 1 217 cadrages vérifiés | Son et musique à réaliser; publication v8 à confirmer |
+| Son et musique v9 | Bruitages synchronisés, composition originale synthétisée, pistes séparées et MP4 sonorisé vérifié | Ajustements artistiques après écoute; publication à confirmer |
+| Cinématographie v8 | Secousse moteur, suivi amorti, mise au point adaptative, dispersion et reflets directionnels; 1 217 cadrages vérifiés | Publiée; son et musique réalisés dans la v9 |
 | Ombres et éclairage v7 | Atténuation tonale dans le compositeur Blender; soleil orienté selon les ombres résiduelles | Orientation estimée ±10°; hauteur solaire visuelle |
 
-**Prochaine étape d’animation :** environnement sonore et musical. La [v8](plans/animations/cinematographie/README.md) réalise la caméra et l’optique; le vol reste sans son. Le terrain, son raccord visuel et l’éclairage v7 sont conservés.
+**Prochaine étape d’animation :** affichage tête haute et éléments didactiques. La [v9](plans/animations/son/README.md) ajoute les bruitages et la musique à la vidéo v8, sans réencoder les images.
 
-**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. Les mesures du kit et la validation de vol restent ouvertes.
+**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. La v8 est également publiée : commit `4060a51`, vérifié le 10 octobre 2026. La v9 est réalisée localement, publication à confirmer. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
 
@@ -195,10 +196,12 @@ La [liste complémentaire issue des vidéos](notes/loc-iv-achats-complement-mont
   - [x] Configurer une zone de tolérance au centre du cadre et un amortissement pour permettre à la fusée de flotter légèrement dans l’image.
   - [x] Simuler une profondeur de champ adaptative (environnement flou en altitude).
   - [x] Ajouter de subtiles aberrations chromatiques et des reflets parasites face à la source lumineuse.
-  - Livraison v8 : [vol complet, contrôle face au soleil et vérifications](plans/animations/cinematographie/README.md). Réalisée localement; publication distante à confirmer. Reflets désactivés pendant le vol car la caméra regarde à l’opposé du soleil.
-- [ ] **Environnement sonore et musical :**
-  - [ ] Synchroniser des bruitages réalistes : grondement du propulseur, friction aérodynamique (inertie) et charge d’éjection (apogée).
-  - [ ] Intégrer une composition musicale originale aux influences rock progressif ou métal, en utilisant des signatures rythmiques complexes (ex. polyrythmies) pour accentuer la tension du compte à rebours et l’intensité du décollage.
+  - Livraison v8 : [vol complet, contrôle face au soleil et vérifications](plans/animations/cinematographie/README.md). Publiée, vérification du 10 octobre 2026. Reflets désactivés pendant le vol car la caméra regarde à l’opposé du soleil.
+- [x] **Environnement sonore et musical :**
+  - [x] Synchroniser des bruitages réalistes : grondement du propulseur, friction aérodynamique (inertie) et charge d’éjection (apogée).
+  - [x] Intégrer une composition musicale originale aux influences rock progressif ou métal, en utilisant des signatures rythmiques complexes (ex. polyrythmies) pour accentuer la tension du compte à rebours et l’intensité du décollage.
+
+Livraison v9 : [vidéo sonorisée et pistes séparées](plans/animations/son/README.md). Bruitages procéduraux illustratifs, instruments synthétiques et composition originale à 7/8; aucune mesure acoustique réelle.
 
 ### 🖥️ Étape 4 : Affichage tête haute (ATH) et éléments didactiques
 

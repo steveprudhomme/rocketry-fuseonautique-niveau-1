@@ -2,6 +2,8 @@
 
 - [Cinématographie et optique v8 — 2026-10-06](2026-10-06-cinematographie-v8.md)
 
+- [Son et musique v9 — 2026-10-10](2026-10-10-son-musique-v9.md)
+
 Nommer les entrées `AAAA-MM-JJ-sujet.md`.
 
 - [Publication des étapes v2 à v7 — 2026-10-06](2026-10-06-publication-v2-v7.md)

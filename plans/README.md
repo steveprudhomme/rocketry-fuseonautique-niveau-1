@@ -1,6 +1,8 @@
 # Plans
 
-- [Cinématographie et optique v8 — dernière vidéo complète](animations/cinematographie/README.md) : suivi amorti, secousse moteur, profondeur de champ et contrôle optique. Livraison locale, publication à confirmer.
+- [Son et musique v9 — vidéo complète sonorisée](animations/son/README.md) : bruitages synchronisés et composition originale; livraison locale, publication à confirmer.
+
+- [Cinématographie et optique v8 — version précédente](animations/cinematographie/README.md) : suivi amorti, secousse moteur, profondeur de champ et contrôle optique. V8 publiée, vérifiée le 10 octobre 2026.
 
 - [Ombres et éclairage v7 — version précédente](animations/eclairage/README.md) : atténuation de l’orthophoto, soleil orienté selon les ombres résiduelles; méthode, comparaison et limites documentées.
 
