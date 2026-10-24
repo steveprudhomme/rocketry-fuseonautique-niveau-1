@@ -1,5 +1,12 @@
 # Historique des changements
 
+## 2026-10-24 — Affichage tête haute v10
+
+- Panneaux de verre dépoli, jauges radiales, vue 3D filaire orientée et chronogramme lumineux.
+- Vecteurs de direction qualitatifs pendant la montée; bilan au contact avec courbe altitude/temps physique.
+- MP4 de 1 217 images entièrement décodé, audio AAC v9 conservé à l’identique. Projet Blender rouvert et rendu vérifié; panneaux modifiables par script.
+- Publication v9 confirmée (`6b78d73`). README, ROADMAP, notices, crédits et journal actualisés avant commit v10; publication v10 à confirmer.
+
 ## 2026-10-10 — Son et musique v9
 
 - Vérification de la publication v8 : commit distant `4060a51`.

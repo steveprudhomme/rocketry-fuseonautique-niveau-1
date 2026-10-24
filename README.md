@@ -12,17 +12,19 @@
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
 
-**État au 2026-10-10 :** modèles provisoires, animation de vol sonorisée v9 réalisée localement; mesures du kit et validation physique en attente. **Langue :** français
+**État au 2026-10-24 :** modèles provisoires, animation avec ATH et son v10 réalisée localement; mesures du kit et validation physique en attente. **Langue :** français
 
 La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les prochaines étapes et la publication. Les révisions v2 à v7 sont publiées sur GitHub, avec un commit distinct par étape; le terrain hybride et son raccord visuel au vol sont réalisés. Les ombres de l’imagerie sont atténuées et l’orientation du soleil est raccordée visuellement dans la v7.
 
-La v8 ajoute les secousses moteur, le suivi amorti et la profondeur de champ adaptative. Les reflets face au soleil sont montrés dans un [extrait de contrôle](plans/animations/cinematographie/extrait-optique.mp4). La v8 est publiée (vérification du 10 octobre 2026). La nouvelle v9 ajoute bruitages et musique originale; publication distante à confirmer.
+La v8 ajoute les secousses moteur, le suivi amorti et la profondeur de champ adaptative. Les reflets face au soleil sont montrés dans un [extrait de contrôle](plans/animations/cinematographie/extrait-optique.mp4). La v8 est publiée (vérification du 10 octobre 2026). La v9 ajoute bruitages et musique originale; elle est publiée (commit `6b78d73`, vérifié le 24 octobre 2026). La v10 ajoute l’ATH et le bilan pédagogique; publication à confirmer.
 
 ## Vidéo du vol complet
 
-[![Lire la vidéo du vol complet de Chasse Galerie 1](plans/animations/son/apercu-video.jpg)](plans/animations/son/chasse-galerie-1-vol-sonorise.mp4)
+[![Lire la vidéo du vol complet de Chasse Galerie 1](plans/animations/ath/apercu-video.jpg)](plans/animations/ath/chasse-galerie-1-ath.mp4)
 
-**[▶ Lire la vidéo MP4](plans/animations/son/chasse-galerie-1-vol-sonorise.mp4)** · [Scène Blender, pistes audio et méthode](plans/animations/son/README.md)
+**[▶ Lire la vidéo MP4](plans/animations/ath/chasse-galerie-1-ath.mp4)** · [Projet Blender, ATH et méthode](plans/animations/ath/README.md)
+
+**ATH v10 :** panneaux de verre dépoli, jauges radiales, attitude filaire 3D, chronogramme lumineux, vecteurs qualitatifs et bilan au contact. La bande sonore v9 est conservée.
 
 **Son v9 :** grondement moteur, souffle aérodynamique, éjection et contact synchronisés; morceau original « Sept sillages » à 7/8 avec polyrythmie. Bruitages et instruments synthétisés, sans enregistrement réel.
 

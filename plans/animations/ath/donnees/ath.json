@@ -1,0 +1,36 @@
+{
+  "frames": 1217,
+  "fps": 30,
+  "font": "Bahnschrift + Consolas (system fonts, not redistributed)",
+  "glass_blur_px": 9,
+  "phases": [
+    "ATTENTE",
+    "ALLUMAGE",
+    "INERTIE",
+    "APOGÉE",
+    "DESCENTE",
+    "FIN DE VOL"
+  ],
+  "phase_frame_boundaries": [
+    1,
+    61,
+    113,
+    366,
+    384,
+    977
+  ],
+  "apogee_highlight": "Visual event window around the simulated apogee, not an additional physical state.",
+  "force_windows_frames": [
+    [
+      76,
+      106
+    ],
+    [
+      165,
+      230
+    ]
+  ],
+  "force_note": "Qualitative projected directions only. Drag opposes velocity relative to mean westward 2 m/s wind, ignoring wind fluctuations. No force magnitudes or force balance inferred.",
+  "wireframe_note": "Schematic rocket body using evaluated Blender body orientation; not a manufacturing model.",
+  "postflight_report_frame": 977
+}

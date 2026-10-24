@@ -1,0 +1,13 @@
+{
+  "frames": 1217,
+  "fps": 30,
+  "duration_s": 40.56666666666667,
+  "decode_errors": "",
+  "audio_bitstream_unchanged": true,
+  "audio_hash": "SHA256=a5cdd54dbcad96162d1c18b2ad328b0ac7663888cc12d625d5b10d79bbde526a",
+  "sha256": "e396576eef2d5d38aa26195331feedb6843de0c6eda7c4bf3f537221406f6d03",
+  "resolution": [
+    1920,
+    1080
+  ]
+}

@@ -1,6 +1,6 @@
 # Chasse Galerie 1 — Son et musique v9
 
-10 octobre 2026. Vol complet sonorisé, avec bruitages synthétisés et composition instrumentale originale **Sept sillages**. Livraison locale; publication GitHub à confirmer. La v8 est publiée, vérifiée le 10 octobre 2026.
+10 octobre 2026. Vol complet sonorisé, avec bruitages synthétisés et composition instrumentale originale **Sept sillages**. Publiée sur GitHub, commit `6b78d73` vérifié le 24 octobre 2026. La v8 est publiée, vérifiée le 10 octobre 2026.
 
 [![Lire la vidéo sonorisée](apercu-video.jpg)](chasse-galerie-1-vol-sonorise.mp4)
 
@@ -38,4 +38,4 @@ Depuis la structure locale du projet, exécuter `sources/creer-son.py` avec Pyth
 
 Audio : composition et synthèse originales du projet Chasse Galerie 1, avec assistance Codex, sans échantillons externes. Images et textures héritées : orthophoto **© Région Centre-du-Québec 2025**, MRNF, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.fr); relief NASA/NGA, [SRTM GL1](https://doi.org/10.5067/MEaSUREs/SRTM/SRTMGL1.003), OpenTopography; origine du site © [contributeurs OpenStreetMap](https://www.openstreetmap.org/copyright), ODbL. La normalisation sonore ne modifie pas ces images ou leurs crédits.
 
-Prochaine étape de la feuille de route : affichage tête haute et éléments didactiques.
+Suite réalisée : [ATH et éléments didactiques v10](../ath/README.md).

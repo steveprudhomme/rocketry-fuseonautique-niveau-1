@@ -28,7 +28,7 @@ La trajectoire, le vent, les mouvements de récupération, le terrain hybride et
 
 Rapports : [caméra](verification-camera.json), [vol et terrain](verification-vol-terrain.json), [décodage des vidéos](verification-video.json). Paramètres : [cinématographie](donnees/cinematographie.json) et [caméra par image](donnees/camera-par-image.json).
 
-Le [son et la musique sont réalisés dans la v9](../son/README.md). Le nouvel affichage tête haute reste à réaliser.
+Le [son et la musique sont réalisés dans la v9](../son/README.md). L’[affichage tête haute est réalisé dans la v10](../ath/README.md).
 
 ## Sources et reproduction
 

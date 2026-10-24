@@ -4,6 +4,8 @@
 
 - [Son et musique v9 — 2026-10-10](2026-10-10-son-musique-v9.md)
 
+- [ATH et pédagogie v10 — 2026-10-24](2026-10-24-ath-v10.md)
+
 Nommer les entrées `AAAA-MM-JJ-sujet.md`.
 
 - [Publication des étapes v2 à v7 — 2026-10-06](2026-10-06-publication-v2-v7.md)

@@ -1,0 +1,10 @@
+{
+  "apogee_m": 592.6447202605419,
+  "apogee_time_s": 10.19445953152845,
+  "speed_max_m_s": 149.1600124681852,
+  "contact_time_s": 106.68214059725395,
+  "contact_speed_m_s": 6.2997131029558,
+  "horizontal_range_m": 163.7593053728595,
+  "wind_mean_m_s": 2,
+  "reference": "Altitude relative to initial simulation level, not AGL over terrain. Contact speed is the last simulated speed, before visual cushioning."
+}

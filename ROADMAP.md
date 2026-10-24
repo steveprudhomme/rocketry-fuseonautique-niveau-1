@@ -1,8 +1,8 @@
 # Feuille de route — Chasse Galerie 1 et certification niveau 1
 
-Mise à jour : 2026-10-10. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
+Mise à jour : 2026-10-24. Organisation du projet personnel; cette liste ne constitue pas les exigences officielles de certification. Une validation logicielle ne vaut pas validation du kit ni autorisation de lancement.
 
-## État actuel — 10 octobre 2026
+## État actuel — 24 octobre 2026
 
 | Volet | Réalisé et vérifié localement | Suite à réaliser |
 | --- | --- | --- |
@@ -11,13 +11,14 @@ Mise à jour : 2026-10-10. Organisation du projet personnel; cette liste ne cons
 | Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
 | Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Base native conservée comme référence |
 | Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres réalisé dans la v7 |
-| Son et musique v9 | Bruitages synchronisés, composition originale synthétisée, pistes séparées et MP4 sonorisé vérifié | Ajustements artistiques après écoute; publication à confirmer |
+| ATH et pédagogie v10 | Panneaux, jauges, schéma filaire, chronogramme, vecteurs qualitatifs et bilan au contact | Publication à confirmer; éventuels ajustements après visionnage |
+| Son et musique v9 | Bruitages synchronisés, composition originale synthétisée, pistes séparées et MP4 sonorisé vérifié | Publiée; ajustements artistiques possibles après écoute |
 | Cinématographie v8 | Secousse moteur, suivi amorti, mise au point adaptative, dispersion et reflets directionnels; 1 217 cadrages vérifiés | Publiée; son et musique réalisés dans la v9 |
 | Ombres et éclairage v7 | Atténuation tonale dans le compositeur Blender; soleil orienté selon les ombres résiduelles | Orientation estimée ±10°; hauteur solaire visuelle |
 
-**Prochaine étape d’animation :** affichage tête haute et éléments didactiques. La [v9](plans/animations/son/README.md) ajoute les bruitages et la musique à la vidéo v8, sans réencoder les images.
+**Animation :** les quatre étapes de la feuille de route sont livrées, avec leurs limites documentées. La [v10](plans/animations/ath/README.md) termine l’ATH et le bilan pédagogique. Suite : revue visuelle avec Steve et ajustements éventuels; les mesures et validations du kit réel restent ouvertes.
 
-**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. La v8 est également publiée : commit `4060a51`, vérifié le 10 octobre 2026. La v9 est réalisée localement, publication à confirmer. Les mesures du kit et la validation de vol restent ouvertes.
+**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. La v8 est également publiée : commit `4060a51`, vérifié le 10 octobre 2026. La v9 est publiée : commit `6b78d73`, vérifié le 24 octobre 2026. La v10 est réalisée localement, publication à confirmer. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
 
@@ -207,16 +208,18 @@ Livraison v9 : [vidéo sonorisée et pistes séparées](plans/animations/son/REA
 
 *Objectif : Moderniser l’interface de données tout en offrant une couche d’apprentissage visuel et analytique.*
 
-- [ ] **Conception de l’interface (IU/EU) :**
-  - [ ] Créer des panneaux de fond avec un effet de verre dépoli bordés de lignes filaires fines.
-  - [ ] Intégrer une typographie technique sans empattement.
-  - [ ] Développer des jauges radiales pour la vitesse et l’altitude, ainsi qu’une minicarte tridimensionnelle en représentation filaire de la fusée.
-- [ ] **Séquenceur de vol (chronogramme vertical) :**
-  - [ ] Animer les phases de l’ACF (Attente, Allumage, Inertie, Apogée, Descente, Fin de vol) avec des effets de lueur dynamique sur le nœud en cours.
-- [ ] **Couche didactique et bilan :**
-  - [ ] Superposer temporairement des vecteurs de force (poussée, traînée, gravité) sur le modèle 3D pendant le vol.
-  - [ ] Générer un rapport de télémétrie post-vol à l’atterrissage, avec une mise en page à préciser. **Consigne reçue tronquée après « mise en page standar »; fin à compléter.**
+- [x] **Conception de l’interface (IU/EU) :**
+  - [x] Créer des panneaux de fond avec un effet de verre dépoli bordés de lignes filaires fines.
+  - [x] Intégrer une typographie technique sans empattement.
+  - [x] Développer des jauges radiales pour la vitesse et l’altitude, ainsi qu’une minicarte tridimensionnelle en représentation filaire de la fusée.
+- [x] **Séquenceur de vol (chronogramme vertical) :**
+  - [x] Animer les repères pédagogiques de vol (Attente, Allumage, Inertie, Apogée, Descente, Fin de vol) avec des effets de lueur dynamique sur le nœud en cours.
+- [x] **Couche didactique et bilan :**
+  - [x] Superposer temporairement des vecteurs de force (poussée, traînée, gravité) sur le modèle 3D pendant le vol.
+  - [x] Générer un rapport de télémétrie post-vol à l’atterrissage, avec une mise en page uniforme : indicateurs, courbe altitude/temps physique et limites. La consigne initiale était tronquée; présentation retenue sans norme officielle revendiquée.
 
+
+Livraison v10 : [vidéo, projet Blender, sources et bilan](plans/animations/ath/README.md). ATH composé par script et intégré au séquenceur Blender; vecteurs qualitatifs sans valeurs de force calculées, vue filaire schématique. Les repères ne constituent pas une nomenclature officielle de l’ACF.
 
 ## Dépôt et suivi
 
