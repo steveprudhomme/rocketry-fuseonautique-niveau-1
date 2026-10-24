@@ -1,5 +1,11 @@
 # Historique des changements
 
+## 2026-10-24 — Publication v10 confirmée
+
+- Présence distante du commit `44514d0` vérifiée sur `main`, avec vidéo, scène Blender, données et sources ATH.
+- Statuts du README, du ROADMAP, des index et de la notice actualisés avant ce commit documentaire.
+- Les entrées précédentes conservent leur état historique à la livraison.
+
 ## 2026-10-24 — Affichage tête haute v10
 
 - Panneaux de verre dépoli, jauges radiales, vue 3D filaire orientée et chronogramme lumineux.

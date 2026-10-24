@@ -11,14 +11,14 @@ Mise à jour : 2026-10-24. Organisation du projet personnel; cette liste ne cons
 | Atmosphère v4 | Vent OpenRocket de 2 m/s, dérive d’environ 164 m, fumée volumétrique et dissipation; MP4 de 40,57 s | Conditions météo réelles et modèle mesuré |
 | Topographie v5 | Intersection importée avec BlenderGIS; SRTM GL1 de 57 200 sommets; carte et survol de 8 s | Base native conservée comme référence |
 | Terrain hybride v6 | Orthophoto 2025, terre PBR, 9 260 chaumes, fondu de 24 à 36 m et vol complet raccordé au terrain | Traitement des ombres réalisé dans la v7 |
-| ATH et pédagogie v10 | Panneaux, jauges, schéma filaire, chronogramme, vecteurs qualitatifs et bilan au contact | Publication à confirmer; éventuels ajustements après visionnage |
+| ATH et pédagogie v10 | Panneaux, jauges, schéma filaire, chronogramme, vecteurs qualitatifs et bilan au contact | Publiée; éventuels ajustements après visionnage |
 | Son et musique v9 | Bruitages synchronisés, composition originale synthétisée, pistes séparées et MP4 sonorisé vérifié | Publiée; ajustements artistiques possibles après écoute |
 | Cinématographie v8 | Secousse moteur, suivi amorti, mise au point adaptative, dispersion et reflets directionnels; 1 217 cadrages vérifiés | Publiée; son et musique réalisés dans la v9 |
 | Ombres et éclairage v7 | Atténuation tonale dans le compositeur Blender; soleil orienté selon les ombres résiduelles | Orientation estimée ±10°; hauteur solaire visuelle |
 
 **Animation :** les quatre étapes de la feuille de route sont livrées, avec leurs limites documentées. La [v10](plans/animations/ath/README.md) termine l’ATH et le bilan pédagogique. Suite : revue visuelle avec Steve et ajustements éventuels; les mesures et validations du kit réel restent ouvertes.
 
-**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. La v8 est également publiée : commit `4060a51`, vérifié le 10 octobre 2026. La v9 est publiée : commit `6b78d73`, vérifié le 24 octobre 2026. La v10 est réalisée localement, publication à confirmer. Les mesures du kit et la validation de vol restent ouvertes.
+**Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. La v8 est également publiée : commit `4060a51`, vérifié le 10 octobre 2026. La v9 est publiée : commit `6b78d73`, vérifié le 24 octobre 2026. La v10 est publiée : commit `44514d0`, vérifié le 24 octobre 2026. Les mesures du kit et la validation de vol restent ouvertes.
 
 ## Réalisé
 

@@ -1,6 +1,6 @@
 # Chasse Galerie 1 — Affichage tête haute v10
 
-Livraison du 24 octobre 2026 : vidéo complète avec panneaux de verre dépoli, jauges radiales, vue filaire 3D, chronogramme lumineux, vecteurs didactiques et bilan à l’atterrissage. Réalisée localement; publication distante à confirmer.
+Livraison du 24 octobre 2026 : vidéo complète avec panneaux de verre dépoli, jauges radiales, vue filaire 3D, chronogramme lumineux, vecteurs didactiques et bilan à l’atterrissage. Publiée sur GitHub : commit `44514d0`, présence distante vérifiée le 24 octobre 2026.
 
 [![Lire la vidéo avec ATH](apercu-video.jpg)](chasse-galerie-1-ath.mp4)
 

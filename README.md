@@ -12,11 +12,11 @@
 
 Projet personnel de **Steve Prud’Homme** pour consigner sa préparation à la certification de niveau 1 auprès de l’Association canadienne de fuséonautique.
 
-**État au 2026-10-24 :** modèles provisoires, animation avec ATH et son v10 réalisée localement; mesures du kit et validation physique en attente. **Langue :** français
+**État au 2026-10-24 :** modèles provisoires, animation avec ATH et son v10 publiée sur GitHub; mesures du kit et validation physique en attente. **Langue :** français
 
 La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les prochaines étapes et la publication. Les révisions v2 à v7 sont publiées sur GitHub, avec un commit distinct par étape; le terrain hybride et son raccord visuel au vol sont réalisés. Les ombres de l’imagerie sont atténuées et l’orientation du soleil est raccordée visuellement dans la v7.
 
-La v8 ajoute les secousses moteur, le suivi amorti et la profondeur de champ adaptative. Les reflets face au soleil sont montrés dans un [extrait de contrôle](plans/animations/cinematographie/extrait-optique.mp4). La v8 est publiée (vérification du 10 octobre 2026). La v9 ajoute bruitages et musique originale; elle est publiée (commit `6b78d73`, vérifié le 24 octobre 2026). La v10 ajoute l’ATH et le bilan pédagogique; publication à confirmer.
+La v8 ajoute les secousses moteur, le suivi amorti et la profondeur de champ adaptative. Les reflets face au soleil sont montrés dans un [extrait de contrôle](plans/animations/cinematographie/extrait-optique.mp4). La v8 est publiée (vérification du 10 octobre 2026). La v9 ajoute bruitages et musique originale; elle est publiée (commit `6b78d73`, vérifié le 24 octobre 2026). La v10 ajoute l’ATH et le bilan pédagogique; elle est publiée (commit `44514d0`, vérifié le 24 octobre 2026).
 
 ## Vidéo du vol complet
 
