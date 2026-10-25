@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Ombres et éclairage v7
 
+**Pour apprendre pas à pas :** [leçon illustrée et gestes manuels](../../../tutoriels/08-eclairage.md).
+
 Suite : [cinématographie et optique v8](../cinematographie/README.md), qui conserve cet éclairage.
 
 Livraison locale du 6 octobre 2026. Les ombres fixes de l’orthophoto sont atténuées et le soleil Blender est orienté selon les ombres résiduelles observées près de l’intersection.

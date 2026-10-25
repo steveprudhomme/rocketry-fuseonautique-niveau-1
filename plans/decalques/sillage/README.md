@@ -1,5 +1,7 @@
 # Le sillage fleurdelisé - Gabarits et habillage 3D
 
+[Découvrir les gestes et les mots simplement](../../../tutoriels/02-decoration-plans.md).
+
 **Révision P1, 2026-09-14 - PROVISOIRE, aux cotes du plan.** Steve a indiqué que le tube n'est pas fini et demandé de se fier au plan. Aucune mesure physique n'est présentée comme acquise. Cette livraison adapte le concept choisi et prépare les raccords; ce n'est pas un bon à tirer de fabrication.
 
 ## Ouvrir les résultats

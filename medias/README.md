@@ -1,5 +1,7 @@
 # Médias
 
+[Comprendre la fabrication des images et du film](../tutoriels/README.md) · [Vérifier et exporter](../tutoriels/12-export-publication.md).
+
 - [ATH et pédagogie v10 — dernière vidéo complète](../plans/animations/ath/README.md) : jauges, chronogramme, vecteurs qualitatifs et bilan; v10 publiée, commit `44514d0` vérifié le 24 octobre 2026.
 
 - [Son et musique v9 — version précédente](../plans/animations/son/README.md) : bruitages synchronisés et composition originale; v9 publiée, vérifiée le 24 octobre 2026.

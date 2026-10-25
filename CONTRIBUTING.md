@@ -13,3 +13,8 @@ Associer chaque exigence à une source officielle et à sa date de vérification
 Le dépôt est public : conserver coordonnées privées, numéros de membre, signatures et pièces personnelles dans `prive/`, ignoré par Git. Vérifier les fichiers avant publication. Respecter les droits des sources et médias externes.
 
 Utiliser une issue pour une tâche ou une question. Décrire les contributions externes et leurs références dans une demande de fusion.
+
+
+## Expliquer pour pouvoir refaire à la main
+
+Pour chaque nouvelle étape, ajouter ou actualiser la leçon correspondante dans `tutoriels/` : but en langage simple, fichiers à ouvrir, gestes numérotés, unités, résultat attendu, dépannage et contrôle. Définir les mots nouveaux. Séparer les manipulations manuelles, les exercices simplifiés et la reconstruction exacte par script. Ne jamais présenter un parcours comme testé avec un enfant ou entièrement reproductible depuis zéro sans l’avoir effectivement vérifié. Conserver un exemple visuel quand il facilite la compréhension.

@@ -1,5 +1,7 @@
 # Chasse Galerie 1 - Décollage à l'heure dorée
 
+[Découvrir les gestes et les mots simplement](../../tutoriels/03-blender.md).
+
 **Image artistique, 2026-09-14.** Scène construite et rendue dans **Blender 4.3 / Cycles**, avec le décor **Le sillage fleurdelisé**. Blender est le logiciel 3D utilisé ici; aucun rendu POV-Ray n'est revendiqué.
 
 ![Chasse Galerie 1 décolle au-dessus des chaumes de maïs dans la lumière du soir](chasse-galerie-1-golden-hour.png)

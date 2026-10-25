@@ -18,6 +18,10 @@ La [feuille de route actualisée](ROADMAP.md) distingue les réalisations, les p
 
 La v8 ajoute les secousses moteur, le suivi amorti et la profondeur de champ adaptative. Les reflets face au soleil sont montrés dans un [extrait de contrôle](plans/animations/cinematographie/extrait-optique.mp4). La v8 est publiée (vérification du 10 octobre 2026). La v9 ajoute bruitages et musique originale; elle est publiée (commit `6b78d73`, vérifié le 24 octobre 2026). La v10 ajoute l’ATH et le bilan pédagogique; elle est publiée (commit `44514d0`, vérifié le 24 octobre 2026).
 
+## Apprendre à refaire le projet
+
+Le [manuel « L’atelier de Chasse Galerie 1 »](tutoriels/README.md) propose 14 leçons progressives, accessibles dès 10 ans avec accompagnement : gestes dans les logiciels, petits exercices, résultats attendus et dépannage. Il distingue les exercices manuels des reconstructions exactes avec les données et scripts archivés. Voir aussi le [bilan de la revue documentaire](tutoriels/audit-documentation.md).
+
 ## Vidéo du vol complet
 
 [![Lire la vidéo du vol complet de Chasse Galerie 1](plans/animations/ath/apercu-video.jpg)](plans/animations/ath/chasse-galerie-1-ath.mp4)

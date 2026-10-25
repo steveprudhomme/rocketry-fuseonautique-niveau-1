@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Son et musique v9
 
+**Pour apprendre pas à pas :** [leçon illustrée et gestes manuels](../../../tutoriels/10-son.md).
+
 10 octobre 2026. Vol complet sonorisé, avec bruitages synthétisés et composition instrumentale originale **Sept sillages**. Publiée sur GitHub, commit `6b78d73` vérifié le 24 octobre 2026. La v8 est publiée, vérifiée le 10 octobre 2026.
 
 [![Lire la vidéo sonorisée](apercu-video.jpg)](chasse-galerie-1-vol-sonorise.mp4)

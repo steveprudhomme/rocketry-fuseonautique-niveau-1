@@ -13,3 +13,8 @@ Sources utilisées dans la [note de configuration LOC-IV](../notes/loc-iv-config
 - **AD-01 — Avery Dennison, MPI 1105 Wrapping Film**, page consultée le 2026-09-13 : [fiche fabricant](https://graphics.averydennison.com/en/home/graphics-products/digitally-printable-films/supercast-digital-color-graphics/mpi-1105-opaque-series-films.html). Caractéristiques du film et recommandation de laminage; aucune validation sur notre fusée. Lien vers l’original, aucun visuel reproduit.
 
 Privilégier les sources officielles pour les exigences. Dans les notes, indiquer l’identifiant de la source et la section ou page.
+
+
+## Sources des tutoriels — revue du 24 octobre 2026
+
+Le [manuel pédagogique](../tutoriels/README.md) s’appuie sur les fichiers du projet : modèles SCAD/ORK, scripts, paramètres JSON, CSV et scènes Blender. Les sources géographiques, licences et méthodes restent détaillées dans les notices [topographie](../plans/animations/topographie/README.md), [terrain](../plans/animations/terrain-hybride/README.md) et [éclairage](../plans/animations/eclairage/README.md). Les sources OpenRocket et OpenSCAD sont citées dans leurs aides à la tâche. L’[audit](../tutoriels/audit-documentation.md) distingue vérification des fichiers, essais d’interface et parcours utilisateur restant à faire. Aucune nouvelle vérification des règles de certification ou des prix n’est revendiquée.

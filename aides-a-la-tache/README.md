@@ -1,5 +1,7 @@
 # Aides à la tâche
 
+**Commencer simplement :** [14 leçons pour comprendre et refaire le projet](../tutoriels/README.md), du premier fichier au MP4.
+
 Fiches et listes de vérification. Indiquer leur statut et les faire vérifier avant utilisation. Utiliser le [gabarit de fiche](../modeles/aide-a-la-tache.md).
 
 ## Monter Chasse Galerie 1

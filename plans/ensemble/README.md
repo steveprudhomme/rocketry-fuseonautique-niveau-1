@@ -1,5 +1,7 @@
 # Plan d'ensemble LOC-IV avec vue écorchée
 
+[Découvrir les gestes et les mots simplement](../../tutoriels/02-decoration-plans.md).
+
 **Projet et fusée : Chasse Galerie 1.** Base technique : kit LOC-IV 4 po. Les noms de fichiers `loc-iv-*` sont conservés pour maintenir les liens et la traçabilité des références.
 
 [Ouvrir le PDF A3, révision B](loc-iv-plan-ensemble.pdf).

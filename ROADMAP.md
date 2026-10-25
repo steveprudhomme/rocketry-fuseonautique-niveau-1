@@ -20,6 +20,16 @@ Mise à jour : 2026-10-24. Organisation du projet personnel; cette liste ne cons
 
 **Statut de publication :** les révisions v2 à v7 sont publiées sur `main`; la présence distante du commit `e42b6cb` a été vérifiée le 2026-10-06. Les six étapes techniques et la réconciliation documentaire conservent leurs sept commits distincts. La v8 est également publiée : commit `4060a51`, vérifié le 10 octobre 2026. La v9 est publiée : commit `6b78d73`, vérifié le 24 octobre 2026. La v10 est publiée : commit `44514d0`, vérifié le 24 octobre 2026. Les mesures du kit et la validation de vol restent ouvertes.
 
+## Documentation reproductible — 24 octobre 2026
+
+- [x] Recenser les Markdown et relier les travaux aux [14 tutoriels progressifs](tutoriels/README.md).
+- [x] Expliquer les gestes manuels, les données d’entrée, les résultats attendus et les limites des scripts.
+- [x] Corriger les index, le glossaire, la progression documentaire et la révision du plan d’ensemble.
+- [ ] Faire essayer chaque leçon par un débutant, avec la fiche de séance; corriger les gestes qui restent implicites.
+- [ ] Valider une reconstruction intégrale depuis une installation neuve et tous les intermédiaires historiques.
+
+Le manuel couvre les travaux livrés. Les exercices simplifiés ne sont pas présentés comme une reconstruction exacte de tous les calculs. Voir l’[audit détaillé](tutoriels/audit-documentation.md).
+
 ## Réalisé
 
 - [x] Ajouter le gonflage progressif et la corde Soft Body (v2), puis le pendule, le lacet et la mise au repos après contact (v3); [méthode et limites](plans/animations/vol-complet/README.md).
@@ -78,12 +88,12 @@ Mise à jour : 2026-10-24. Organisation du projet personnel; cette liste ne cons
 
 ## Livrable complémentaire — Plan d'ensemble avec vue écorchée
 
-En complément du plan paramétrique, Steve souhaite un **plan technique d'ensemble avec vue écorchée** (*cutaway drawing*). Une version destinée à expliquer la construction et le fonctionnement pourra être présentée comme un **schéma technique écorché**. Une [première édition pédagogique A3, révision A](plans/ensemble/README.md), est produite depuis le modèle 1.1 non mesuré.
+En complément du plan paramétrique, Steve souhaite un **plan technique d'ensemble avec vue écorchée** (*cutaway drawing*). Une version destinée à expliquer la construction et le fonctionnement pourra être présentée comme un **schéma technique écorché**. Une [édition pédagogique A3, révision B](plans/ensemble/README.md), est produite depuis le modèle 1.1 non mesuré.
 
 - [x] Préparer les trois **vues orthogonales : face, profil et dessus**, alignées, avec orientation et convention de projection clairement indiquées.
 - [x] Ajouter une **perspective écorchée** ou une **coupe partielle** du corps pour montrer les composants internes réellement présents : support et enveloppe moteur, anneaux, languettes, coupleur, cloison, attaches et récupération.
 - [x] Ajouter repères et nomenclature des composants, légendes, échelle, unités, cotes d'ensemble, cartouche, date et indice de révision; identifier les cotes encore approximatives.
-- [x] Définir le niveau attendu : document pédagogique ou document technique soumis à des normes de dessin industriel. Choix révision A : document pédagogique, sans conformité industrielle déclarée. Dans le second cas, identifier les normes applicables et vérifier leur respect avant toute mention de conformité. Prévoir des **dessins de définition des pièces** séparés si des détails de fabrication sont nécessaires.
+- [x] Définir le niveau attendu : document pédagogique ou document technique soumis à des normes de dessin industriel. Choix conservé en révision B : document pédagogique, sans conformité industrielle déclarée. Dans le second cas, identifier les normes applicables et vérifier leur respect avant toute mention de conformité. Prévoir des **dessins de définition des pièces** séparés si des détails de fabrication sont nécessaires.
 - [ ] Clarifier la mention d'une **forme octogonale** et d'éléments de capsule (réservoirs, sièges, panneaux solaires, bouclier thermique) : ces exemples ne décrivent pas la LOC-IV actuelle. Confirmer s'ils concernent un autre projet ou une variante avant de les intégrer à un dessin.
 - [x] Produire une version lisible à l'écran et imprimable en PDF, conserver la source modifiable dans `plans`, puis vérifier l'alignement des vues, la lisibilité des cotes et la cohérence avec la révision 1.1 actuelle du modèle.
 - [ ] Réviser le PDF et ses annotations après intégration des mesures physiques du kit.

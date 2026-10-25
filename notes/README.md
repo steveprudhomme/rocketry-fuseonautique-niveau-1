@@ -1,5 +1,7 @@
 # Notes
 
+Pour relier ces notes aux manipulations : [parcours d’apprentissage](../tutoriels/README.md). Les mesures absentes et les anciens prix restent explicitement à confirmer.
+
 Notes de lecture, de rencontres et d’apprentissage. Utiliser le [gabarit de note](../modeles/note.md).
 
 ## Index

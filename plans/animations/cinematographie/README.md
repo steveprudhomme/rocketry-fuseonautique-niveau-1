@@ -1,5 +1,7 @@
 # Chasse Galerie 1 — Cinématographie et optique v8
 
+**Pour apprendre pas à pas :** [leçon illustrée et gestes manuels](../../../tutoriels/09-camera.md).
+
 6 octobre 2026. Nouvelle caméra pour le vol complet, avec secousses à l’allumage, suivi amorti, profondeur de champ et effets optiques subtils. Publiée sur GitHub, commit `4060a51` vérifié le 10 octobre 2026. Les versions v2 à v7 sont déjà publiées.
 
 [![Lire le vol complet](apercu-video.jpg)](chasse-galerie-1-vol-complet.mp4)

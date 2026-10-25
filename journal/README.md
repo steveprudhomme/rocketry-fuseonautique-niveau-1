@@ -1,5 +1,7 @@
 # Journal
 
+- [Documentation pédagogique — 2026-10-24](2026-10-24-documentation-pedagogique.md).
+
 - [Cinématographie et optique v8 — 2026-10-06](2026-10-06-cinematographie-v8.md)
 
 - [Son et musique v9 — 2026-10-10](2026-10-10-son-musique-v9.md)
